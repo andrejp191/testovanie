@@ -144,6 +144,46 @@ body {
 .crumbs span:nth-child(2) { font-family: var(--serif); font-size: 1.15rem; }
 .crumbs .muted { margin-left: auto; font-variant-numeric: tabular-nums; }
 
+/* ---------- Rozsah otázok ---------- */
+.range-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 0.9rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.range-label { font-weight: 600; }
+.range-panel label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+.range-panel input[type="number"] {
+  width: 4.5rem;
+  min-height: 40px;
+  font: inherit;
+  padding: 0.3rem 0.5rem;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.range-panel input[type="number"]:focus { outline: none; border-color: var(--primary); }
+.range-status { width: 100%; margin: 0; font-size: 0.9rem; }
+
+.btn.secondary {
+  background: transparent;
+  color: var(--primary);
+  min-height: 40px;
+  padding: 0.45rem 0.9rem;
+  font-weight: 600;
+}
+
 /* ---------- Karta otázky ---------- */
 .card {
   background: var(--surface);
@@ -155,9 +195,12 @@ body {
 }
 
 .frame {
+  /* Rámik je zámerne vždy svetlý (PNG otázky bývajú na bielom pozadí),
+     preto text v ňom nesmie sledovať --ink, ktoré sa v tmavom režime
+     obracia na svetlé a na bielom podklade by zmizlo. */
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: #fdfdfb;
   padding: 0.75rem;
   min-height: 120px;
   display: grid;
@@ -176,9 +219,10 @@ body {
   margin: 0;
   white-space: pre-wrap;
   font: 1.05rem/1.6 var(--sans);
-  color: var(--ink);
+  color: #16211d;
   width: 100%;
 }
+.frame p.muted { color: #5b6b61; }
 
 .options {
   list-style: none;

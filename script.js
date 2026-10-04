@@ -133,7 +133,8 @@ function loadQuestionContent(theme, id) {
 // Stav aplikácie a obrazovky
 // ======================================================================
 let themes = [];           // [{name, questions, total, mastered}]
-let activeTheme = null;    // {name, questions}
+let activeTheme = null;    // {name, questions} – celá téma (pre domovskú štatistiku)
+let activeQuestions = [];  // aktuálne testovaná podmnožina (všetky, alebo zvolený rozsah)
 let currentQ = null;       // {id, correct, total}
 let answered = false;
 
@@ -197,16 +198,73 @@ function renderHome() {
 async function openTheme(name) {
   const theme = themes.find((t) => t.name === name);
   activeTheme = theme;
+  activeQuestions = theme.questions;
   $("masthead-sub").textContent = "/ " + name;
   $("quiz-theme-name").textContent = name;
   showQuiz();
+
   if (!theme.questions.length) {
+    $("range-panel").hidden = true;
     $("card").hidden = true;
     $("quiz-empty").hidden = false;
     return;
   }
+
+  initRangePanel(theme);
   $("card").hidden = false;
   $("quiz-empty").hidden = true;
+  await nextQuestion();
+}
+
+// ---------- výber rozsahu otázok ----------
+function themeIdBounds(theme) {
+  const ids = theme.questions.map((q) => q.id);
+  return { min: Math.min(...ids), max: Math.max(...ids) };
+}
+
+function initRangePanel(theme) {
+  const { min, max } = themeIdBounds(theme);
+  $("range-panel").hidden = false;
+  $("range-from").min = min;
+  $("range-from").max = max;
+  $("range-from").value = min;
+  $("range-to").min = min;
+  $("range-to").max = max;
+  $("range-to").value = max;
+  setRangeStatus("Testujú sa všetky otázky (" + theme.questions.length + ").", false);
+}
+
+function setRangeStatus(text, warn) {
+  const el = $("range-status");
+  el.textContent = text;
+  el.style.color = warn ? "var(--bad)" : "";
+}
+
+async function applyRange() {
+  const from = Number($("range-from").value);
+  const to = Number($("range-to").value);
+  if (!from || !to || from > to) {
+    setRangeStatus("Neplatný rozsah — „Od“ musí byť menšie alebo rovné „Do“.", true);
+    return;
+  }
+  const filtered = activeTheme.questions.filter((q) => q.id >= from && q.id <= to);
+  if (!filtered.length) {
+    setRangeStatus("V rozsahu " + from + "–" + to + " nie sú žiadne otázky.", true);
+    return;
+  }
+  activeQuestions = filtered;
+  setRangeStatus("Testuje sa rozsah " + from + "–" + to + " (" + filtered.length + " otázok).", false);
+  currentQ = null;
+  await nextQuestion();
+}
+
+async function clearRange() {
+  const { min, max } = themeIdBounds(activeTheme);
+  $("range-from").value = min;
+  $("range-to").value = max;
+  activeQuestions = activeTheme.questions;
+  setRangeStatus("Testujú sa všetky otázky (" + activeQuestions.length + ").", false);
+  currentQ = null;
   await nextQuestion();
 }
 
@@ -225,10 +283,10 @@ async function nextQuestion() {
   $("frame").classList.add("loading");
 
   const stats = loadStats();
-  const ids = activeTheme.questions.map((q) => q.id);
+  const ids = activeQuestions.map((q) => q.id);
   const prevId = currentQ ? currentQ.id : null;
   const id = pickNextQuestionId(ids, activeTheme.name, stats, prevId);
-  currentQ = activeTheme.questions.find((q) => q.id === id);
+  currentQ = activeQuestions.find((q) => q.id === id);
 
   $("quiz-progress").textContent = "Otázka č. " + id;
 
@@ -307,6 +365,8 @@ function evaluate() {
 $("send-btn").addEventListener("click", evaluate);
 $("next-btn").addEventListener("click", nextQuestion);
 $("back-btn").addEventListener("click", showHome);
+$("range-apply").addEventListener("click", applyRange);
+$("range-clear").addEventListener("click", clearRange);
 $("home-link").addEventListener("click", (e) => { e.preventDefault(); showHome(); });
 
 // ======================================================================

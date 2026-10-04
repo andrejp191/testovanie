@@ -27,6 +27,15 @@
     <span class="muted" id="quiz-progress"></span>
   </nav>
 
+  <div id="range-panel" class="range-panel">
+    <span class="range-label">Rozsah otázok:</span>
+    <label>Od <input type="number" id="range-from" min="1" inputmode="numeric"></label>
+    <label>Do <input type="number" id="range-to" min="1" inputmode="numeric"></label>
+    <button type="button" id="range-apply" class="btn secondary">Použiť rozsah</button>
+    <button type="button" id="range-clear" class="link-btn">Všetky otázky</button>
+    <p id="range-status" class="muted range-status"></p>
+  </div>
+
   <section id="card" class="card">
     <div id="frame" class="frame">
       <img id="q-img" alt="Zadanie otázky" hidden draggable="false">
