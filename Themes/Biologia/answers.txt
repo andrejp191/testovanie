@@ -1,0 +1,7 @@
+# riadok: <číslo otázky>. <správne písmená oddelené čiarkou, alebo "-">5. b <celkový počet možností>
+1. c,e,g 8
+2. a,c,d,e 8
+3. a,b,d,f,g,h 8
+4. e 8
+5. 5 8
+6. b,c,e,g,h 8 
