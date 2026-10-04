@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precvičovanie</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <a class="masthead-title" href="#" id="home-link">Precvičovanie</a>
+  <span class="masthead-sub" id="masthead-sub"></span>
+</header>
+
+<!-- ZOZNAM TÉM -->
+<main id="view-home" class="wrap">
+  <p id="home-status" class="muted">Načítavam zoznam tém…</p>
+  <div id="theme-grid" class="theme-grid" hidden></div>
+</main>
+
+<!-- KVÍZ -->
+<main id="view-quiz" class="wrap" hidden>
+  <nav class="crumbs">
+    <button type="button" id="back-btn" class="link-btn">&larr; Témy</button>
+    <span id="quiz-theme-name"></span>
+    <span class="muted" id="quiz-progress"></span>
+  </nav>
+
+  <section id="card" class="card">
+    <div id="frame" class="frame">
+      <img id="q-img" alt="Zadanie otázky" hidden draggable="false">
+      <pre id="q-text" hidden></pre>
+      <p id="q-missing" class="muted" hidden>Súbor s touto otázkou sa nenašiel.</p>
+    </div>
+
+    <ul id="options" class="options"></ul>
+
+    <div class="actions">
+      <p id="feedback" class="feedback" hidden></p>
+      <button type="button" id="send-btn" class="btn primary">Vyhodnotiť</button>
+      <button type="button" id="next-btn" class="btn primary" hidden>Ďalšia otázka</button>
+    </div>
+  </section>
+
+  <p id="quiz-empty" class="muted" hidden>V tejto téme nie sú žiadne otázky.</p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
