@@ -1,0 +1,9 @@
+7. Rozpustnosť látky v rozpúšťadle:
+a. závisí aj od vlastností rozpúšťadla
+b. závisí od tlaku, ak je rozpúšťanou látkou plyn
+c. dá sa vyjadriť graficky tzv. krivkou rozpustnosti
+d. závisí od objemu nádoby, v ktorej sa látka rozpúšťa
+e. je možné vyjadriť koncentráciou nasýteného roztoku v mol.dm-3
+f. s rastom teploty vždy rastie
+g. nezávisí od tlaku
+h. vždy závisí aj od tlaku
