@@ -1,0 +1,10 @@
+Mitochondrie sú membránové organely, ktoré:
+
+a) sú od cytoplazmy oddelené jednou membránou
+b) sú od cytoplazmy oddelené dvojitou membránou
+c) si syntetizujú svoje špecifické bielkoviny
+d) majú v matrix molekuly DNA
+e) majú v matrix enzýmový komplex pre Krebsov cyklus
+f) sú vyplnené bunkovou šťavou
+g) predstavujú dynamickú kostru bunky
+h) majú na mitochondriálnych kristách lokalizované enzýmy dýchacieho reťazca

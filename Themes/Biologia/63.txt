@@ -1,0 +1,10 @@
+Do interfázy bunkového cyklu patrí:
+
+a) G2 – fáza
+b) G1 – fáza
+c) M – fáza
+d) meióza
+e) mitóza
+f) predmitotická G1 - fáza
+g) S – fáza
+h) postmitotická G2 – fáza

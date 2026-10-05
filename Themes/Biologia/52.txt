@@ -1,0 +1,10 @@
+Generačná doba bunky:
+
+a) je daná geneticky
+b) je pre rozličné bunky rovnaká
+c) je časové trvanie bunkového cyklu
+d) je pre rozličné typy buniek rozdielna
+e) nezávisí od množstva živín v prostredí
+f) je časové trvanie interfázy
+g) je časové trvanie regenerácie bunky
+h) je ovplyvnená množstvom vhodných živín v prostredí

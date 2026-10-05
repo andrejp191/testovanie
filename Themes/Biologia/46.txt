@@ -1,0 +1,10 @@
+Difúziou môžu cez biomembránu prechádzať:
+
+a) do bunky všetky látky
+b) z bunky všetky látky
+c) plyny
+d) etanol
+e) niektoré ióny
+f) tie látky, ktorým ich štruktúra umožní prechod plazmatickou membránou
+g) voda
+h) niektoré látky proti smeru koncentračného spádu

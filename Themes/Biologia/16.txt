@@ -1,0 +1,10 @@
+Cytoskelet bunky:
+
+a) zabezpečuje priestorové rozloženie organel v bunke
+b) predstavuje statickú kostru bunky
+c) uplatňuje sa pri realizácii difúzie
+d) uplatňuje sa pri realizácii fagocytózy
+e) uplatňuje sa pri realizácii pinocytózy
+f) uplatňuje sa pri realizácii osmózy
+g) je zložený z nukleoproteínových vlákien
+h) má pohybovú, mechanickú a podpornú funkciu

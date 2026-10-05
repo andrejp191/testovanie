@@ -1,0 +1,10 @@
+Pasívny transport látok cez plazmatickú membránu:
+
+a) nevyžaduje spotrebu energie
+b) je napr. prenos glukózy a aminokyselín proti koncentračnému spádu
+c) zabezpečuje prenos látok proti koncentračnému spádu
+d) je napr. difúzia
+e) je napr. osmóza
+f) prebieha v smere koncentračného spádu danej látky
+g) nezávisí od koncentračného spádu danej látky
+h) je typický pre prechod molekúl vody, plynov, etanolu

@@ -1,0 +1,10 @@
+V G1 – fáze:
+
+a) prebieha syntéza bielkovín
+b) sa nachádza hlavný kontrolný uzol bunkového cyklu
+c) prebieha zdvojenie jadrových chromozómov
+d) sa bunka pripravuje na rozdelenie jadra
+e) sa nachádza kontrolný uzol karyokinézy
+f) sa nachádza kontrolný uzol cytokinézy
+g) dochádza k zmnoženiu bunkových štruktúr
+h) neprebieha zdvojenie jadrových chromozómov

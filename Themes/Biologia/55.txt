@@ -1,0 +1,10 @@
+Pri nedostatku živín v prostredí sa generačná doba bunky:
+
+a) nemení
+b) zrýchľuje
+c) predlžuje
+d) zrýchľuje za vzniku nádorových buniek
+e) skráti, pretože sa zastavuje priebeh G1 fázy
+f) nemení, pretože sa zastavuje priebeh bunkového cyklu
+g) predlžuje, pretože sa zastavuje nielen priebeh G1 – fázy, ale aj celého bunkového cyklu
+h) zrýchľuje, pretože bunka urýchlene prechádza do M - fázy

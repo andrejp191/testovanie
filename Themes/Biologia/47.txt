@@ -1,0 +1,10 @@
+Rýchlosť jednoduchej difúzie cez cytoplazmatickú membránu závisí:
+
+a) od štruktúrnej prestavby plazmatickej membrány
+b) od množstva energie vo forme ATP
+c) od aktivity transportných bielkovín
+d) od teploty
+e) od koncentračného spádu
+f) od aktivity cytoskeletu bunky
+g) od enzýmovej aktivity membrány
+h) od stupňa diferenciácie bunky

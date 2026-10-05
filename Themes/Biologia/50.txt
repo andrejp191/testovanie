@@ -1,0 +1,10 @@
+Bunkový cyklus:
+
+a) sa označuje ako regeneračná doba bunky
+b) je naprogramovaný geneticky
+c) sa pri nedostatku živín v prostredí zastaví v S – fáze
+d) je kontrolovaný mechanizmami pôsobiacimi hlavne v G1 – fáze
+e) môže byť narušený niektorými vírusmi
+f) zahŕňa prípravné fázy G1 - postmitotickú a G2 - predmitotickú
+g) prokaryotických buniek má G1, S, G2 a M – fázu
+h) zahŕňa prípravne fázy G1 - predmitotickú a G2 - postmitotickú

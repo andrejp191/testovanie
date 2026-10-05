@@ -1,0 +1,10 @@
+Chromozómy:
+
+a) sú viditeľné len počas delenia bunky
+b) sú viditeľné v interfáze
+c) homologické majú rovnaký tvar a vždy rovnaké alely
+d) majú centroméru v mieste druhotného zúženia
+e) sú tvorené nukleoproteínovými vláknami
+f) majú ramená, ktoré sa spájajú v mieste centroméry
+g) v metafáze mitózy sú zložené z dvoch chromatíd, ktoré sú geneticky identické
+h) v jadre eukaryotických buniek môžu byť aj kruhové
