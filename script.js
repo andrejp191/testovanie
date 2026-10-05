@@ -83,13 +83,20 @@ async function loadThemeList() {
 
 // Riadok: "1. a,c,b 6"  ->  {id:1, correct:Set{0,2,1}, total:6}
 // "-" alebo prázdny zoznam písmen = žiadna možnosť nie je správna.
+// Vráti aj zoznam problémov (zle rozpoznané riadky, duplicitné čísla),
+// aby sa dalo ľahko zistiť, prečo je otázok menej, než má byť.
 function parseAnswersTxt(text) {
   const out = new Map();
-  text.split(/\r?\n/).forEach((line) => {
+  const warnings = [];
+  text.split(/\r?\n/).forEach((line, i) => {
     const l = line.trim();
     if (!l || l.startsWith("#")) return;
     const m = l.match(/^(\d+)\.\s*([a-zA-Z,\s-]*?)\s+(\d+)\s*$/);
-    if (!m) return;
+    if (!m) {
+      warnings.push('Riadok ' + (i + 1) + ' sa nepodarilo rozpoznať: "' + l + '" ' +
+        '(očakávaný tvar: "číslo. písmená celkový_počet", napr. "6. a,b 4").');
+      return;
+    }
     const id = Number(m[1]);
     const total = Number(m[3]);
     const letters = m[2].trim();
@@ -100,16 +107,37 @@ function parseAnswersTxt(text) {
         if (t) correct.add(t.charCodeAt(0) - 97);
       });
     }
+    if (out.has(id)) {
+      warnings.push("Číslo otázky " + id + " je v answers.txt viackrát — použil sa posledný výskyt, " +
+        "predchádzajúci riadok bol zahodený.");
+    }
     out.set(id, { id, correct, total });
   });
-  return out;
+  return { map: out, warnings };
 }
 
 async function loadTheme(name) {
   const res = await fetch(`Themes/${encodeURIComponent(name)}/answers.txt`, { cache: "no-store" });
   if (!res.ok) throw new Error("Chýba answers.txt pre tému " + name);
-  const map = parseAnswersTxt(await res.text());
-  return [...map.values()].sort((a, b) => a.id - b.id);
+  const { map, warnings } = parseAnswersTxt(await res.text());
+  const questions = [...map.values()].sort((a, b) => a.id - b.id);
+
+  // chýbajúce čísla v rade 1..najvyššie číslo – typický príznak vynechaného
+  // alebo zle naformátovaného riadku
+  if (questions.length) {
+    const max = questions[questions.length - 1].id;
+    const have = new Set(questions.map((q) => q.id));
+    const missing = [];
+    for (let n = 1; n <= max; n++) if (!have.has(n)) missing.push(n);
+    if (missing.length) {
+      warnings.push("V rozsahu 1–" + max + " chýba v answers.txt číslo: " + missing.join(", ") + ".");
+    }
+  }
+
+  if (warnings.length) {
+    console.warn('Téma "' + name + '" — problémy v answers.txt:\n- ' + warnings.join("\n- "));
+  }
+  return { questions, warnings };
 }
 
 function loadQuestionContent(theme, id) {
@@ -179,16 +207,37 @@ function renderHome() {
   themes.forEach((theme) => {
     const total = theme.questions.length;
     const done = masteredCount(theme);
-    const card = document.createElement("button");
-    card.type = "button";
+    const card = document.createElement("div");
     card.className = "theme-card";
     card.dataset.theme = theme.name;
-    card.innerHTML =
+
+    const open = document.createElement("button");
+    open.type = "button";
+    open.className = "theme-open";
+    open.innerHTML =
       '<h2></h2><p class="frac"></p><div class="bar"><div class="bar-fill"></div></div>';
-    card.querySelector("h2").textContent = theme.name;
-    card.querySelector(".frac").textContent = done + " / " + total + " naposledy správne";
-    card.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
-    card.addEventListener("click", () => openTheme(theme.name));
+    open.querySelector("h2").textContent = theme.name;
+    open.querySelector(".frac").textContent = done + " / " + total + " naposledy správne";
+    open.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
+    open.addEventListener("click", () => openTheme(theme.name));
+    card.appendChild(open);
+
+    if (theme.warnings && theme.warnings.length) {
+      const det = document.createElement("details");
+      det.className = "theme-warn";
+      const sum = document.createElement("summary");
+      sum.textContent = "⚠ " + theme.warnings.length +
+        (theme.warnings.length === 1 ? " problém v answers.txt" : " problémy v answers.txt");
+      det.appendChild(sum);
+      const ul = document.createElement("ul");
+      theme.warnings.forEach((w) => {
+        const li = document.createElement("li");
+        li.textContent = w;
+        ul.appendChild(li);
+      });
+      det.appendChild(ul);
+      card.appendChild(det);
+    }
     grid.appendChild(card);
   });
   $("home-status").hidden = true;
@@ -376,8 +425,12 @@ async function init() {
   try {
     const names = await loadThemeList();
     const loaded = await Promise.all(names.map(async (name) => {
-      try { return { name, questions: await loadTheme(name) }; }
-      catch { return { name, questions: [], error: true }; }
+      try {
+        const { questions, warnings } = await loadTheme(name);
+        return { name, questions, warnings };
+      } catch (e) {
+        return { name, questions: [], warnings: [], error: true, errorMessage: e.message };
+      }
     }));
     themes = loaded;
     if (!themes.length) {

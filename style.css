@@ -80,16 +80,10 @@ body {
 
 .theme-card {
   position: relative;
-  display: block;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 1.25rem 1.1rem 1.1rem;
-  text-decoration: none;
-  color: var(--ink);
-  cursor: pointer;
-  text-align: left;
-  font: inherit;
+  overflow: hidden;
 }
 .theme-card::before {
   content: "";
@@ -99,30 +93,64 @@ body {
   background: var(--primary);
   border-radius: 0 0 4px 4px;
 }
-.theme-card h2 {
+
+.theme-open {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 1.25rem 1.1rem 1.1rem;
+  text-align: left;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.theme-open h2 {
   font-family: var(--serif);
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0.6rem 0 0.4rem;
 }
-.theme-card .frac {
+.theme-open .frac {
   font-variant-numeric: tabular-nums;
   color: var(--muted);
   font-size: 0.95rem;
 }
-.theme-card .bar {
+.theme-open .bar {
   margin-top: 0.6rem;
   height: 6px;
   border-radius: 99px;
   background: var(--line);
   overflow: hidden;
 }
-.theme-card .bar-fill {
+.theme-open .bar-fill {
   height: 100%;
   background: var(--primary);
   border-radius: 99px;
 }
 @media (hover: hover) { .theme-card:hover { border-color: var(--primary); } }
+
+/* ---------- Upozornenie na chyby v answers.txt ---------- */
+.theme-warn {
+  border-top: 1px solid var(--line);
+  padding: 0.7rem 1.1rem;
+  background: var(--bad-bg);
+}
+.theme-warn summary {
+  font-size: 0.9rem;
+  font-weight: 650;
+  color: var(--bad);
+  cursor: pointer;
+}
+.theme-warn ul {
+  margin: 0.6rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.88rem;
+  color: var(--ink);
+  display: grid;
+  gap: 0.4rem;
+}
+.theme-warn li { word-break: break-word; }
 
 /* ---------- Navigácia v kvíze ---------- */
 .crumbs {
