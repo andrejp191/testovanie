@@ -165,6 +165,14 @@ let activeTheme = null;    // {name, questions} – celá téma (pre domovskú �
 let activeQuestions = [];  // aktuálne testovaná podmnožina (všetky, alebo zvolený rozsah)
 let currentQ = null;       // {id, correct, total}
 let answered = false;
+let sessionAnswered = 0;   // počet zodpovedaných otázok v tejto session (od otvorenia témy)
+let sessionCorrect = 0;    // z toho správne
+
+function renderProgress() {
+  const q = currentQ ? "Otázka č. " + currentQ.id : "";
+  const s = "Séria: " + sessionCorrect + "/" + sessionAnswered + " správne";
+  $("quiz-progress").textContent = q ? q + " — " + s : s;
+}
 
 function letter(i) { return String.fromCharCode(97 + i); }
 
@@ -189,15 +197,61 @@ function masteredCount(theme) {
   }).length;
 }
 
+// ---------- smajlík podľa percenta zvládnutia ----------
+// Farba sa plynulo stupňuje od čiernej (0 %) po zelenú (100 %),
+// tvar úst/očí sa mení podľa pásma: do 50 % smutný, 50–90 % neutrálny,
+// 91–95 % usmiaty, nad 95 % smejúci sa.
+function moodColor(pct) {
+  const t = Math.max(0, Math.min(1, pct / 100));
+  const lo = [17, 17, 17];     // takmer čierna
+  const hi = [43, 110, 78];    // --primary (zelená)
+  const c = lo.map((v, i) => Math.round(v + (hi[i] - v) * t));
+  return "rgb(" + c.join(",") + ")";
+}
+
+// Pásma nálady podľa percenta:
+//  0–30 %  plačúci · 31–60 % smutný · 61–90 % neutrálny
+//  91–95 % usmiaty · 96–100 % smejúci sa
+function moodSvg(pct) {
+  const color = moodColor(pct);
+  let eyes = '<circle cx="9" cy="10.5" r="1.6" fill="#fff"/><circle cx="19" cy="10.5" r="1.6" fill="#fff"/>';
+  let mouth;
+  let extra = "";
+  if (pct <= 30) {
+    mouth = '<path d="M8.5 20.5 Q14 16 19.5 20.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>';
+    extra = '<path d="M8 13 Q7.3 16.5 8.3 18.5 Q9.3 16.5 8 13 Z" fill="#7ec8f2"/>' +
+            '<path d="M20 13 Q20.7 16.5 19.7 18.5 Q18.7 16.5 20 13 Z" fill="#7ec8f2"/>';
+  } else if (pct <= 60) {
+    mouth = '<path d="M8.5 20 Q14 16.5 19.5 20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>';
+  } else if (pct <= 90) {
+    mouth = '<line x1="9" y1="18" x2="19" y2="18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>';
+  } else if (pct <= 95) {
+    mouth = '<path d="M8 16 Q14 21 20 16" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>';
+  } else {
+    eyes = '<path d="M7 9.5 Q9 7.5 11 9.5" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>' +
+           '<path d="M17 9.5 Q19 7.5 21 9.5" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>';
+    mouth = '<path d="M7.5 15 Q14 23.5 20.5 15 Q14 18.5 7.5 15 Z" fill="#fff"/>';
+  }
+  return '<svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true">' +
+    '<circle cx="14" cy="14" r="13" fill="' + color + '"/>' + eyes + mouth + extra + '</svg>';
+}
+
+function updateThemeCard(card, theme) {
+  const done = masteredCount(theme);
+  const total = theme.questions.length;
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  card.querySelector(".frac").textContent = done + " / " + total + " naposledy správne";
+  card.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
+  card.querySelector(".mood-icon").innerHTML = moodSvg(pct);
+  card.querySelector(".mood-pct").textContent = pct + " %";
+}
+
 function refreshHomeStats() {
   document.querySelectorAll(".theme-card").forEach((card) => {
     const name = card.dataset.theme;
     const theme = themes.find((t) => t.name === name);
     if (!theme) return;
-    const done = masteredCount(theme);
-    const total = theme.questions.length;
-    card.querySelector(".frac").textContent = done + " / " + total + " naposledy správne";
-    card.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
+    updateThemeCard(card, theme);
   });
 }
 
@@ -205,8 +259,6 @@ function renderHome() {
   const grid = $("theme-grid");
   grid.replaceChildren();
   themes.forEach((theme) => {
-    const total = theme.questions.length;
-    const done = masteredCount(theme);
     const card = document.createElement("div");
     card.className = "theme-card";
     card.dataset.theme = theme.name;
@@ -215,12 +267,13 @@ function renderHome() {
     open.type = "button";
     open.className = "theme-open";
     open.innerHTML =
-      '<h2></h2><p class="frac"></p><div class="bar"><div class="bar-fill"></div></div>';
+      '<div class="theme-head"><h2></h2><div class="mood"><span class="mood-icon"></span>' +
+      '<span class="mood-pct"></span></div></div>' +
+      '<p class="frac"></p><div class="bar"><div class="bar-fill"></div></div>';
     open.querySelector("h2").textContent = theme.name;
-    open.querySelector(".frac").textContent = done + " / " + total + " naposledy správne";
-    open.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
     open.addEventListener("click", () => openTheme(theme.name));
     card.appendChild(open);
+    updateThemeCard(card, theme);
 
     if (theme.warnings && theme.warnings.length) {
       const det = document.createElement("details");
@@ -248,6 +301,8 @@ async function openTheme(name) {
   const theme = themes.find((t) => t.name === name);
   activeTheme = theme;
   activeQuestions = theme.questions;
+  sessionAnswered = 0;
+  sessionCorrect = 0;
   $("masthead-sub").textContent = "/ " + name;
   $("quiz-theme-name").textContent = name;
   showQuiz();
@@ -337,7 +392,7 @@ async function nextQuestion() {
   const id = pickNextQuestionId(ids, activeTheme.name, stats, prevId);
   currentQ = activeQuestions.find((q) => q.id === id);
 
-  $("quiz-progress").textContent = "Otázka č. " + id;
+  renderProgress();
 
   const content = await loadQuestionContent(activeTheme.name, id);
   $("frame").classList.remove("loading");
@@ -345,7 +400,7 @@ async function nextQuestion() {
     $("q-img").src = content.src;
     $("q-img").hidden = false;
   } else if (content.type === "text") {
-    $("q-text").textContent = content.text;
+    $("q-text").textContent = id + ". " + content.text.replace(/^\s+/, "");
     $("q-text").hidden = false;
   } else {
     $("q-missing").hidden = false;
@@ -404,6 +459,10 @@ function evaluate() {
 
   const stats = loadStats();
   setStat(stats, activeTheme.name, currentQ.id, same);
+
+  sessionAnswered++;
+  if (same) sessionCorrect++;
+  renderProgress();
 
   $("send-btn").hidden = true;
   $("next-btn").hidden = false;
