@@ -1,0 +1,9 @@
+41. Hmotnostný zlomok látky A v roztoku s hmotnosťou m, objemom V a hustotou ρ je vyjadrený vzťahom:
+a) w(A) = n(A).M(A)/m
+b) w(A) = n(A).M(A)/ρ.V
+c) w(A) = m(A)/V
+d) w(A) = m(A)/m
+e) w(A) = m(A)/V.ρ
+f) w(A) = n(A).m(A)/V
+g) w(A) = ρ.m(A)/m
+h) w(A) = ρ.m(A)/V

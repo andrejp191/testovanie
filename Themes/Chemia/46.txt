@@ -1,0 +1,9 @@
+46. Látkovú koncentráciu látky A v roztoku s objemom V, hustotou ρ, hmotnosťou m a hmotnostným zlomkom w môžeme vyjadriť vzťahom:
+a) c(A) = m(A)/V
+b) c(A) = n(A)/m.ρ
+c) c(A) = n(A).ρ/m
+d) c(A) = w.ρ/m
+e) c(A) = w.ρ/M
+f) c(A) = m(A).M/V
+g) c(A) = m(A)/M.V
+h) c(A) = m(A).ρ/M.m

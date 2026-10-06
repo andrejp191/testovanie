@@ -1,0 +1,9 @@
+36. Nájdite nesprávnu (chybnú) definíciu základných charakteristík látok:
+a) atómová hmotnostná jednotka u je hmotnosť rovná hmotnosti jedného atómu vodíka ¹H
+b) relatívna atómová hmotnosť Ar je pomer strednej hmotnosti atómov molekuly istej zlúčeniny a atómovej hmotnostnej jednotky mu
+c) Ar = m_atómu /u
+d) relatívna molekulová hmotnosť Mr je pomer strednej hmotnosti molekuly istej zlúčeniny k atómovej hmotnostnej jednotke u
+e) Mr = m_atómu/mu
+f) v 1 móle je 6,022.10²³ častíc
+g) n = NA/N
+h) hmotnosť 1 mólu látky je vyjadrená mólovou hmotnosťou

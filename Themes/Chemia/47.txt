@@ -1,0 +1,9 @@
+47. Potrebujeme pripraviť roztok s hmotnosťou m a hmotnostným zlomkom w. K dispozícii máme dva rôzne roztoky s hmotnosťami m1, m2 a hmotnostnými zlomkami w1 a w2, rozpúšťadlo a čistú látku. Správne zloženie roztoku získame podľa rovnice:
+a) zmiešavacej: m1.w1 + m2.w2 = m.w, kde m2 = m + m1
+b) zrieďovacej: m1.w1 + m2.w2 = m.w, kde m = m1 + m2 a hmotnostný zlomok rozpúšťadla = 1
+c) zmiešavacej: m1.w1 + m2.w2 = m.w, kde m = m1 + m2
+d) zahusťovacej: m1.w1 + m2.w2 = m.w, kde m = m1 + m2 a hmotnostný zlomok čistej látky = 1
+e) zrieďovacej: m1.w1 + m2.w2 = m.w, kde m = m1 + m2 a hmotnostný zlomok rozpúšťadla = 0
+f) zmiešavacej: m1.w1 + m2.w2 = m.w, kde m = m1 . m2
+g) zahusťovacej: m1.w1 + m2.w2 = m.w, kde m = m1 + m2 a hmotnostný zlomok čistej látky = 0
+h) zmiešavacej: m1.w1 + m2.w2 = m.w, kde m1 = m – m2

@@ -1,0 +1,9 @@
+32. Vyberte správne tvrdenia o zmesi:
+a) nemožno ju rozdeliť na zložky fyzikálnymi metódami
+b) hmotnostný pomer čistých látok v zmesi môže byť ľubovoľný
+c) vlastnosti čistých látok ostávajú zachované
+d) vzniká vždy chemickou reakciou z prvkov
+e) vzniká zmiešaním látok, teda fyzikálnymi dejmi
+f) čisté látky v zmesi môžu byť iba v určitom pomere
+g) vlastnosti čistých látok z ktorých je zmes zložená neostanú zachované
+h) môžeme ju rozdeliť na pôvodné zložky - čisté látky napr. sedimentáciou, filtráciou, destiláciou či extrakciou

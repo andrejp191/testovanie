@@ -1,0 +1,9 @@
+29. O skupenských stavoch môžeme tvrdiť:
+a) zmenou tlaku a teploty môžeme jednotlivé skupenské stavy určitej látky meniť
+b) skupenský stav látky je podmienený vonkajšími podmienkami (teplotou, tlakom)
+c) sublimácia je zmena tuhého skupenstva na plynné
+d) sublimácia je premena kvapalného skupenstva na plynné za zníženého tlaku
+e) zmenou skupenstva sa pohyblivosť častíc nemení
+f) plazma je skupenský stav, v ktorom môžu existovať len elektroneutrálne častice
+g) plazma je skupenský stav, v ktorom môžu existovať nezávisle od seba rôzne nabité častice, ale sústava ako celok je elektroneutrálna
+h) látka môže existovať najviac v dvoch skupenských stavoch

@@ -1,0 +1,9 @@
+33. Základné chemické zákony:
+a) Avogadrov zákon - 1 mol akéhokoľvek plynu má pri rovnakých vonkajších podmienkach vždy rovnaký objem
+b) za normálnych podmienok (t = 0 °C, p = 1,01325.10⁵ Pa) zaberá 1 mol akéhokoľvek plynu tzv. mólový objem Vm
+c) vlastnosti prvkov a ich zlúčenín sú periodickou funkciou neutrónových čísel prvkov
+d) v priebehu chemickej reakcie sa súčet hmotností reaktantov rovná súčinu hmotnosti produktov
+e) chróm tvorí s kyslíkom CrO3 a Cr2O3 čo je vyjadrením platnosti Daltonovho zákona násobných zlučovacích pomerov
+f) Gay-Lussacov zákon hovorí o násobných objemových pomeroch
+g) zákon zachovania hmotnosti a energie formuloval Lomonosov
+h) výsledný tlak zmesi plynov je rovný súčinu parciálnych tlakov zložiek zmesi plynu

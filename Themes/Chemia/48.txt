@@ -1,0 +1,9 @@
+48. Rozpustnosť látky je údaj potrebný:
+a) na prípravu nasýteného roztoku
+b) na kryštalizáciu
+c) na prepočet molárnej koncentrácie na hmotnostný zlomok
+d) na prepočet hmotnostného zlomku na molárny
+e) len na výpočet pH roztoku
+f) na prípadné posúdenie jej toxicity
+g) len na výpočet hustoty roztoku
+h) súvisiaci s rozpúšťacím teplom

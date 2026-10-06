@@ -1,0 +1,9 @@
+43. Pre látkové množstvo platí:
+a) 1 mmol obsahuje 6,022.10²⁰ častíc
+b) 1 mol látky obsahuje toľko gramov základných častíc, koľko ich je v 12 g nuklidu ¹²C
+c) 1 mol molekúl ideálneho plynu zaberá pri normálnych podmienkach objem 22,4 m³
+d) látkové množstvo zlúčeniny je dané podielom hmotnosti zlúčeniny a jej mólovej hmotnosti
+e) látkové množstvo zlúčeniny v roztoku je podiel hmotnosti roztoku a mólovej hmotnosti zlúčeniny
+f) n = m.M
+g) jednotka mol je definovaná pre presne špecifikované častice, t. j. atómy, molekuly, skupiny častíc atď.
+h) látkové množstvo zlúčeniny v roztoku je súčin látkovej koncentrácie a objemu roztoku

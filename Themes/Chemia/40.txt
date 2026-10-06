@@ -1,0 +1,9 @@
+40. Ak n je látkové množstvo, m je hmotnosť, M je molekulová hmotnosť danej zlúčeniny a V je celkový objem roztoku, potom vyberte správny vzťah pre výpočet látkovej koncentrácie a jej možnú jednotku:
+a) c = n/V, mol.l⁻¹
+b) c = m/M.V, mol.cm⁻³
+c) c = m.M/V, kg
+d) c = n.V, mol.dm⁻³
+e) c = m.M.V, mol².l
+f) c = n/V, mmol/l
+g) c = m.V, g/l
+h) c = m/M.V, mol/dm³

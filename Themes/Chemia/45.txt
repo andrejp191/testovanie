@@ -1,0 +1,9 @@
+45. Objemový zlomok látky A v roztoku s objemom V, hmotnosťou m a hustotou ρ je vyjadrený vzťahom:
+a) φ(A) = V(A)/m
+b) φ(A) = V(A).m/ρ
+c) φ(A) = V(A)/V
+d) φ(A) = V(A).ρ/m
+e) φ(A) = V/V(A)
+f) φ(A) = V(A).ρ/V.m
+g) φ(A) = V(A)/ρ.V
+h) φ(A) = V.m/V(A).ρ

@@ -1,0 +1,9 @@
+38. Vyberte nesprávne tvrdenia:
+a) jednotkou látkového množstva je mol
+b) priame meranie látkového množstva je prakticky neuskutočniteľné
+c) jednotkou mólovej hmotnosti je mol/kg
+d) jednotkou látkového množstva je mol/kg
+e) jednotkou mólovej hmotnosti je kg/mol
+f) látkové množstvo je podiel Avogadrovej konštanty a celkového počtu častíc v súbore
+g) jednotkou hmotnostnej koncentrácie je kg/m³
+h) 1 nmol = 10⁻⁶ mol

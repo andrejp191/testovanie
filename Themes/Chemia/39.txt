@@ -1,0 +1,9 @@
+39. Avogadrova konštanta NA:
+a) udáva počet častíc pripadajúcich na jeden mol látky
+b) má hodnotu 6,022.10²³ mol⁻¹
+c) udáva počet častíc pripadajúcich na jeden gram látky
+d) vyjadruje počet častíc v látkovom množstve 1 mol
+e) udáva počet atómov v zlúčenine
+f) má hodnotu 6,022.10⁻²³ mol
+g) sa dá vyjadriť ako podiel celkového počtu častíc v súbore a látkového množstva látky
+h) má hodnotu 6,022.10²³ mol

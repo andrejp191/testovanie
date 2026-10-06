@@ -1,0 +1,9 @@
+42. Jednotkou látkovej koncentrácie môže byť:
+a) mol
+b) mmol/l
+c) mol/l
+d) kg/mol
+e) bezrozmerná veličina
+f) mol.dm⁻³
+g) mol/dm⁻³
+h) mol.cm⁻³

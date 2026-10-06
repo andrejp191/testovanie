@@ -1,0 +1,9 @@
+37. Ak N je celkový počet častíc, NA je Avogadrova konštanta, u je atómová hmotnostná jednotka, m je hmotnosť a M je molekulová hmotnosť, potom látkové množstvo n možno definovať vzťahom a jeho jednotkou môže byť:
+a) n = N/u, mol⁻¹
+b) n = N/NA, mol
+c) n = m/mu, mol.kg⁻¹
+d) n = m/M, mol
+e) n = NA/u, mol.kg
+f) n = N.u/NA, mol⁻¹
+g) n = NA.u/N, g.mol⁻¹
+h) n = m/M, mmol

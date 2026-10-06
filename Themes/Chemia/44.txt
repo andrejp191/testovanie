@@ -1,0 +1,9 @@
+44. Zloženie roztoku môžeme vyjadriť:
+a) mólovým zlomkom ako podiel látkového množstva rozpustenej látky a súčtu látkových množstiev všetkých látok v roztoku
+b) hmotnostnou koncentráciou, ktorej jednotkou je g/l
+c) hustotou roztoku ρ v g/cm⁻³
+d) hmotnostným zlomkom ako podiel hmotnosti rozpustenej látky a hmotnosti rozpúšťadla
+e) objemovým zlomkom ako podiel objemu danej látky a objemu rozpúšťadla
+f) molalitou ako podiel látkového množstva rozpustenej látky a hmotnosti rozpúšťadla
+g) mólovou koncentráciou ako podiel látkového množstva rozpustenej látky a objemu roztoku
+h) molalitou, ktorá má jednotku mol/l

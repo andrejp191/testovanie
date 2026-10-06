@@ -1,0 +1,9 @@
+49. Zloženie (vlastnosti) roztokov môžeme vyjadriť:
+a) viacerými spôsobmi
+b) rozpustnosťou látky mr, na základe ktorej delíme látky na rozpustné a nerozpustné
+c) hustotou roztoku, pre ktorú platí ρ = V/m
+d) molalitou látky v mol/dm³
+e) hmotnostným zlomkom φ
+f) najpresnejšie koncentráciou, pretože udáva množstvo častíc rozpustenej látky a jej jednotkou je mol.dm⁻³
+g) rozpustnosťou látky mr, ak je 0,1 < mr < 1, hovoríme o málo rozpustných látkach
+h) látkovou koncentráciou v jednotkách mol.dm⁻³

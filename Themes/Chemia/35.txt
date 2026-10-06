@@ -1,0 +1,9 @@
+35. Vyberte správne tvrdenia o roztokoch:
+a) roztoky sú iba kvapaliny
+b) zloženie roztokov nemožno vyjadriť viacerými spôsobmi
+c) vzťah medzi množstvom rozpustenej látky a množstvom rozpúšťadla vyjadruje zloženie roztokov
+d) nasýtený je taký roztok, v ktorom sa už ďalšie množstvo látky nerozpúšťa
+e) zriedený roztok má vyšší pomer medzi množstvom rozpustenej látky a rozpúšťadlom ako nasýtený
+f) sklo a zliatiny sú pevné látky
+g) nasýtenosť roztoku závisí od teploty, pri ktorej rozpúšťanie prebieha
+h) roztoky sú homogénne zmesi najmenej dvoch látok
