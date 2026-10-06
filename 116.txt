@@ -1,0 +1,9 @@
+116. Monomérom nukleových kyselín sú:
+a) aminokyseliny
+b) adenín, guanín, tymín, cytozín
+c) nukleotidy
+d) chromatín
+e) dusíkaté bázy
+f) nukleozidy
+g) ribonukleotidy alebo deoxyribonukleotidy
+h) pentózy

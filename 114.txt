@@ -1,0 +1,9 @@
+114. Jednotlivé aminokyseliny sú v bielkovinovom reťazci pospájané väzbou:
+a) esterovou
+b) fosfodiesterovou
+c) glykozidovou
+d) peptidovou
+e) vodíkovými mostíkmi
+f) peptidovou medzi dusíkatými bázami
+g) kovalentnou
+h) nekovalentnou
