@@ -1,0 +1,9 @@
+17. V Erlenmayerovej banke rozpustíme vo vode KMnO4 a uzatvoríme ju tak, že nedochádza k výmene častíc ani k výmene energie. Obsah banky je:
+a) pravý roztok
+b) otvorená sústava
+c) izolovaná sústava
+d) homogénna sústava
+e) koloidný roztok
+f) heterogénna sústava
+g) pevný roztok
+h) aerosól

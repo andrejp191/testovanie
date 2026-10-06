@@ -1,12 +1,9 @@
 4. Vyberte správne tvrdenie o separačných metódach:
-a. destilácia nie je separačnou metódou
-b. lekárske vyšetrenie krvi a moču je príkladom filtrácie
-c. na oddeľovanie zložiek zo zmesi využívame rozdielne chemické vlastnosti
-zložiek zmesi
-d. destiláciou sa oddeľuje tuhá látka od kvapalnej na základe rôznej
-rozpustnosti
-e. sedimentáciou sa oddeľujú látky na základe hustoty
-f. na oddeľovanie zložiek zo zmesi využívame rozdielne fyzikálne vlastnosti
-zložiek zmesi
-g. filtrácia a kryštalizácia patria medzi separačné metódys
-h. podstatou destilácie je rozdielna teplota varu kvapalín
+a) destilácia nie je separačnou metódou
+b) lekárske vyšetrenie krvi a moču je príkladom filtrácie
+c) na oddeľovanie zložiek zo zmesi využívame rozdielne chemické vlastnosti zložiek zmesi
+d) destiláciou sa oddeľuje tuhá látka od kvapalnej na základe rôznej rozpustnosti
+e) sedimentáciou sa oddeľujú látky na základe hustoty
+f) na oddeľovanie zložiek zo zmesi využívame rozdielne fyzikálne vlastnosti zložiek zmesi
+g) filtrácia a kryštalizácia patria medzi separačné metódy
+h) podstatou destilácie je rozdielna teplota varu kvapalín

@@ -1,0 +1,9 @@
+10. Pre hmotnostný zlomok w(A) látky A platí:
+a) jednotkou je g.mol⁻¹
+b) w(A) ≤ 1
+c) vyjadrujeme ho ako pomer hmotnosti rozpustenej látky m(A) k celkovej hmotnosti roztoku mR
+d) hmotnostný zlomok je možné vyjadriť aj v percentách, ak w(A) vydelíme 100
+e) hmotnostný zlomok látky môže byť väčší ako 1
+f) vypočítame ako pomer počtu mólov látky A k celkovému počtu mólov
+g) čím je hmotnostný zlomok rozpustenej látky väčšie číslo, tým je roztok koncentrovanejší
+h) hmotnostný zlomok je možné vyjadriť aj v percentách, ak w(A) vynásobíme 100

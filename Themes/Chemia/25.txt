@@ -1,0 +1,9 @@
+25. Prvky sú:
+a) látky, ktorých atómy majú rovnaké protónové číslo
+b) chemicky čisté látky, molekuly ktorých sú zložené z rovnakých atómov
+c) látky, ktorých atómy obsahujú atómové jadrá s rovnakým nukleónovým, ale rôznym protónovým číslom
+d) látky, ktorých atómy obsahujú jadrá s daným protónovým a nukleónovým číslom
+e) látky, ktorých atómy obsahujú rôzny počet valenčných elektrónov
+f) látky, ktorých atómy obsahujú atómové jadrá s určitým neutrónovým, ale rôznym nukleónovým číslom
+g) chemické indivíduá
+h) chemické indivíduá, molekuly ktorých sú zložené z rôznych atómov

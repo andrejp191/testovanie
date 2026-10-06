@@ -1,0 +1,9 @@
+15. Pre oxidačné čísla prvkov v periodickej tabuľke platí:
+a) maximálne kladné oxidačné číslo sa vždy zhoduje s číslom podskupiny prvku
+b) maximálne kladné oxidačné číslo sa nikdy nezhoduje s číslom podskupiny prvku
+c) maximálne kladné oxidačné číslo sa väčšinou zhoduje s číslom podskupiny prvku
+d) maximálne kladné oxidačné číslo môže byť i vyššie ako je číslo podskupiny prvku
+e) maximálne záporné oxidačné číslo určíme ako rozdiel 8 - číslo podskupiny prvku
+f) maximálne záporné oxidačné číslo určíme ako súčet 1 + číslo podskupiny prvku
+g) maximálne záporné oxidačné číslo určíme iba z čísla podskupiny prvku
+h) maximálne záporné oxidačné číslo sa nedá určiť z čísla podskupiny prvku

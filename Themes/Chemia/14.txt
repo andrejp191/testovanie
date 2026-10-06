@@ -1,0 +1,9 @@
+14. Na veľkosť iónov prvkov v periodickej tabuľke majú primárny vplyv príťažlivé sily medzi atómovým jadrom a vonkajšími elektrónmi. Preto platí:
+a) polomer katiónu je vždy menší ako polomer atómu, z ktorého tento ión vznikol
+b) polomer katiónu je vždy väčší ako polomer atómu, z ktorého tento ión vznikol
+c) polomer aniónu je vždy väčší ako polomer atómu, z ktorého tento ión vznikol
+d) polomer aniónu je vždy menší ako polomer atómu, z ktorého tento ión vznikol
+e) polomer katiónu odvodeného od toho istého atómu, sa zväčšuje s jeho rastúcim nábojom
+f) polomer katiónu odvodeného od toho istého atómu, sa zmenšuje s jeho rastúcim nábojom
+g) veľkosť aniónov v danej perióde sa zväčšuje s rastúcim Z prvkov
+h) veľkosť aniónov v danej perióde sa zmenšuje s rastúcim Z prvkov

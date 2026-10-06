@@ -1,0 +1,9 @@
+18. Vyberte nesprávne tvrdenie:
+a) základné zloženie z prvkov vyjadruje vždy iba štruktúrny elektrónový vzorec
+b) molekulový vzorec vyjadruje skutočný počet atómov v zlúčenine
+c) funkčný vzorec zlúčeniny vyjadruje priestorové usporiadanie atómov
+d) konštitučný vzorec zlúčeniny vyjadruje poradie zlúčených atómov
+e) stechiometrický vzorec nemôže byť zhodný s molekulovým
+f) konfiguračný vzorec vyjadruje priestorové usporiadanie atómov
+g) charakteristické atómové zoskupenia sú zohľadnené v geometrickom vzorci zlúčeniny
+h) sumárny vzorec je násobkom stechiometrického vzorca

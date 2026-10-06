@@ -1,0 +1,9 @@
+13. Na veľkosť atómov prvkov v periodickej tabuľke majú primárny vplyv príťažlivé sily medzi atómovým jadrom a vonkajšími elektrónmi. Preto platí:
+a) veľkosť atómov v danej perióde sa zväčšuje s rastúcim Z prvkov
+b) veľkosť atómov v hlavnej podskupine sa zväčšuje s rastúcim Z prvkov
+c) veľkosť atómov v danej perióde sa zmenšuje s rastúcim Z prvkov s výnimkou inertných plynov
+d) veľkosť atómov v hlavnej podskupine sa zmenšuje s rastúcim Z prvkov
+e) veľkosť atómov v hlavnej podskupine sa zmenšuje s klesajúcim Z prvkov
+f) veľkosť atómov v danej perióde sa zväčšuje s klesajúcim Z prvkov s výnimkou plynov
+g) veľkosť atómov v hlavnej podskupine sa zväčšuje s klesajúcim Z prvkov s výnimkou plynov
+h) veľkosť atómov v danej perióde sa zväčšuje s rastúcim Z prvkov s výnimkou inertných plynov

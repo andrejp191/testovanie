@@ -1,0 +1,9 @@
+12. Z periodickej tabuľky chemických prvkov môžeme vyvodiť, že:
+a) kovový charakter prvkov rastie zľava doprava
+b) nekovový charakter prvkov klesá sprava doľava
+c) oxidačné účinky prvkov klesajú zľava doprava
+d) redukčné účinky prvkov klesajú zľava doprava
+e) elektronegativita prvkov rastie zľava doprava
+f) zásaditosť oxidov prvkov klesá sprava doľava
+g) ionizačná energia rastie sprava doľava
+h) kyslosť oxidov prvkov rastie zľava doprava

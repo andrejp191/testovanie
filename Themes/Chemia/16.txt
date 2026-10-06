@@ -1,0 +1,9 @@
+16. Vyberte správne tvrdenia:
+a) stechiometrický (empirický) vzorec zlúčeniny vyjadruje poradie zlúčených atómov
+b) štruktúrny (konštitučný) vzorec zlúčeniny vyjadruje priestorové usporiadanie atómov
+c) charakteristické atómové zoskupenia vyjadruje funkčný (racionálny) vzorec zlúčeniny
+d) priestorové usporiadanie atómov vyjadruje geometrický (konfiguračný) vzorec zlúčeniny
+e) molekulový vzorec je násobkom stechiometrického vzorca zlúčeniny
+f) stechiometrický vzorec zlúčeniny vyjadruje základné zloženie z prvkov
+g) usporiadanie valenčných elektrónov vyjadruje molekulový vzorec zlúčeniny
+h) konštitučný vzorec zlúčeniny vyjadruje usporiadanie valenčných elektrónov
