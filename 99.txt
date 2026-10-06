@@ -1,9 +1,0 @@
-99. Mikrotubuly sú v bičíku usporiadané:
-a) do deväť trojíc po obvode
-b) priečne
-c) podľa schémy 9 + 2
-d) do deväť dvojíc po obvode a jedného centrálneho páru
-e) do jedenásť obvodových dvojíc
-f) náhodne
-g) podľa schémy 9 + 3
-h) v centrálnej rovine

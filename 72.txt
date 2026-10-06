@@ -1,9 +1,0 @@
-72. Bivalenty vznikajú:
-a) v profáze homeotypického delenia meiózy
-b) v anafáze heterotypického delenia meiózy
-c) v profáze heterotypického delenia meiózy
-d) párovaním homologických chromozómov
-e) párovaním geneticky identických chromozómov
-f) párovaním heterologických chromozómov
-g) v profáze I a zanikajú v anafáze I
-h) v profáze heterotypického delenia mitózy

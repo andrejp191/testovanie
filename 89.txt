@@ -1,9 +1,0 @@
-89. Ktoré procesy sa uskutočňujú v chloroplastoch:
-a) fotosyntéza
-b) rozklad nepotrebných látok
-c) syntéza bielkovín
-d) glykolýza
-e) Krebsov cyklus
-f) syntéza polysacharidov tvoriacich bunkovú stenu
-g) syntéza nukleových kyselín
-h) Calvinov cyklus

@@ -1,9 +1,0 @@
-111. Voda v bunkách má funkciu:
-a) zásobnú
-b) konštrukčnú
-c) ako zdroj energie
-d) substrátovú – vytvára vhodné prostredie pre chemické deje
-e) ako účinné rozpúšťadlo
-f) regulačnú – reguluje príjem a výdaj látok bunkou
-g) ako dôležitý faktor tepelného hospodárenia
-h) ako základná stavebná jednotka makromolekulových látok

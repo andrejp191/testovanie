@@ -1,9 +1,0 @@
-77. Počet chromozómov v dcérskych bunkách vzniknutých mitotickým delením je vzhľadom k materskej bunke (2n):
-a) rovnaký, lebo sa priečne rozdelí každý chromozóm podobne ako v II. meiotickom delení
-b) rovnaký, lebo sa pozdĺžne rozdelí každý chromozóm podobne ako v I. meiotickom delení
-c) rovnaký, lebo sa priečne rozdelí každý chromozóm podobne ako v II. meiotickom delení
-d) polovičný, lebo sa pozdĺžne rozdelí každý chromozóm podobne ako v II. meiotickom delení
-e) rovnaký, lebo sa pozdĺžne rozdelí každý chromozóm podobne ako v II. meiotickom delení
-f) haploidný, lebo sa priečne rozdelí každý chromozóm podobne ako v II. meiotickom delení
-g) polovičný, lebo sa priečne rozdelí každý chromozóm podobne ako v I. meiotickom delení
-h) rovnaký, t. j. diploidný

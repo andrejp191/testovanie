@@ -1,9 +1,0 @@
-64. Chemické regulačné mechanizmy bunkového cyklu:
-a) môžu mať stimulačný účinok na bunkové delenie
-b) môžu mať inhibičný účinok na bunkové delenie
-c) sú napr. cytostatiká
-d) sú účinné najmä v G1 – fáze
-e) sú účinné najmä v M – fáze, kde je hlavný kontrolný uzol bunkového cyklu
-f) sú napr. vírusy, ktoré môžu spôsobiť nekoordinované delenie buniek
-g) podmieňujú funkčné a tvarové odlíšenie buniek
-h) sú účinné najmä na bunky, ktoré majú vzhľadom na svoju funkciu geneticky trvalo zablokovanú schopnosť sa deliť

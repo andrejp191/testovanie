@@ -1,9 +1,0 @@
-80. Redukčné delenie:
-a) je priame bunkové delenie
-b) je meiotické delenie
-c) je špecializovaný spôsob delenia, výsledkom ktorého je vznik pohlavných buniek
-d) je špecializovaný spôsob delenia, výsledkom ktorého je vznik diploidných gamét
-e) je v prípade živočíchov jediný možný spôsob vzniku pohlavných buniek
-f) nezabezpečuje rovnomerné rozdelenie genetického materiálu do dcérskych buniek
-g) prebieha v dvoch po sebe nasledujúcich deleniach s odlišným priebehom
-h) prebieha v dvoch po sebe nasledujúcich deleniach s rovnakým priebehom

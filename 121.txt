@@ -1,9 +1,0 @@
-121. Vírusy sú:
-a) vnútrobunkové parazity
-b) nebunkové organizmy
-c) mimobunkové parazity
-d) nukleoproteínové častice
-e) organizmy s jednoduchým metabolizmom
-f) bez vlastného metabolizmu
-g) prokaryotické organizmy
-h) schopné vyvolať infekčné ochorenia

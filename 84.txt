@@ -1,9 +1,0 @@
-84. Bunková diferenciácia znamená:
-a) tvarové odlíšenie buniek
-b) funkčné odlíšenie buniek
-c) genetické odlíšenie somatických buniek
-d) morfologické odlíšenie buniek
-e) tvarové a funkčné odlíšenie buniek, ktoré začína už počas zárodočného vývinu organizmu
-f) tvarové a funkčné odlíšenie buniek až po narodení jedinca
-g) realizáciu kompletnej genetickej informácie vo všetkých bunkách
-h) špecializáciu buniek na určité základné funkcie v mnohobunkovom organizme

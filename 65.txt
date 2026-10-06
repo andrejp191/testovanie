@@ -1,9 +1,0 @@
-65. Reguláciu bunkového cyklu môžu ovplyvniť:
-a) cytostatiká, ktoré spomaľujú alebo zastavujú bunkové delenie
-b) cytostatiká, ktoré stimulujú bunkové delenie
-c) vonkajšie faktory, napr. teplota
-d) niektoré vírusy, za vzniku rakoviny
-e) inhibítory – napr. kolchicín
-f) rastové regulátory, ktoré sa môžu aplikovať aj zámerne
-g) vonkajšie faktory, napr. dostatok živín v prostredí
-h) rastové hormóny
