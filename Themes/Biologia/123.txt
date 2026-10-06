@@ -1,0 +1,9 @@
+123. Rozmnožovanie vírusov:
+a) má štyri fázy – profáza, metafáza, anafáza, telofáza
+b) má tri fázy
+c) prebieha amitózou
+d) prebieha len v živých bunkách
+e) prebieha len v eukaryotických bunkách
+f) prebieha delením
+g) prebieha aj mimo bunky
+h) môže prebiehať aj v bunkových kultúrach

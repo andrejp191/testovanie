@@ -1,0 +1,9 @@
+81. Homeotypické delenie:
+a) je prvé meiotické delenie
+b) je druhé meiotické delenie
+c) má profázu I, metafázu I, anafázu I, telofázu I
+d) má profázu II, metafázu II, anafázu II, telofázu II
+e) je charakteristické zložitejším priebehom profázy, v ktorej dochádza ku crossing-overu
+f) nasleduje po krátkej interfáze, keď dochádza k replikácii DNA
+g) nasleduje po krátkej interfáze, keď nedochádza k replikácii DNA
+h) redukuje počet chromozómov

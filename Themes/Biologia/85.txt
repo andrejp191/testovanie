@@ -1,0 +1,9 @@
+85. Diferencovaná bunka:
+a) má aktivované iba niektoré gény
+b) má aktivované všetky gény v jadre
+c) má vlastnosť totipotencie
+d) obsahuje kompletnú genetickú informáciu
+e) obsahuje iba tú časť genetickej informácie, ktorá je potrebná pre jej tvarové a funkčné odlíšenie
+f) je bunka embryonálna
+g) je bunka svalová
+h) má typický tvar a je funkčne špecializovaná

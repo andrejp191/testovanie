@@ -1,0 +1,9 @@
+125. Bielkovinový obal vírusu sa nazýva:
+a) kapsid a je zložený z tukových monomérov
+b) cysta
+c) puzdro
+d) virión
+e) bielkovinový plášť
+f) spóra
+g) nukleoid
+h) kapsid

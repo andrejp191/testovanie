@@ -1,0 +1,9 @@
+113. Monomérom bielkovín sú:
+a) nukleotidy
+b) peptidy
+c) aminoskupiny
+d) atómy uhlíka a dusíka
+e) aminokyseliny
+f) dusíkaté organické bázy
+g) monosacharidy
+h) nukleozidy
