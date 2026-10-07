@@ -5,7 +5,8 @@ const STATS_KEY = "quizStats.v1";
 
 // ======================================================================
 // Lokálne štatistiky (localStorage)
-// Tvar: { [téma]: { [číslo otázky]: { streak, last: "ISO dátum", lastCorrect } } }
+// Tvar: { [téma]: { [číslo otázky]: { streak, last: "ISO dátum", lastCorrect,
+//                                      timesAnswered, timesCorrect } } }
 // ======================================================================
 function loadStats() {
   try { return JSON.parse(localStorage.getItem(STATS_KEY)) || {}; }
@@ -24,8 +25,23 @@ function setStat(stats, theme, qid, correct) {
     streak: correct ? ((prev && prev.streak) || 0) + 1 : 0,
     last: new Date().toISOString(),
     lastCorrect: correct,
+    timesAnswered: ((prev && prev.timesAnswered) || 0) + 1,
+    timesCorrect: ((prev && prev.timesCorrect) || 0) + (correct ? 1 : 0),
   };
   saveStats(stats);
+}
+
+// Súhrn za celú tému: koľko otázok bolo položených a koľko z toho správne
+// (súčet cez všetky otázky, počíta každý pokus, nielen posledný).
+function themeTotals(theme) {
+  const stats = loadStats();
+  const byId = (stats[theme.name]) || {};
+  let asked = 0, correct = 0;
+  Object.keys(byId).forEach((qid) => {
+    asked += byId[qid].timesAnswered || 0;
+    correct += byId[qid].timesCorrect || 0;
+  });
+  return { asked, correct };
 }
 
 // ======================================================================
@@ -244,6 +260,10 @@ function updateThemeCard(card, theme) {
   card.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
   card.querySelector(".mood-icon").innerHTML = moodSvg(pct);
   card.querySelector(".mood-pct").textContent = pct + " %";
+
+  const t = themeTotals(theme);
+  card.querySelector(".theme-asked").textContent =
+    t.asked ? "Položených " + t.asked + ", správne " + t.correct + "×" : "Zatiaľ netestované";
 }
 
 function refreshHomeStats() {
@@ -269,7 +289,8 @@ function renderHome() {
     open.innerHTML =
       '<div class="theme-head"><h2></h2><div class="mood"><span class="mood-icon"></span>' +
       '<span class="mood-pct"></span></div></div>' +
-      '<p class="frac"></p><div class="bar"><div class="bar-fill"></div></div>';
+      '<p class="frac"></p><div class="bar"><div class="bar-fill"></div></div>' +
+      '<p class="theme-asked muted"></p>';
     open.querySelector("h2").textContent = theme.name;
     open.addEventListener("click", () => openTheme(theme.name));
     card.appendChild(open);
@@ -400,13 +421,29 @@ async function nextQuestion() {
     $("q-img").src = content.src;
     $("q-img").hidden = false;
   } else if (content.type === "text") {
-    $("q-text").textContent = id + ". " + content.text.replace(/^\s+/, "");
+    const text = content.text.replace(/^\s+/, "");
+    const hasNumber = new RegExp("^" + id + "\\s*[.):]").test(text);
+    $("q-text").textContent = hasNumber ? text : id + ". " + text;
     $("q-text").hidden = false;
   } else {
     $("q-missing").hidden = false;
   }
 
   renderOptions(currentQ.total);
+  renderQuestionStat(getStat(stats, activeTheme.name, id));
+}
+
+// Štatistika tejto konkrétnej otázky (koľkokrát bola doteraz testovaná
+// a koľkokrát správne).
+function renderQuestionStat(stat) {
+  const el = $("q-stat");
+  const n = (stat && stat.timesAnswered) || 0;
+  if (!n) {
+    el.textContent = "Táto otázka zatiaľ nebola testovaná.";
+  } else {
+    const c = (stat && stat.timesCorrect) || 0;
+    el.textContent = "Táto otázka: testovaná " + n + "×, správne " + c + "×.";
+  }
 }
 
 function renderOptions(total) {
@@ -459,6 +496,7 @@ function evaluate() {
 
   const stats = loadStats();
   setStat(stats, activeTheme.name, currentQ.id, same);
+  renderQuestionStat(getStat(stats, activeTheme.name, currentQ.id));
 
   sessionAnswered++;
   if (same) sessionCorrect++;

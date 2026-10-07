@@ -149,6 +149,11 @@ body {
   background: var(--primary);
   border-radius: 99px;
 }
+.theme-asked {
+  margin: 0.55rem 0 0;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
 @media (hover: hover) { .theme-card:hover { border-color: var(--primary); } }
 
 /* ---------- Upozornenie na chyby v answers.txt ---------- */
@@ -272,6 +277,11 @@ body {
   width: 100%;
 }
 .frame p.muted { color: #5b6b61; }
+
+.q-stat {
+  margin: 0;
+  font-size: 0.9rem;
+}
 
 .options {
   list-style: none;
