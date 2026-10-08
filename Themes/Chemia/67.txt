@@ -1,0 +1,9 @@
+67. Aké oxidačné čísla môže mať chlór v rôznych molekulách?
+a) +VII v NaClO4 . H2O
+b) +I v Cl2O
+c) +II v ClBr2
+d) –I v MnCl2
+e) +III v NaClO
+f) +IV v ClO2
+g) –II v PbClO2
+h) –III v AlCl3

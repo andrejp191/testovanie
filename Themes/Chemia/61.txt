@@ -1,0 +1,9 @@
+61. Vyberte odpovede, kde vzorce neodpovedajú uvedeným zlúčeninám:
+a) NiCO3 . 6 H2O je uhličitan hexaakvanikelnatý
+b) Zn(SiO3)2 je kremičitan zirkoničitý
+c) Sb2[Ni(NH3)]Cl3 je triammin-trichloronikelnatan antimonitý
+d) SrWO4 je wolfrámán strontnatý
+e) Ba(TlO4)2 je telúran bárnatý
+f) Na2S2O9 je diperoxodisíran sodný
+g) Pb2P2O7 je difosforečnan diolovnatý
+h) NH4[IrCl5] je pentachloroiridičitan amónny

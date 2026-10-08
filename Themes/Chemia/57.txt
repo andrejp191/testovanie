@@ -1,0 +1,9 @@
+57. Vyberte odpovede, kde vzorce neodpovedajú uvedeným zlúčeninám:
+a) NH4[CdCl3] je trichlorokadmnatan amónny
+b) K2[PtBr6] je hexabromoplatnatan didraselný
+c) Na[Au(CN)2OH] je dikyano-hydroxozlatitan sodný
+d) [Sn3(OH)6CO]Cl2 je chlorid hexahydroxo-karbonyl-ciničitý
+e) Rb[Ag(CN)2] je dikyanostriebornan rubídny
+f) K2[MnF6] je hexafluoromanganičnan draselný
+g) Fe[Hg(SCN)4] je tetratiokyanatoortuťnatan železnatý
+h) Li2[PbF6] je hexafluoroolovičitan lítny

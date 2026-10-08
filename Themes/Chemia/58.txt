@@ -1,0 +1,9 @@
+58. Vyberte správne pomenovania a vzorce nasledujúcich zlúčenín:
+a) CaHS je hydrogénsulfid vápenatý
+b) KH2B4O7 je dihydrogéntetraboritan draselný
+c) Sr(H2PO3)2 je dihydrogénfosforitan strontnatý
+d) CsHMoO4 je hydrogénmolybdénan cézny
+e) Li2HVO4 je hydrogénvanadičnan lítny
+f) KFe(HCO3)2 je hydrogénuhličitan draselno-železitý
+g) Ag2HIO5 je hydrogénjodistan strieborný
+h) NH4H2AsO4 je dihydrogénarzenitan amónny

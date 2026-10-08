@@ -1,0 +1,9 @@
+68. Vyberte zlúčeniny, v ktorých má železo oxidačné číslo +III:
+a) Fe(OH)O
+b) K4[Fe(CN)6]
+c) [Fe(H2O)6]Cl3
+d) Fe(HCO3)2
+e) FePO4
+f) Fe(ClO4)2 . 6 H2O
+g) FeO.Fe2O3
+h) Fe(NO3)2 . 6 H2O

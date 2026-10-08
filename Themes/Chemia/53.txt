@@ -1,0 +1,9 @@
+53. Vyberte odpovede, kde vzorce neodpovedajú uvedeným zlúčeninám:
+a) SiN4 je nitrid kremičitý
+b) GaAs je arzenid galitý
+c) LiAs3 je arzenid lítny
+d) Pb3N2 je azid olovnatý
+e) Mg3P2 je fosfid horečnatý
+f) CaC2 je karbid vápenatý
+g) Si3N4 je nitrid kremičitý
+h) AlSb3 je antimonid hlinitý

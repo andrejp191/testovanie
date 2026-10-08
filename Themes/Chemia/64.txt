@@ -1,0 +1,9 @@
+64. Aké oxidačné čísla môže mať vodík v rôznych molekulách?
+a) –III v PH3
+b) +I v NaHCO3
+c) +II v H2O2
+d) –I v LiH
+e) –I v HF
+f) +I v NH3
+g) 0 ako plynná látka vo vzduchu
+h) +III v tríciu

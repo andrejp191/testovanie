@@ -1,0 +1,9 @@
+70. Vyberte tie vzorce zlúčenín, kde je P s oxidačným číslom +V, chlórnan sodný a nitrid hlinitý:
+a) H3PO4 – Na2ClO – AlN3
+b) HPO3 – NaClO – AlN
+c) H2PO4 – NaClO – AlN3
+d) HPO4 – NaClO – AlN
+e) HPO3 – Na2ClO2 – AlN
+f) HPO – NaClO2 – AlN3
+g) H4P2O7 – NaClO – AlN
+h) H3PO4 – NaClO – AlN

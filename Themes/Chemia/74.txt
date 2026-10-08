@@ -1,0 +1,9 @@
+74. Vyberte zlúčeniny so správnym vzorcom a názvom:
+a) BiCl(O) je chlorid oxid bizmutitý
+b) H3PO2 je kyselina trihydrogénfosforná
+c) NH4MgHPO4 je hydrogénfosforečnan horečnato-amónny
+d) Mg(BO2)2 je boritan horečnatý
+e) NH4[PdCl4] je tetrachloro-paladičnan amónny
+f) H4SiO4 je kyselina kremistá
+g) SiC je uhoľnatan kremičitý
+h) TeF6 je fluorid telúrový

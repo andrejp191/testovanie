@@ -1,0 +1,9 @@
+54. Vyberte odpovede, kde vzorce neodpovedajú uvedeným zlúčeninám:
+a) Cu2CO3(OH)2 je hydroxid-uhličitan meďnatý
+b) MnCl2O je chlorid-oxid manganičitý
+c) Ca5F(PO4)3 je fluorid-tris(fosforečnan) pentavápenatý
+d) KCr(OH)2 je hydroxid draselno-chromitý
+e) CaCl(ClO) je chlorid-chlórnan vápenatý
+f) Cs3CoCl6 je chlorid tricézno-kobaltnatý
+g) COS2 je oxid-sulfid uhličitý
+h) PCl5O je chlorid-oxid fosforečný

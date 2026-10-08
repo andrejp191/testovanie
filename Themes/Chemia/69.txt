@@ -1,0 +1,9 @@
+69. Vyberte zlúčeniny, v ktorých sa vyskytuje prvok s oxidačným číslom +III:
+a) Bi(OH)2NO3
+b) P4O6
+c) NH3
+d) Na4[CoF6]
+e) [CrBr2(H2O)4]NO2
+f) Na3[AsS4]
+g) H2PtCl6
+h) HBO2
