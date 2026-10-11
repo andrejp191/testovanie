@@ -19,10 +19,20 @@
   <div id="theme-grid" class="theme-grid" hidden></div>
 </main>
 
+<!-- VÝBER MÓDU -->
+<main id="view-mode" class="wrap" hidden>
+  <nav class="crumbs">
+    <button type="button" id="mode-back-btn" class="link-btn">&larr; Témy</button>
+    <span id="mode-theme-name"></span>
+  </nav>
+  <p class="muted" style="margin:0 0 1rem;">Vyber si mód testovania. Každý mód má vlastnú, oddelenú štatistiku.</p>
+  <div id="mode-grid" class="mode-grid"></div>
+</main>
+
 <!-- KVÍZ -->
 <main id="view-quiz" class="wrap" hidden>
   <nav class="crumbs">
-    <button type="button" id="back-btn" class="link-btn">&larr; Témy</button>
+    <button type="button" id="back-btn" class="link-btn">&larr; Mód</button>
     <span id="quiz-theme-name"></span>
     <span class="muted" id="quiz-progress"></span>
   </nav>

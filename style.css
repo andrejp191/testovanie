@@ -94,6 +94,48 @@ body {
   border-radius: 0 0 4px 4px;
 }
 
+/* ---------- Výber módu ---------- */
+.mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.mode-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.1rem 1.1rem;
+  text-align: left;
+  font: inherit;
+  color: var(--ink);
+  cursor: pointer;
+  overflow: hidden;
+}
+.mode-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 1.1rem;
+  width: 2rem; height: 6px;
+  background: var(--amber);
+  border-radius: 0 0 4px 4px;
+}
+.mode-card .theme-head { margin-top: 0.6rem; }
+.mode-card h2 {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+.mode-desc {
+  margin: 0.4rem 0 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+@media (hover: hover) { .mode-card:hover { border-color: var(--primary); } }
+
 .theme-open {
   display: block;
   width: 100%;
@@ -132,19 +174,22 @@ body {
   font-variant-numeric: tabular-nums;
   color: var(--muted);
 }
-.theme-open .frac {
+.theme-open .frac,
+.mode-card .frac {
   font-variant-numeric: tabular-nums;
   color: var(--muted);
   font-size: 0.95rem;
 }
-.theme-open .bar {
+.theme-open .bar,
+.mode-card .bar {
   margin-top: 0.6rem;
   height: 6px;
   border-radius: 99px;
   background: var(--line);
   overflow: hidden;
 }
-.theme-open .bar-fill {
+.theme-open .bar-fill,
+.mode-card .bar-fill {
   height: 100%;
   background: var(--primary);
   border-radius: 99px;

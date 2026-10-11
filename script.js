@@ -2,11 +2,14 @@
 
 const $ = (id) => document.getElementById(id);
 const STATS_KEY = "quizStats.v1";
+const MODES = ["8", "4"]; // "8" = všetky možnosti, "4" = náhodné 4 z dostupných
 
 // ======================================================================
 // Lokálne štatistiky (localStorage)
-// Tvar: { [téma]: { [číslo otázky]: { streak, last: "ISO dátum", lastCorrect,
-//                                      timesAnswered, timesCorrect } } }
+// Tvar: { [téma]: { [mód "8"/"4"]: { [číslo otázky]:
+//          { streak, last: "ISO dátum", lastCorrect, timesAnswered, timesCorrect } } } }
+// Každý mód má úplne oddelenú históriu — rovnaká otázka v móde 8 a móde 4
+// sa sleduje nezávisle.
 // ======================================================================
 function loadStats() {
   try { return JSON.parse(localStorage.getItem(STATS_KEY)) || {}; }
@@ -15,13 +18,14 @@ function loadStats() {
 function saveStats(stats) {
   try { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); } catch { /* plné úložisko – ignoruj */ }
 }
-function getStat(stats, theme, qid) {
-  return (stats[theme] && stats[theme][qid]) || null;
+function getStat(stats, theme, mode, qid) {
+  return (stats[theme] && stats[theme][mode] && stats[theme][mode][qid]) || null;
 }
-function setStat(stats, theme, qid, correct) {
+function setStat(stats, theme, mode, qid, correct) {
   stats[theme] = stats[theme] || {};
-  const prev = stats[theme][qid];
-  stats[theme][qid] = {
+  stats[theme][mode] = stats[theme][mode] || {};
+  const prev = stats[theme][mode][qid];
+  stats[theme][mode][qid] = {
     streak: correct ? ((prev && prev.streak) || 0) + 1 : 0,
     last: new Date().toISOString(),
     lastCorrect: correct,
@@ -31,17 +35,43 @@ function setStat(stats, theme, qid, correct) {
   saveStats(stats);
 }
 
-// Súhrn za celú tému: koľko otázok bolo položených a koľko z toho správne
-// (súčet cez všetky otázky, počíta každý pokus, nielen posledný).
-function themeTotals(theme) {
+// Štatistika jedného módu danej témy: koľko otázok bolo v tomto móde
+// položených/správne (súčet všetkých pokusov) a koľko otázok má v tomto
+// móde poslednú odpoveď správnu.
+function modeStats(theme, mode) {
   const stats = loadStats();
-  const byId = (stats[theme.name]) || {};
-  let asked = 0, correct = 0;
-  Object.keys(byId).forEach((qid) => {
-    asked += byId[qid].timesAnswered || 0;
-    correct += byId[qid].timesCorrect || 0;
+  const byId = (stats[theme.name] && stats[theme.name][mode]) || {};
+  let asked = 0, correct = 0, mastered = 0;
+  theme.questions.forEach((q) => {
+    const s = byId[q.id];
+    if (!s) return;
+    asked += s.timesAnswered || 0;
+    correct += s.timesCorrect || 0;
+    if (s.lastCorrect) mastered++;
   });
-  return { asked, correct };
+  return { asked, correct, mastered, total: theme.questions.length };
+}
+
+// Spoločná (kombinovaná) štatistika za tému naprieč oboma módmi — používa sa
+// na karte témy na domovskej stránke. "Naposledy správne" tu znamená, že
+// posledný pokus v ktoromkoľvek z módov bol správny.
+function themeCombinedStats(theme) {
+  const m8 = modeStats(theme, "8");
+  const m4 = modeStats(theme, "4");
+  const stats = loadStats();
+  const by8 = (stats[theme.name] && stats[theme.name]["8"]) || {};
+  const by4 = (stats[theme.name] && stats[theme.name]["4"]) || {};
+  let mastered = 0;
+  theme.questions.forEach((q) => {
+    const a = by8[q.id], b = by4[q.id];
+    if ((a && a.lastCorrect) || (b && b.lastCorrect)) mastered++;
+  });
+  return {
+    asked: m8.asked + m4.asked,
+    correct: m8.correct + m4.correct,
+    mastered,
+    total: theme.questions.length,
+  };
 }
 
 // ======================================================================
@@ -54,6 +84,7 @@ function themeTotals(theme) {
 // Z otázok "na rade" sa uprednostnia tie s najnižšou sériou (najmenej
 // zvládnuté); medzi rovnako prioritnými sa vyberá náhodne. Ak nie je na
 // rade žiadna otázka, vyberie sa najdlhšie nezodpovedaná zo všetkých.
+// Výber je nezávislý pre každý mód (stat sa číta z príslušného módu).
 // ======================================================================
 function weeksSince(iso) {
   return (Date.now() - new Date(iso).getTime()) / (1000 * 60 * 60 * 24 * 7);
@@ -64,9 +95,9 @@ function isEligible(stat) {
   return weeksSince(stat.last) > stat.streak + 1;
 }
 
-function pickNextQuestionId(questionIds, theme, stats, excludeId) {
+function pickNextQuestionId(questionIds, theme, mode, stats, excludeId) {
   const pool = questionIds.filter((id) => id !== excludeId);
-  const withStat = pool.map((id) => ({ id, stat: getStat(stats, theme, id) }));
+  const withStat = pool.map((id) => ({ id, stat: getStat(stats, theme, mode, id) }));
   const eligible = withStat.filter((x) => isEligible(x.stat));
 
   const pickRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
@@ -176,12 +207,14 @@ function loadQuestionContent(theme, id) {
 // ======================================================================
 // Stav aplikácie a obrazovky
 // ======================================================================
-let themes = [];           // [{name, questions, total, mastered}]
+let themes = [];           // [{name, questions, warnings}]
 let activeTheme = null;    // {name, questions} – celá téma (pre domovskú štatistiku)
+let activeMode = "8";      // "8" alebo "4"
 let activeQuestions = [];  // aktuálne testovaná podmnožina (všetky, alebo zvolený rozsah)
 let currentQ = null;       // {id, correct, total}
+let currentVisible = [];   // reálne indexy možností zobrazených v aktuálnom kole (Mód 4 = podmnožina)
 let answered = false;
-let sessionAnswered = 0;   // počet zodpovedaných otázok v tejto session (od otvorenia témy)
+let sessionAnswered = 0;   // počet zodpovedaných otázok v tejto session (od vstupu do módu)
 let sessionCorrect = 0;    // z toho správne
 
 function renderProgress() {
@@ -194,29 +227,28 @@ function letter(i) { return String.fromCharCode(97 + i); }
 
 function showHome() {
   $("view-quiz").hidden = true;
+  $("view-mode").hidden = true;
   $("view-home").hidden = false;
   $("masthead-sub").textContent = "";
   refreshHomeStats();
 }
 
+function showMode() {
+  $("view-quiz").hidden = true;
+  $("view-home").hidden = true;
+  $("view-mode").hidden = false;
+}
+
 function showQuiz() {
   $("view-home").hidden = true;
+  $("view-mode").hidden = true;
   $("view-quiz").hidden = false;
 }
 
-// ---------- domovská stránka ----------
-function masteredCount(theme) {
-  const stats = loadStats();
-  return theme.questions.filter((q) => {
-    const s = getStat(stats, theme.name, q.id);
-    return s && s.lastCorrect;
-  }).length;
-}
-
 // ---------- smajlík podľa percenta zvládnutia ----------
-// Farba sa plynulo stupňuje od čiernej (0 %) po zelenú (100 %),
-// tvar úst/očí sa mení podľa pásma: do 50 % smutný, 50–90 % neutrálny,
-// 91–95 % usmiaty, nad 95 % smejúci sa.
+// Farba sa plynulo stupňuje od čiernej (0 %) po zelenú (100 %).
+// Pásma nálady: 0–30 % plačúci · 31–60 % smutný · 61–90 % neutrálny
+//               91–95 % usmiaty · 96–100 % smejúci sa
 function moodColor(pct) {
   const t = Math.max(0, Math.min(1, pct / 100));
   const lo = [17, 17, 17];     // takmer čierna
@@ -225,9 +257,6 @@ function moodColor(pct) {
   return "rgb(" + c.join(",") + ")";
 }
 
-// Pásma nálady podľa percenta:
-//  0–30 %  plačúci · 31–60 % smutný · 61–90 % neutrálny
-//  91–95 % usmiaty · 96–100 % smejúci sa
 function moodSvg(pct) {
   const color = moodColor(pct);
   let eyes = '<circle cx="9" cy="10.5" r="1.6" fill="#fff"/><circle cx="19" cy="10.5" r="1.6" fill="#fff"/>';
@@ -252,18 +281,16 @@ function moodSvg(pct) {
     '<circle cx="14" cy="14" r="13" fill="' + color + '"/>' + eyes + mouth + extra + '</svg>';
 }
 
+// ---------- domovská stránka ----------
 function updateThemeCard(card, theme) {
-  const done = masteredCount(theme);
-  const total = theme.questions.length;
-  const pct = total ? Math.round((done / total) * 100) : 0;
-  card.querySelector(".frac").textContent = done + " / " + total + " naposledy správne";
-  card.querySelector(".bar-fill").style.width = (total ? (done / total) * 100 : 0) + "%";
+  const s = themeCombinedStats(theme);
+  const pct = s.total ? Math.round((s.mastered / s.total) * 100) : 0;
+  card.querySelector(".frac").textContent = s.mastered + " / " + s.total + " naposledy správne";
+  card.querySelector(".bar-fill").style.width = (s.total ? (s.mastered / s.total) * 100 : 0) + "%";
   card.querySelector(".mood-icon").innerHTML = moodSvg(pct);
   card.querySelector(".mood-pct").textContent = pct + " %";
-
-  const t = themeTotals(theme);
   card.querySelector(".theme-asked").textContent =
-    t.asked ? "Položených " + t.asked + ", správne " + t.correct + "×" : "Zatiaľ netestované";
+    s.asked ? "Položených " + s.asked + ", správne " + s.correct + "×" : "Zatiaľ netestované";
 }
 
 function refreshHomeStats() {
@@ -318,27 +345,71 @@ function renderHome() {
   grid.hidden = false;
 }
 
-async function openTheme(name) {
+// ---------- výber témy -> výber módu ----------
+function openTheme(name) {
   const theme = themes.find((t) => t.name === name);
   activeTheme = theme;
-  activeQuestions = theme.questions;
+  $("masthead-sub").textContent = "/ " + name;
+  $("mode-theme-name").textContent = name;
+  showMode();
+  renderModeGrid(theme);
+}
+
+function renderModeGrid(theme) {
+  const grid = $("mode-grid");
+  grid.replaceChildren();
+
+  const defs = [
+    { mode: "8", title: "Mód 8", desc: "Zobrazia a vyhodnocujú sa všetky dostupné možnosti otázky." },
+    { mode: "4", title: "Mód 4", desc: "Z dostupných možností sa náhodne vyberú 4 (alebo menej, ak ich je menej) — vyhodnocujú sa len tie." },
+  ];
+
+  defs.forEach((def) => {
+    const s = modeStats(theme, def.mode);
+    const pct = s.total ? Math.round((s.mastered / s.total) * 100) : 0;
+
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = "mode-card";
+    card.innerHTML =
+      '<div class="theme-head"><h2></h2><div class="mood"><span class="mood-icon"></span>' +
+      '<span class="mood-pct"></span></div></div>' +
+      '<p class="mode-desc muted"></p>' +
+      '<p class="frac"></p><div class="bar"><div class="bar-fill"></div></div>' +
+      '<p class="theme-asked muted"></p>';
+    card.querySelector("h2").textContent = def.title;
+    card.querySelector(".mode-desc").textContent = def.desc;
+    card.querySelector(".mood-icon").innerHTML = moodSvg(pct);
+    card.querySelector(".mood-pct").textContent = pct + " %";
+    card.querySelector(".frac").textContent = s.mastered + " / " + s.total + " naposledy správne";
+    card.querySelector(".bar-fill").style.width = (s.total ? (s.mastered / s.total) * 100 : 0) + "%";
+    card.querySelector(".theme-asked").textContent =
+      s.asked ? "Položených " + s.asked + ", správne " + s.correct + "×" : "Zatiaľ netestované";
+    card.addEventListener("click", () => startMode(def.mode));
+    grid.appendChild(card);
+  });
+}
+
+function startMode(mode) {
+  activeMode = mode;
+  activeQuestions = activeTheme.questions;
   sessionAnswered = 0;
   sessionCorrect = 0;
-  $("masthead-sub").textContent = "/ " + name;
-  $("quiz-theme-name").textContent = name;
+  $("quiz-theme-name").textContent = activeTheme.name + " — Mód " + mode;
   showQuiz();
 
-  if (!theme.questions.length) {
+  if (!activeTheme.questions.length) {
     $("range-panel").hidden = true;
     $("card").hidden = true;
     $("quiz-empty").hidden = false;
     return;
   }
 
-  initRangePanel(theme);
+  initRangePanel(activeTheme);
   $("card").hidden = false;
   $("quiz-empty").hidden = true;
-  await nextQuestion();
+  currentQ = null;
+  nextQuestion();
 }
 
 // ---------- výber rozsahu otázok ----------
@@ -365,7 +436,7 @@ function setRangeStatus(text, warn) {
   el.style.color = warn ? "var(--bad)" : "";
 }
 
-async function applyRange() {
+function applyRange() {
   const from = Number($("range-from").value);
   const to = Number($("range-to").value);
   if (!from || !to || from > to) {
@@ -380,17 +451,17 @@ async function applyRange() {
   activeQuestions = filtered;
   setRangeStatus("Testuje sa rozsah " + from + "–" + to + " (" + filtered.length + " otázok).", false);
   currentQ = null;
-  await nextQuestion();
+  nextQuestion();
 }
 
-async function clearRange() {
+function clearRange() {
   const { min, max } = themeIdBounds(activeTheme);
   $("range-from").value = min;
   $("range-to").value = max;
   activeQuestions = activeTheme.questions;
   setRangeStatus("Testujú sa všetky otázky (" + activeQuestions.length + ").", false);
   currentQ = null;
-  await nextQuestion();
+  nextQuestion();
 }
 
 // ---------- kvíz ----------
@@ -410,10 +481,15 @@ async function nextQuestion() {
   const stats = loadStats();
   const ids = activeQuestions.map((q) => q.id);
   const prevId = currentQ ? currentQ.id : null;
-  const id = pickNextQuestionId(ids, activeTheme.name, stats, prevId);
+  const id = pickNextQuestionId(ids, activeTheme.name, activeMode, stats, prevId);
   currentQ = activeQuestions.find((q) => q.id === id);
 
   renderProgress();
+
+  // Viditeľné možnosti sa vyberú PRED vykreslením obsahu, aby text otázky
+  // (ak ide o .txt) aj checkboxy pod ním vždy zobrazovali presne tú istú
+  // štvoricu (Mód 4), nikdy nie dve rôzne náhodné výbery.
+  currentVisible = pickVisibleIndices(currentQ.total, activeMode);
 
   const content = await loadQuestionContent(activeTheme.name, id);
   $("frame").classList.remove("loading");
@@ -423,45 +499,76 @@ async function nextQuestion() {
   } else if (content.type === "text") {
     const text = content.text.replace(/^\s+/, "");
     const hasNumber = new RegExp("^" + id + "\\s*[.):]").test(text);
-    $("q-text").textContent = hasNumber ? text : id + ". " + text;
+    const withNumber = hasNumber ? text : id + ". " + text;
+    $("q-text").textContent = filterOptionLines(withNumber, currentVisible);
     $("q-text").hidden = false;
   } else {
     $("q-missing").hidden = false;
   }
 
-  renderOptions(currentQ.total);
-  renderQuestionStat(getStat(stats, activeTheme.name, id));
+  renderOptions();
+  renderQuestionStat(getStat(stats, activeTheme.name, activeMode, id));
 }
 
-// Štatistika tejto konkrétnej otázky (koľkokrát bola doteraz testovaná
-// a koľkokrát správne).
+// V Móde 4 ponechá z textu otázky len tie riadky s možnosťami (a), b)…),
+// ktorých písmeno je medzi viditeľnými — ostatné (aj zadanie pred nimi)
+// zostanú. V Móde 8 (visible = všetky) text necháva bez zmeny.
+function filterOptionLines(text, visible) {
+  const visibleSet = new Set(visible);
+  const lines = text.split(/\r?\n/);
+  const kept = lines.filter((line) => {
+    const m = line.match(/^\s*([a-hA-H])[).]\s/);
+    if (!m) return true; // zadanie, prázdny riadok a pod. — necháme
+    return visibleSet.has(m[1].toLowerCase().charCodeAt(0) - 97);
+  });
+  return kept.join("\n");
+}
+
+// Štatistika tejto konkrétnej otázky v AKTUÁLNOM móde (koľkokrát bola
+// doteraz v tomto móde testovaná a koľkokrát správne).
 function renderQuestionStat(stat) {
   const el = $("q-stat");
   const n = (stat && stat.timesAnswered) || 0;
+  const modeLabel = "Mód " + activeMode;
   if (!n) {
-    el.textContent = "Táto otázka zatiaľ nebola testovaná.";
+    el.textContent = "Táto otázka zatiaľ nebola v móde " + activeMode + " testovaná.";
   } else {
     const c = (stat && stat.timesCorrect) || 0;
-    el.textContent = "Táto otázka: testovaná " + n + "×, správne " + c + "×.";
+    el.textContent = modeLabel + ": táto otázka testovaná " + n + "×, správne " + c + "×.";
   }
 }
 
-function renderOptions(total) {
+// Mód 4: z dostupných možností (0..total-1) vyberie náhodne 4 (alebo menej,
+// ak ich je k dispozícii menej), pôvodné písmená (a, b, c…) si možnosti
+// zachovávajú — nič sa neprečísluváva.
+function pickVisibleIndices(total, mode) {
+  const all = Array.from({ length: total }, (_, i) => i);
+  if (mode !== "4" || total <= 4) return all;
+  const shuffled = all.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, 4).sort((a, b) => a - b);
+}
+
+function renderOptions() {
   const list = $("options");
   list.replaceChildren();
-  for (let i = 0; i < total; i++) {
+  currentVisible.forEach((realIdx) => {
     const li = document.createElement("li");
     li.className = "opt";
+    li.dataset.idx = String(realIdx);
     li.innerHTML = '<input type="checkbox"><span class="letter"></span>';
     const cb = li.querySelector("input");
-    cb.id = "opt-" + i;
-    li.querySelector(".letter").textContent = letter(i).toUpperCase();
+    cb.id = "opt-" + realIdx;
+    li.querySelector(".letter").textContent = letter(realIdx).toUpperCase();
     li.addEventListener("click", (e) => {
       if (answered) return;
       if (e.target !== cb) cb.checked = !cb.checked;
     });
     list.appendChild(li);
-  }
+  });
 }
 
 function evaluate() {
@@ -470,15 +577,23 @@ function evaluate() {
 
   const items = [...$("options").children];
   const selected = new Set();
-  items.forEach((li, i) => { if (li.querySelector("input").checked) selected.add(i); });
+  items.forEach((li) => {
+    const idx = Number(li.dataset.idx);
+    if (li.querySelector("input").checked) selected.add(idx);
+  });
 
-  const correct = currentQ.correct;
-  const same = selected.size === correct.size && [...selected].every((i) => correct.has(i));
+  // V Móde 4 sa vyhodnocujú len zobrazené možnosti — "správne" je tu
+  // prienik pôvodných správnych odpovedí s tými, čo boli v tomto kole
+  // na výber (v Móde 8 je to zhodné s pôvodnou množinou).
+  const visibleSet = new Set(currentVisible);
+  const correctShown = new Set([...currentQ.correct].filter((i) => visibleSet.has(i)));
+  const same = selected.size === correctShown.size && [...selected].every((i) => correctShown.has(i));
 
-  items.forEach((li, i) => {
+  items.forEach((li) => {
+    const idx = Number(li.dataset.idx);
     li.querySelector("input").disabled = true;
-    const isCorrectOpt = correct.has(i);
-    const isPicked = selected.has(i);
+    const isCorrectOpt = correctShown.has(idx);
+    const isPicked = selected.has(idx);
     if (isCorrectOpt) li.classList.add("right");
     else if (isPicked) li.classList.add("wrong");
   });
@@ -487,16 +602,17 @@ function evaluate() {
   const fb = $("feedback");
   fb.hidden = false;
   fb.className = "feedback " + (same ? "ok" : "bad");
-  if (correct.size === 0) {
-    fb.textContent = same ? "Správne — žiadna možnosť nie je správna." : "Nesprávne — žiadna možnosť nie je správna.";
+  if (correctShown.size === 0) {
+    fb.textContent = same ? "Správne — spomedzi zobrazených možností nie je žiadna správna."
+                           : "Nesprávne — spomedzi zobrazených možností nie je žiadna správna.";
   } else {
-    const list = [...correct].sort((a, b) => a - b).map((i) => letter(i).toUpperCase()).join(", ");
-    fb.textContent = (same ? "Správne. " : "Nesprávne. ") + "Správne možnosti: " + list + ".";
+    const list = [...correctShown].sort((a, b) => a - b).map((i) => letter(i).toUpperCase()).join(", ");
+    fb.textContent = (same ? "Správne. " : "Nesprávne. ") + "Správne z ponúknutých možností: " + list + ".";
   }
 
   const stats = loadStats();
-  setStat(stats, activeTheme.name, currentQ.id, same);
-  renderQuestionStat(getStat(stats, activeTheme.name, currentQ.id));
+  setStat(stats, activeTheme.name, activeMode, currentQ.id, same);
+  renderQuestionStat(getStat(stats, activeTheme.name, activeMode, currentQ.id));
 
   sessionAnswered++;
   if (same) sessionCorrect++;
@@ -510,7 +626,8 @@ function evaluate() {
 // ---------- udalosti ----------
 $("send-btn").addEventListener("click", evaluate);
 $("next-btn").addEventListener("click", nextQuestion);
-$("back-btn").addEventListener("click", showHome);
+$("back-btn").addEventListener("click", showMode);
+$("mode-back-btn").addEventListener("click", showHome);
 $("range-apply").addEventListener("click", applyRange);
 $("range-clear").addEventListener("click", clearRange);
 $("home-link").addEventListener("click", (e) => { e.preventDefault(); showHome(); });
