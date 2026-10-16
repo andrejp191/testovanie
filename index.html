@@ -29,6 +29,34 @@
   <div id="mode-grid" class="mode-grid"></div>
 </main>
 
+<!-- NASTAVENIE TESTU (Mód-Test) -->
+<main id="view-testsetup" class="wrap" hidden>
+  <nav class="crumbs">
+    <button type="button" id="testsetup-back-btn" class="link-btn">&larr; Mód</button>
+    <span id="testsetup-theme-name"></span>
+  </nav>
+  <section class="card testsetup-card">
+    <h2>Mód-Test</h2>
+    <p class="muted">
+      Vyber počet otázok. Otázky sa vyberú úplne náhodne z celej témy; na každú
+      sa — rovnako ako v Móde 4 — ponúknu 4 náhodné možnosti. Za každú správne
+      zodpovedanú možnosť získaš 1 bod (max. 4 body na otázku). Odpovede sa
+      zároveň počítajú aj do štatistiky Módu 4.
+    </p>
+    <div class="test-presets" role="group" aria-label="Rýchly výber počtu otázok">
+      <button type="button" class="btn secondary" data-count="10">10</button>
+      <button type="button" class="btn secondary" data-count="20">20</button>
+      <button type="button" class="btn secondary" data-count="50">50</button>
+      <button type="button" class="btn secondary" data-count="100">100</button>
+    </div>
+    <label class="test-count-label">Počet otázok
+      <input type="number" id="test-count-input" min="1" value="10" inputmode="numeric">
+    </label>
+    <p id="testsetup-status" class="muted range-status"></p>
+    <button type="button" id="test-start-btn" class="btn primary">Spustiť test</button>
+  </section>
+</main>
+
 <!-- KVÍZ -->
 <main id="view-quiz" class="wrap" hidden>
   <nav class="crumbs">
@@ -65,6 +93,23 @@
   </section>
 
   <p id="quiz-empty" class="muted" hidden>V tejto téme nie sú žiadne otázky.</p>
+</main>
+
+<!-- VÝSLEDKY TESTU -->
+<main id="view-results" class="wrap" hidden>
+  <nav class="crumbs">
+    <span id="results-theme"></span>
+  </nav>
+  <section class="card results-card">
+    <h2>Výsledok testu</h2>
+    <p class="muted" id="results-count"></p>
+    <p class="results-score" id="results-score"></p>
+    <p class="results-pct" id="results-pct"></p>
+    <div class="results-actions">
+      <button type="button" id="results-retry-btn" class="btn primary">Nový test</button>
+      <button type="button" id="results-mode-btn" class="btn secondary">Späť na výber módu</button>
+    </div>
+  </section>
 </main>
 
 <script src="script.js"></script>

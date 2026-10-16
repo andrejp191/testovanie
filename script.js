@@ -209,15 +209,33 @@ function loadQuestionContent(theme, id) {
 // ======================================================================
 let themes = [];           // [{name, questions, warnings}]
 let activeTheme = null;    // {name, questions} – celá téma (pre domovskú štatistiku)
-let activeMode = "8";      // "8" alebo "4"
-let activeQuestions = [];  // aktuálne testovaná podmnožina (všetky, alebo zvolený rozsah)
+let activeMode = "8";      // "8", "4" alebo "test"
+let activeQuestions = [];  // aktuálne testovaná podmnožina (všetky, alebo zvolený rozsah) – Mód 8/4
 let currentQ = null;       // {id, correct, total}
-let currentVisible = [];   // reálne indexy možností zobrazených v aktuálnom kole (Mód 4 = podmnožina)
+let currentVisible = [];   // reálne indexy možností zobrazených v aktuálnom kole (Mód 4/Test = podmnožina)
 let answered = false;
-let sessionAnswered = 0;   // počet zodpovedaných otázok v tejto session (od vstupu do módu)
+let sessionAnswered = 0;   // počet zodpovedaných otázok v tejto session (Mód 8/4, od vstupu do módu)
 let sessionCorrect = 0;    // z toho správne
 
+// Mód-Test: pevný, vopred vyžrebovaný zoznam otázok a priebežné bodovanie.
+// Odpovede z tohto módu sa ukladajú do rovnakej štatistiky ako Mód 4
+// (rovnaký spôsob testovania — 4 náhodné možnosti), Mód-Test sám osebe
+// žiadnu vlastnú trvalú štatistiku na otázku nevedie.
+let testQuestionIds = [];
+let testIndex = 0;
+let testScore = 0;
+let testMax = 0;
+
+// Mód, pod ktorým sa ukladá a číta trvalá štatistika otázky: Mód 8 má
+// vlastné vedro, Mód 4 aj Mód-Test zdieľajú vedro "4" (rovnaký spôsob testu).
+function statsModeFor(mode) { return mode === "8" ? "8" : "4"; }
+
 function renderProgress() {
+  if (activeMode === "test") {
+    $("quiz-progress").textContent =
+      "Otázka " + testIndex + " / " + testQuestionIds.length + " — skóre: " + testScore + " / " + testMax + " b.";
+    return;
+  }
   const q = currentQ ? "Otázka č. " + currentQ.id : "";
   const s = "Séria: " + sessionCorrect + "/" + sessionAnswered + " správne";
   $("quiz-progress").textContent = q ? q + " — " + s : s;
@@ -225,24 +243,23 @@ function renderProgress() {
 
 function letter(i) { return String.fromCharCode(97 + i); }
 
+const SCREENS = ["view-home", "view-mode", "view-testsetup", "view-quiz", "view-results"];
+function showScreen(id) {
+  SCREENS.forEach((s) => { $(s).hidden = (s !== id); });
+}
+
 function showHome() {
-  $("view-quiz").hidden = true;
-  $("view-mode").hidden = true;
-  $("view-home").hidden = false;
+  showScreen("view-home");
   $("masthead-sub").textContent = "";
   refreshHomeStats();
 }
 
 function showMode() {
-  $("view-quiz").hidden = true;
-  $("view-home").hidden = true;
-  $("view-mode").hidden = false;
+  showScreen("view-mode");
 }
 
 function showQuiz() {
-  $("view-home").hidden = true;
-  $("view-mode").hidden = true;
-  $("view-quiz").hidden = false;
+  showScreen("view-quiz");
 }
 
 // ---------- smajlík podľa percenta zvládnutia ----------
@@ -388,6 +405,83 @@ function renderModeGrid(theme) {
     card.addEventListener("click", () => startMode(def.mode));
     grid.appendChild(card);
   });
+
+  // Mód-Test — bez vlastnej trvalej štatistiky (odpovede idú do vedra Módu 4),
+  // preto tu nezobrazujeme percento/pruh, len krátky popis.
+  const testCard = document.createElement("button");
+  testCard.type = "button";
+  testCard.className = "mode-card";
+  testCard.innerHTML =
+    '<h2></h2><p class="mode-desc muted"></p>';
+  testCard.querySelector("h2").textContent = "Mód-Test";
+  testCard.querySelector(".mode-desc").textContent =
+    "Pevný počet úplne náhodne vybraných otázok z celej témy, bodované vyhodnotenie na konci. " +
+    "Testuje sa rovnako ako v Móde 4, takže odpovede sa počítajú aj do jeho štatistiky.";
+  testCard.addEventListener("click", showTestSetup);
+  grid.appendChild(testCard);
+}
+
+// ---------- Mód-Test: nastavenie počtu otázok ----------
+function showTestSetup() {
+  showScreen("view-testsetup");
+  $("testsetup-theme-name").textContent = activeTheme.name;
+  $("test-count-input").value = 10;
+  $("test-count-input").max = activeTheme.questions.length || 1;
+  setTestSetupStatus("Táto téma má spolu " + activeTheme.questions.length + " otázok.", false);
+}
+
+function setTestSetupStatus(text, warn) {
+  const el = $("testsetup-status");
+  el.textContent = text;
+  el.style.color = warn ? "var(--bad)" : "";
+}
+
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startTest() {
+  const total = activeTheme.questions.length;
+  if (!total) {
+    setTestSetupStatus("V tejto téme nie sú žiadne otázky.", true);
+    return;
+  }
+  let n = Math.floor(Number($("test-count-input").value));
+  if (!n || n < 1) n = 10;
+  if (n > total) {
+    n = total;
+    setTestSetupStatus("Téma má len " + total + " otázok — test bude mať " + total + " otázok.", true);
+  }
+
+  const ids = shuffleArray(activeTheme.questions.map((q) => q.id)).slice(0, n);
+  testQuestionIds = ids;
+  testIndex = 0;
+  testScore = 0;
+  testMax = 0;
+
+  activeMode = "test";
+  activeQuestions = activeTheme.questions;
+  $("quiz-theme-name").textContent = activeTheme.name + " — Test (" + n + ")";
+  $("range-panel").hidden = true;   // v Móde-Test sa rozsah nevyberá, ide sa z celej témy
+  showQuiz();
+  $("card").hidden = false;
+  $("quiz-empty").hidden = true;
+  currentQ = null;
+  nextQuestion();
+}
+
+function showResults() {
+  showScreen("view-results");
+  const pct = testMax ? Math.round((testScore / testMax) * 100) : 0;
+  $("results-theme").textContent = activeTheme.name + " — Mód-Test";
+  $("results-count").textContent = testQuestionIds.length + " otázok";
+  $("results-score").textContent = "Skóre: " + testScore + " / " + testMax + " bodov";
+  $("results-pct").textContent = pct + " % správne";
 }
 
 function startMode(mode) {
@@ -479,10 +573,18 @@ async function nextQuestion() {
   $("frame").classList.add("loading");
 
   const stats = loadStats();
-  const ids = activeQuestions.map((q) => q.id);
-  const prevId = currentQ ? currentQ.id : null;
-  const id = pickNextQuestionId(ids, activeTheme.name, activeMode, stats, prevId);
-  currentQ = activeQuestions.find((q) => q.id === id);
+  const statsMode = statsModeFor(activeMode);
+  let id;
+  if (activeMode === "test") {
+    if (testIndex >= testQuestionIds.length) { showResults(); return; }
+    id = testQuestionIds[testIndex];
+    testIndex++;
+  } else {
+    const ids = activeQuestions.map((q) => q.id);
+    const prevId = currentQ ? currentQ.id : null;
+    id = pickNextQuestionId(ids, activeTheme.name, activeMode, stats, prevId);
+  }
+  currentQ = activeTheme.questions.find((q) => q.id === id);
 
   renderProgress();
 
@@ -507,7 +609,7 @@ async function nextQuestion() {
   }
 
   renderOptions();
-  renderQuestionStat(getStat(stats, activeTheme.name, activeMode, id));
+  renderQuestionStat(getStat(stats, activeTheme.name, statsMode, id), statsMode);
 }
 
 // V Móde 4 ponechá z textu otázky len tie riadky s možnosťami (a), b)…),
@@ -524,26 +626,26 @@ function filterOptionLines(text, visible) {
   return kept.join("\n");
 }
 
-// Štatistika tejto konkrétnej otázky v AKTUÁLNOM móde (koľkokrát bola
-// doteraz v tomto móde testovaná a koľkokrát správne).
-function renderQuestionStat(stat) {
+// Štatistika tejto konkrétnej otázky vo vedre "statsMode" (Mód 8, alebo
+// spoločné vedro Módu 4 / Módu-Test), do ktorého sa práve ukladá.
+function renderQuestionStat(stat, statsMode) {
   const el = $("q-stat");
   const n = (stat && stat.timesAnswered) || 0;
-  const modeLabel = "Mód " + activeMode;
+  const label = "Mód " + statsMode;
   if (!n) {
-    el.textContent = "Táto otázka zatiaľ nebola v móde " + activeMode + " testovaná.";
+    el.textContent = "Táto otázka zatiaľ nebola v Móde " + statsMode + " testovaná.";
   } else {
     const c = (stat && stat.timesCorrect) || 0;
-    el.textContent = modeLabel + ": táto otázka testovaná " + n + "×, správne " + c + "×.";
+    el.textContent = label + ": táto otázka testovaná " + n + "×, správne " + c + "×.";
   }
 }
 
-// Mód 4: z dostupných možností (0..total-1) vyberie náhodne 4 (alebo menej,
-// ak ich je k dispozícii menej), pôvodné písmená (a, b, c…) si možnosti
-// zachovávajú — nič sa neprečísluváva.
+// Mód 4 a Mód-Test: z dostupných možností (0..total-1) vyberie náhodne 4
+// (alebo menej, ak ich je k dispozícii menej), pôvodné písmená (a, b, c…)
+// si možnosti zachovávajú — nič sa neprečísluváva. V Móde 8 sa nič nekráti.
 function pickVisibleIndices(total, mode) {
   const all = Array.from({ length: total }, (_, i) => i);
-  if (mode !== "4" || total <= 4) return all;
+  if (mode === "8" || total <= 4) return all;
   const shuffled = all.slice();
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -601,36 +703,71 @@ function evaluate() {
 
   const fb = $("feedback");
   fb.hidden = false;
-  fb.className = "feedback " + (same ? "ok" : "bad");
-  if (correctShown.size === 0) {
-    fb.textContent = same ? "Správne — spomedzi zobrazených možností nie je žiadna správna."
-                           : "Nesprávne — spomedzi zobrazených možností nie je žiadna správna.";
+
+  if (activeMode === "test") {
+    // Bodovanie Módu-Test: 1 bod za každú zobrazenú možnosť, kde sa moje
+    // zaškrtnutie (áno/nie) zhoduje so skutočnosťou — max. toľko bodov,
+    // koľko bolo možností zobrazených (zvyčajne 4).
+    let score = 0;
+    currentVisible.forEach((idx) => {
+      if (selected.has(idx) === correctShown.has(idx)) score++;
+    });
+    const qMax = currentVisible.length;
+    testScore += score;
+    testMax += qMax;
+
+    fb.className = "feedback " + (score === qMax ? "ok" : (score === 0 ? "bad" : "partial"));
+    fb.textContent = "Skóre tejto otázky: " + score + " / " + qMax + " bodov.";
   } else {
-    const list = [...correctShown].sort((a, b) => a - b).map((i) => letter(i).toUpperCase()).join(", ");
-    fb.textContent = (same ? "Správne. " : "Nesprávne. ") + "Správne z ponúknutých možností: " + list + ".";
+    fb.className = "feedback " + (same ? "ok" : "bad");
+    if (correctShown.size === 0) {
+      fb.textContent = same ? "Správne — spomedzi zobrazených možností nie je žiadna správna."
+                             : "Nesprávne — spomedzi zobrazených možností nie je žiadna správna.";
+    } else {
+      const list = [...correctShown].sort((a, b) => a - b).map((i) => letter(i).toUpperCase()).join(", ");
+      fb.textContent = (same ? "Správne. " : "Nesprávne. ") + "Správne z ponúknutých možností: " + list + ".";
+    }
   }
 
+  // Odpoveď sa vždy zapíše do trvalej štatistiky (Mód 8 má vlastné vedro,
+  // Mód 4 aj Mód-Test zdieľajú jedno — rovnaký spôsob testovania).
+  const statsMode = statsModeFor(activeMode);
   const stats = loadStats();
-  setStat(stats, activeTheme.name, activeMode, currentQ.id, same);
-  renderQuestionStat(getStat(stats, activeTheme.name, activeMode, currentQ.id));
+  setStat(stats, activeTheme.name, statsMode, currentQ.id, same);
+  renderQuestionStat(getStat(stats, activeTheme.name, statsMode, currentQ.id), statsMode);
 
-  sessionAnswered++;
-  if (same) sessionCorrect++;
+  if (activeMode !== "test") {
+    sessionAnswered++;
+    if (same) sessionCorrect++;
+  }
   renderProgress();
 
   $("send-btn").hidden = true;
   $("next-btn").hidden = false;
+  $("next-btn").textContent =
+    (activeMode === "test" && testIndex >= testQuestionIds.length) ? "Zobraziť výsledky" : "Ďalšia otázka";
   $("next-btn").focus();
 }
 
 // ---------- udalosti ----------
 $("send-btn").addEventListener("click", evaluate);
-$("next-btn").addEventListener("click", nextQuestion);
+$("next-btn").addEventListener("click", () => {
+  if (activeMode === "test" && testIndex >= testQuestionIds.length) showResults();
+  else nextQuestion();
+});
 $("back-btn").addEventListener("click", showMode);
 $("mode-back-btn").addEventListener("click", showHome);
 $("range-apply").addEventListener("click", applyRange);
 $("range-clear").addEventListener("click", clearRange);
 $("home-link").addEventListener("click", (e) => { e.preventDefault(); showHome(); });
+
+$("testsetup-back-btn").addEventListener("click", showMode);
+$("test-start-btn").addEventListener("click", startTest);
+document.querySelectorAll(".test-presets [data-count]").forEach((btn) => {
+  btn.addEventListener("click", () => { $("test-count-input").value = btn.dataset.count; });
+});
+$("results-retry-btn").addEventListener("click", showTestSetup);
+$("results-mode-btn").addEventListener("click", showMode);
 
 // ======================================================================
 // Štart
