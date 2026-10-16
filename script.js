@@ -74,6 +74,19 @@ function themeCombinedStats(theme) {
   };
 }
 
+// Posledný dokončený Mód-Test danej témy (uložené mimo vedier "8"/"4",
+// keďže toto je výsledok celého testu, nie štatistika jednej otázky).
+function saveLastTestResult(theme, score, max, count) {
+  const stats = loadStats();
+  stats[theme] = stats[theme] || {};
+  stats[theme].lastTest = { score, max, count, date: new Date().toISOString() };
+  saveStats(stats);
+}
+function getLastTestResult(theme) {
+  const stats = loadStats();
+  return (stats[theme] && stats[theme].lastTest) || null;
+}
+
 // ======================================================================
 // STRATÉGIA VÝBERU OTÁZOK — dá sa neskôr jednoducho zmeniť/vymeniť.
 //
@@ -406,17 +419,30 @@ function renderModeGrid(theme) {
     grid.appendChild(card);
   });
 
-  // Mód-Test — bez vlastnej trvalej štatistiky (odpovede idú do vedra Módu 4),
-  // preto tu nezobrazujeme percento/pruh, len krátky popis.
+  // Mód-Test — rovnaký vzhľad ako Mód 8/4 (smajlík + percento), len namiesto
+  // "naposledy správne za celú tému" ukazuje percento posledného testu
+  // (bez vlastnej trvalej štatistiky na otázku — tá ide do vedra Módu 4).
+  const last = getLastTestResult(theme.name);
+  const pct = last && last.max ? Math.round((last.score / last.max) * 100) : 0;
+
   const testCard = document.createElement("button");
   testCard.type = "button";
   testCard.className = "mode-card";
   testCard.innerHTML =
-    '<h2></h2><p class="mode-desc muted"></p>';
+    '<div class="theme-head"><h2></h2><div class="mood"><span class="mood-icon"></span>' +
+    '<span class="mood-pct"></span></div></div>' +
+    '<p class="mode-desc muted"></p>' +
+    '<p class="theme-asked muted"></p>';
   testCard.querySelector("h2").textContent = "Mód-Test";
   testCard.querySelector(".mode-desc").textContent =
     "Pevný počet úplne náhodne vybraných otázok z celej témy, bodované vyhodnotenie na konci. " +
-    "Testuje sa rovnako ako v Móde 4, takže odpovede sa počítajú aj do jeho štatistiky.";
+    "Testuje sa rovnako ako v Móde 4.";
+  testCard.querySelector(".mood-icon").innerHTML = moodSvg(pct);
+  testCard.querySelector(".mood-pct").textContent = pct + " %";
+  testCard.querySelector(".theme-asked").textContent = last
+    ? "Posledný test: " + last.score + " / " + last.max + " b. (" + last.count + " otázok)"
+    : "Zatiaľ žiadny dokončený test.";
+
   testCard.addEventListener("click", showTestSetup);
   grid.appendChild(testCard);
 }
@@ -476,6 +502,7 @@ function startTest() {
 }
 
 function showResults() {
+  saveLastTestResult(activeTheme.name, testScore, testMax, testQuestionIds.length);
   showScreen("view-results");
   const pct = testMax ? Math.round((testScore / testMax) * 100) : 0;
   $("results-theme").textContent = activeTheme.name + " — Mód-Test";
