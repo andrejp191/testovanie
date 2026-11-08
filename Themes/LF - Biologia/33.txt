@@ -1,6 +1,0 @@
-Ak chceme pri pokusoch zabrániť náhodným chybám a omylom, je najdôležitejšie:
-
-a) zapisovať výsledky
-b) stanoviť jasný cieľ
-c) viackrát ich opakovať
-d) používať modelové organizmy
