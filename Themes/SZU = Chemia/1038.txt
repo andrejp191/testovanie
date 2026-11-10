@@ -1,0 +1,6 @@
+O exergonických a exotermických reakciách platí:
+
+a) nelíšia sa ničím
+b) v obidvoch typoch sa uvoľňuje teplo, ale exergonické reakcie prebiehajú len v živých sústavách
+c) pri exergonických reakciách sa uvoľňuje Gibbsova energia, ktorá sa ukladá do ATP
+d) pri exotermických reakciách sa uvoľňuje reakčné teplo, ktoré sústava odovzdá okoliu

@@ -1,0 +1,6 @@
+O prvkoch hlavných skupín v PSP platí:
+
+a) maximálne kladné oxidačné číslo daného prvku je rovnaké ako číslo periódy, v ktorej sa prvok nachádza
+b) maximálne kladné oxidačné číslo daného prvku je rovnaké ako číslo skupiny, v ktorej sa prvok nachádza
+c) v danej perióde so stúpajúcim protónovým číslom vzrastá elektronegativita
+d) v danej skupine so stúpajúcim protónovým číslom vzrastá elektronegativita

@@ -1,0 +1,6 @@
+Rýchlosť chemickej reakcie:
+
+a) vypočítame pomocou energetickej bilancie chemického deja
+b) v = Δt/Δc
+c) v = Δc/Δt
+d) má jednotku mol . dm-3 . s-1

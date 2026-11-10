@@ -1,0 +1,6 @@
+Látková premena v živých sústavách využíva okrem jednoduchej difúzie:
+
+a) aktívny transport, ktorý podmieňuje prechod látky pomocou prenášačov proti koncentračnému spádu bez dodávania energie
+b) uľahčený transport, čo je prechod látky pomocou prenášačov v smere koncentračného spádu, pričom nie je potrebné dodávať energiu
+c) uľahčený transport, ktorý smeruje proti difúzii, pričom sa energia musí dodávať
+d) aktívny transport, čo je prechod látky pomocou prenášačov proti koncentračnému spádu, ktorý vyžaduje dodávanie energie

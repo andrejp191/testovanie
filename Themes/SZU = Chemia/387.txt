@@ -1,0 +1,6 @@
+Indukčný efekt môže byť:
+
+a) kladný, ak atómy alebo skupiny spôsobia zvýšenie elektrónovej hustoty na susednom atóme
+b) záporný, ak atómy alebo skupiny spôsobia zvýšenie elektrónovej hustoty na susednom atóme
+c) vždy len záporný, pretože ide o posun elektrónov
+d) kladný alebo záporný

@@ -1,0 +1,6 @@
+O reaktivite aldehydov a ketónov neplatí:
+
+a) závisí od charakteru jednoväzbových skupín, ktoré sú naviazané na karbonylovom uhlíku
+b) je približne rovnaká, pretože aldehydy aj ketóny obsahujú rovnakú karbonylovú skupinu
+c) aldehydy sú pri nukleofilných adíciách reaktívnejšie ako ketóny
+d) reaktivita karbonylových zlúčenín závisí od pozitívneho čiastkového kladného náboja na karbonylovom uhlíku

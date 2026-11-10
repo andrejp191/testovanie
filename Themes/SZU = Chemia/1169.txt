@@ -1,0 +1,6 @@
+Určte pH a pOH roztoku, ktorý vznikne doplnením 20 g 0,02 % roztoku NaOH do objemu 1000 ml.
+
+a) pH = 10
+b) pOH = 10
+c) pH = 4
+d) pOH = 4

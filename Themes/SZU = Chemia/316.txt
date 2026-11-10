@@ -1,0 +1,6 @@
+Nasýtený roztok soli vznikne ak:
+
+a) súčin koncentrácií voľných iónov soli v roztoku sa v rovnovážnom stave rovná jednej
+b) sa súčin rovnovážnych molárnych koncentrácií voľných iónov soli v roztoku umocnených ich stechiometrickými koeficientami rovná súčinu rozpustnosti danej látky
+c) v rovnovážnom stave je v roztoku koncentrácia rozpustenej soli a nerozpustenej látky vždy rovnaká
+d) za daných podmienok je v roztoku rozpustené maximálne množstvo látky dané hodnotou Ks

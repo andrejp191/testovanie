@@ -1,0 +1,6 @@
+Roztok A obsahuje kyselinu octovú s koncentráciou 0,2mol/l a roztok B obsahuje octan sodný s rovnakou koncentráciou, potom platí (ak sa neberie do úvahy následná hydrolýza soli):
+
+a) koncentrácia octanových aniónov je v obidvoch roztokoch rovnaká
+b) koncentrácia octanových aniónov je väčšia v roztoku B
+c) koncentrácia octanových aniónov je väčšia v roztoku A
+d) octan sodný vo vode nedisociuje

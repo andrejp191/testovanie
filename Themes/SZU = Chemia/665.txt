@@ -1,0 +1,6 @@
+Aldolová kondenzácia medzi formaldehydom a benzaldehydom:
+
+a) začína vždy na formaldehyde, lebo je reaktívnejší
+b) začína vždy na benzaldehyde, lebo má väčšiu elektrónovú hustotu na benzénovom jadre
+c) nemôže prebiehať, lebo formaldehyd nemá α-uhlík a benzaldehyd nemá na α-uhlíku naviazaný atóm vodíka
+d) nemôže prebiehať, lebo formaldehyd a benzaldehyd majú α-uhlík, ale nie je na ňom naviazaný atóm vodíka

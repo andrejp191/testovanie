@@ -1,0 +1,6 @@
+Teplota topenia lipidov:
+
+a) závisí len od dĺžky reťazca esterifikovanej karboxylovej kyseliny
+b) závisí len od počtu nenasýtených väzieb v molekule
+c) závisí od dĺžky reťazca esterifikovanej karboxylovej kyseliny a od počtu nenasýtených väzieb v jej molekule
+d) je tým nižšia, čím je reťazec karboxylových kyselín kratší a čím má viac nenasýtených väzieb v molekule

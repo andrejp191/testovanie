@@ -1,0 +1,6 @@
+Aktívne centrum enzýmu je:
+
+a) časť enzýmu, kde sú vytvorené len vhodné väzbové podmienky na naviazanie substrátu
+b) miesto enzýmu, kde sú vytvorené vhodné väzbové a priestorové podmienky na naviazanie substrátu
+c) vždy totožné s alosterickým centrom
+d) miesto, kde je naviazaný koenzým

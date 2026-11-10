@@ -1,0 +1,6 @@
+Ak n = 3, potom platí, že:
+
+a) l môže mať tiež hodnotu 3
+b) maximálny počet elektrónov v elektrónovom obale je 10
+c) celkový počet elektrónov je 22
+d) vedľajšie kvantové číslo má hodnotu 0, 1, 2

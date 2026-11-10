@@ -1,0 +1,6 @@
+Špecifickosť enzýmu:
+
+a) účinková súvisí so štruktúrou alosterického centra enzýmu
+b) účinková súvisí s koenzýmom
+c) účinková predstavuje schopnosť enzýmu katalyzovať len jednu z termodynamicky možných premien substrátu
+d) je spôsobená presnými interakciami substrátu s enzýmom

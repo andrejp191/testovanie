@@ -1,0 +1,6 @@
+Metabolické dráhy môžu byť:
+
+a) len anabolické, pri ktorých z jednoduchých látok vznikajú látky zložité, napríklad proteosyntéza
+b) len katabolické, pri ktorých sa zložité látky v organizme rozkladajú za vzniku energie
+c) anabolické, katabolické a amfibolické
+d) redoxné a hydrolytické

@@ -1,0 +1,6 @@
+Reaktivitu organických zlúčenín ovplyvňuje:
+
+a) prítomnosť násobnej väzby
+b) indukčný efekt
+c) len počet atómov uhlíka v reťazci
+d) mezomérny efekt

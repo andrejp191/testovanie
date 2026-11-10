@@ -1,0 +1,6 @@
+O citrátovom cykle platí:
+
+a) začína kondenzáciou acetyl-CoA s kyselinou oxáloctovou
+b) kondenzáciou acetyl-CoA s kyselinou oxáloctovou vzniká kyselina citrónová
+c) kyselina citrónová v cykle hydrolyzuje na kyselinu 2-oxoglutárovú
+d) dehydrogenáciou a dekarboxyláciou kyseliny 2-oxoglutárovej vzniká priamo kyselina oxáloctová

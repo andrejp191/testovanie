@@ -1,0 +1,6 @@
+Pre hodnotu súčinu rozpustnosti K platí: s
+
+a) K závisí len od teploty a typu rozpúšťanej látky s
+b) čím je pri danej teplote hodnota K väčšia, tým je látka nerozpustnejšia s
+c) charakterizuje rozpustnosť tuhých elektrolytov
+d) je konštanta, ktorá charakterizuje iónovú rovnováhu v roztokoch málo rozpustných elektrolytov

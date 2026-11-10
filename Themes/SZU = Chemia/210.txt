@@ -1,0 +1,6 @@
+Pre endotermické reakcie platí:
+
+a) reaktanty chemických reakcií sú nestabilnejšie ako produkty
+b) produkty endotermických reakcií sú nestabilnejšie ako reaktanty
+c) pri endotermických reakciách musíme energiu dodávať
+d) energia väzieb v produktoch endotermických reakcií je menšia ako v reaktantoch

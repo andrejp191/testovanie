@@ -1,0 +1,6 @@
+Acylglyceroly:
+
+a) môžu byť mono-, di-, tri-acylglyceroly
+b) sú jednoduché, ak v molekule obsahujú len nasýtené mastné kyseliny
+c) sú zmiešané ak je glycerol esterifikovaný aspoň dvomi rôznymi mastnými kyselinami
+d) obsahujú v molekule okrem vyššej karboxylovej kyseliny aj jednosýtny alkohol s dlhým uhlíkovým reťazcom

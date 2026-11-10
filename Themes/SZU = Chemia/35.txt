@@ -1,0 +1,6 @@
+Zloženie roztoku vyjadrujeme ako:
+
+a) koncentráciu látkového množstva látky A, čo je počet molov látky A v 1 litri rozpúšťadla
+b) koncentráciu látkového množstva látky A, čo je počet molov látky A v 1 dm3 roztoku
+c) hmotnostnú koncentráciu látky A, čo je podiel hmotnosti látky A a hmotnosti roztoku
+d) hmotnostnú koncentráciu látky A, čo je podiel hmotnosti látky A a objemu roztoku

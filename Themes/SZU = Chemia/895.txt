@@ -1,0 +1,6 @@
+O mastných kyselinách platí, že sú to:
+
+a) všetky karboxylové kyseliny, ktoré sú nerozpustné vo vode
+b) nerozvetvené karboxylové kyseliny, ktoré majú aspoň 16 atómov uhlíka a párny počet uhlíkov
+c) nerozvetvené karboxylové kyseliny s minimálne šestnástimi atómami uhlíka v molekule
+d) aromatické karboxylové kyseliny

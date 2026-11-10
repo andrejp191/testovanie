@@ -1,0 +1,6 @@
+Rýchlosť chemickej reakcie:
+
+a) závisí nepriamo úmerne od koncentrácie reaktantov
+b) vypočítame podľa Guldbergovho – Waageho zákona
+c) závisí len od koncentrácie reaktantov a teploty
+d) vypočítame podľa Hessovho zákona

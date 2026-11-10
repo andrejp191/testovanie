@@ -1,0 +1,6 @@
+Štruktúrna (konštitučná) izoméria:
+
+a) je daná povahou a usporiadaním atómov, skupín atómov, typom väzieb a spôsobom viazania
+b) je typ stereoizomérie
+c) môže byť cis-/trans-
+d) je daná prítomnosťou dvojitej väzby medzi atómami uhlíka

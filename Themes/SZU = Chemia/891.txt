@@ -1,0 +1,6 @@
+Vyberte esenciálne mastné kyseliny:
+
+a) CH–(CH ) –CH=CH–(CH )–COOH 3 2 7 2 7
+b) CH–(CH )–CH=CH–CH –CH=CH–(CH) –COOH 3 2 4 2 2 7
+c) CH–CH –CH=CH–CH –CH=CH–CH–CH=CH–(CH )–COOH 3 2 2 2 2 7
+d) CH–CH –CH=CH–CH(CH )–CH=C(CH)–CH(CH )–CH=CH–(CH) –COOH 3 2 3 3 3 2 7

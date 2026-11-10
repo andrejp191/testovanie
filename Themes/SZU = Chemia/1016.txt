@@ -1,0 +1,6 @@
+Medzi nukleozidy nepatrí (otázka rozlišuje nukleozidy a deoxynukleozidy):
+
+a) adenozín
+b) tymidín
+c) guanidín
+d) uridín

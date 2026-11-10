@@ -1,0 +1,6 @@
+Deriváty uhľovodíkov:
+
+a) sú uhľovodíky, ktoré majú v molekule atóm uhlíka nahradený iným atómom, napríklad chlórom
+b) sú uhľovodíky, ktoré majú v molekule vždy len jeden atóm vodíka nahradený iným atómom, alebo skupinou atómov
+c) sú zlúčeniny odvodené od uhľovodíkov, ktoré majú v molekule jeden alebo viac atómov vodíka nahradený iným atómom alebo skupinou atómov
+d) môžu byť napríklad dusíkaté a kyslíkaté

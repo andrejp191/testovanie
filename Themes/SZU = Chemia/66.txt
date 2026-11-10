@@ -1,0 +1,6 @@
+Číslo periódy:
+
+a) je zhodné s najvyšším hlavným kvantovým číslom daného prvku
+b) udáva, ktorú elektrónovú vrstvu si prvok buduje
+c) udáva počet protónov
+d) udáva počet neutrónov

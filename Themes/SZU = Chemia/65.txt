@@ -1,0 +1,6 @@
+Číslo skupiny:
+
+a) je zhodné s hlavným kvantovým číslom daného prvku
+b) je rovnaké ako počet valenčných elektrónov daného prvku
+c) udáva počet protónov
+d) je rovnaké ako maximálne kladné oxidačné číslo daného prvku

@@ -1,0 +1,6 @@
+Inhibícia enzýmu:
+
+a) môže byť vratná alebo nevratná
+b) je kompetitívna alebo nekompetitívna
+c) nemôže byť alosterická
+d) môže byť len nevratná

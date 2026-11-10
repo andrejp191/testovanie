@@ -1,0 +1,6 @@
+Vyberte, čo platí o osmotickom tlaku:
+
+a) je pri rovnakej koncentrácii rovnaký v roztoku elektrolytu aj neelektrolytu
+b) ak sa v roztoku nachádza elektrolyt aj neelektrolyt, osmotický tlak závisí len od koncentrácie elektrolytu
+c) pomocou osmotického tlaku môžeme zistiť molekulovú hmotnosť neelektrolytu podľa rovnice M = (i.m.R.T) / (π.V)
+d) je tlak, ktorým musíme pôsobiť na povrch roztoku, aby sa zabránilo prenikaniu rozpúšťadla cez polopriepustnú membránu

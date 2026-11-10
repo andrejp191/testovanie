@@ -1,0 +1,6 @@
+Aktiváciu enzýmu môže vyvolať:
+
+a) odštiepenie nízkomolekulovej časti peptidového reťazca
+b) chemická modifikácia, napríklad fosforylácia
+c) naviazanie alosterického aktivátora na aktívne centrum enzýmu
+d) pôsobenie katiónov niektorých kovov ako napríklad Zn2+, Mg2+, Cd2+

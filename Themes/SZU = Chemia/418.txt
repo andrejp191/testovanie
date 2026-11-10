@@ -1,0 +1,6 @@
+Vyberte, ktoré dvojice zlúčenín predstavujú tautoméry:
+
+a) CH-CH -COOH a CH -O-CH 3 2 3 3
+b) CH=CH-OH a CH-CHO 2 3
+c) CH-O-CH a (CH-CH )O 3 3 3 2 2
+d) CH=C(OH)-CH a CH -CO-CH 2 3 3 3

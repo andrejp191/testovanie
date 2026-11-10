@@ -1,0 +1,6 @@
+Chemická rovnováha:
+
+a) je stav, pri ktorom je koncentrácia východiskových látok aj produktov rovnaká a rovná sa jednej
+b) je stav, pri ktorom je koncentrácia východiskových látok a produktov konštantná vzhľadom na čas
+c) nastáva v každom uzavretom reakčnom systéme v dôsledku neusporiadaného pohybu častíc
+d) je statický stav

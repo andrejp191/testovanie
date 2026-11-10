@@ -1,0 +1,6 @@
+O chemických vzorcoch v organickej chémii platí:
+
+a) používame len sumárne, molekulové vzorce, ktoré určujú počet jednotlivých atómov v molekule
+b) nestačí poznať len molekulový vzorec, lebo v organickej chémii je dôležité poznať aj štruktúru molekuly
+c) štruktúrny vzorec vyjadruje poradie, spôsob a typ viazania jednotlivých atómov v molekule
+d) štruktúrny elektrónový vzorec uvádza aj usporiadanie valenčných elektrónov v atóme alebo molekule

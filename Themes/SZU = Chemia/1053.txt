@@ -1,0 +1,6 @@
+V procese glykolýzy sú nevratné reakcie:
+
+a) glukózy s ATP, za vzniku glukóza-6-fosfátu
+b) fruktózy s ATP, za vzniku fruktóza-1,6-bisfosfátu
+c) oxidácie kyseliny mliečnej na kyselinu pyrohroznovú
+d) dihydroxyacetónfosfátu na glyceraldehyd-3-fosfát

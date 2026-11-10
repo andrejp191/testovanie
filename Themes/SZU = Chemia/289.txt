@@ -1,0 +1,6 @@
+Pre redoxnú reakciu KMnO + FeSO + HSO → MnSO + KSO + Fe(SO ) + HO platí: 4 4 2 4 4 2 4 2 4 3 2
+
+a) mangán sa redukuje
+b) MnIV + 2e → MnII
+c) 2FeII - 2e → FeIII 2
+d) stechiometrické koeficienty sú 2 + 5 + 10 → 2 + 1 + 10 + 3

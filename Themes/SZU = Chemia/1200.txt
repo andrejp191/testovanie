@@ -1,0 +1,6 @@
+Roztok neznámeho sacharidu o objeme 0,5 litra obsahuje 25 g sacharidu a pri teplote 30 oC má osmotický tlak 700 kPa. Rozhodnite, aký sacharid je rozpustený v roztoku. (R = 8,32 J . K-1. mol-1)
+
+a) sacharóza
+b) glukóza
+c) ribóza
+d) fruktóza

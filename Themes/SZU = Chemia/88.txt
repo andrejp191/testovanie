@@ -1,0 +1,6 @@
+Pre zlúčeniny halogénov platí:
+
+a) halogenidy sú soli bezkyslíkatých kyselín halogénov
+b) halogenidy kovov sú vo vode väčšinou dobre rozpustné a prakticky úplne ionizované
+c) v halogénvodíkoch sa polarita väzby v molekulách HX v smere od HI k HF výrazne znižuje
+d) vodné roztoky halogénvodíkov sú, okrem HF, silné kyseliny

@@ -1,0 +1,6 @@
+Anoméry:
+
+a) sú optické izoméry
+b) sú látky, ktoré stáčajú rovinu polarizovaného svetla o rovnaký uhol doľava alebo doprava
+c) sú látky, ktoré stáčajú rovinu polarizovaného svetla o rovnaký uhol len doľava
+d) sú látky, ktoré nestáčajú rovinu polarizovaného svetla o rovnaký uhol doľava alebo doprava

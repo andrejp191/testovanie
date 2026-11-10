@@ -1,0 +1,6 @@
+Podľa hodnôt pK kyselín: jantárová 4,2 ; propénová 4,26 ; maslová 4,9 ; mravčia 3,68 ; a octová 4,74 ; benzoová 4,19 rozhodnite, či platí:
+
+a) kyselina maslová je silnejšia ako kyselina jantárová
+b) kyselina jantárová je najslabšia
+c) kyselina mravčia je najsilnejšia
+d) všetky patria medzi silné karboxylové kyseliny

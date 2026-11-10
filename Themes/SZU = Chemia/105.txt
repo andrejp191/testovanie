@@ -1,0 +1,6 @@
+Schopnosť tvoriť dlhé reťazce:
+
+a) má len uhlík
+b) môže aj kremík aj bór
+c) môžu atómy, ktoré majú elektronegativitu väčšiu ako 2,00
+d) majú všetky biogénne prvky

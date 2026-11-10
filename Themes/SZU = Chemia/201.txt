@@ -1,0 +1,6 @@
+Reakčné teplo:
+
+a) závisí od aktivačnej energie
+b) súvisí s rýchlosťou chemickej reakcie
+c) je teplo, ktoré si reakčná sústava vymieňa s okolím
+d) závisí od spôsobu, akým prebieha chemická reakcia

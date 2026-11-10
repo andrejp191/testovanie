@@ -1,0 +1,6 @@
+Vypočítajte, koľko chloridu draselného vznikne reakciou 5 g draslíka a 6 g HCl. Ktorý reaktant je v nadbytku a aké mno~stvo zostalo nezreagované?
+
+a) vznikne 9,5 g KCl
+b) v nadbytku je HCl
+c) nezreagovalo 1,3 g HCl
+d) v nadbytku je draslík, nezreagovalo 1,31 g

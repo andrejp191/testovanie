@@ -1,0 +1,6 @@
+V nasýtenom roztoku dusičnanu strieborného je za daných podmienok rozpustených 36 mg AgNO v 300 ml roztoku. Vypočítajte súčin rozpustnosti dusičnanu strieborného. 3
+
+a) K = 0,5 . 10-6 s
+b) K = 0,5 s
+c) K = 2,6 . 10-4 s
+d) K = 2,6 . 10-6 s

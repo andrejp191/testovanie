@@ -1,0 +1,6 @@
+Denaturácia bielkovín:
+
+a) spôsobuje zánik biologickej aktivity proteínu, pričom biologická hodnota zostáva zachovaná
+b) môže spôsobiť zánik všetkých štruktúr proteínu okrem primárnej štruktúry
+c) je len nevratná
+d) je vratná alebo nevratná, podľa toho, či sa po odstránení denaturačného faktora obnoví biologická aktivita proteínu

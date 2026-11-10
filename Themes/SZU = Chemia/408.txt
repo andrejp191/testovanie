@@ -1,0 +1,6 @@
+Dve organické zlúčeniny považujeme za izomérne:
+
+a) ak majú úplne odlišné fyzikálne a chemické vlastnosti
+b) ak majú úplne rovnaké fyzikálne a chemické vlastnosti a odlišné molekulové vzorce
+c) ak majú odlišnú aspoň jednu fyzikálnu alebo chemickú vlastnosť ale rovnaký molekulový vzorec
+d) len ak majú iné priestorové usporiadanie

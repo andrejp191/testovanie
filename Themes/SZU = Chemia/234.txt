@@ -1,0 +1,6 @@
+Rovnovážny stav reakcie:
+
+a) je stav reakčnej sústavy, keď sa všetky reaktanty premenili na produkty
+b) je stav, pri ktorom je rýchlosť priamej a spätnej reakcie rovnaká
+c) charakterizuje rovnovážna konštanta K
+d) charakterizuje rýchlostná konštanta

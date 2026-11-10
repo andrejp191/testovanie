@@ -1,0 +1,6 @@
+Vyberte správne tvrdenie:
+
+a) rýchlosť enzýmovej reakcie je priamo úmerná koncentrácii substrátu, kým sa nedosiahne saturačný bod
+b) pH optimum je hodnota pH, pri ktorej je daná enzýmová reakcia najrýchlejšia
+c) všetky enzýmové reakcie prebiehajú najrýchlejšie pri pH = 7
+d) pri teplote 37°C je rýchlosť všetkých enzýmových reakcií najvyššia

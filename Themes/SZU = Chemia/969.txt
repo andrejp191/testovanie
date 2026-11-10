@@ -1,0 +1,6 @@
+O terciárnej štruktúre proteínu platí:
+
+a) je fibrilárna, ak nekovalentné väzby pôsobia medzi viacerými polypeptidovými reťazcami
+b) je fibrilárna, ak polypeptidové reťazce sú pospájané vodíkovými a koordinačnými väzbami
+c) ak sa tvoria nekovalentné väzby v rámci jedného polypeptidového reťazca, ide o globulárnu štruktúru
+d) udáva konečný tvar všetkých proteínov

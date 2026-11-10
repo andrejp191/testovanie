@@ -1,0 +1,6 @@
+O vlastnostiach heterocyklov neplatí:
+
+a) musia mať v cykle najmenej tri atómy a najviac šesť
+b) závisia len od charakteru heteroatómu
+c) vzhľadom na prítomnosť heteroatómu majú všetky výraznejší aromatický charakter ako benzén
+d) závisia od charakteru heteroatómu, veľkosti a charakteru cyklu

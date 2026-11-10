@@ -1,0 +1,6 @@
+Entropia:
+
+a) je kvantitatívnou mierou nevratnosti, resp. samovoľnosti chemického deja
+b) je mierou neusporiadanosti systému
+c) izolovaného systému pri spontánnych chemických reakciách narastá, ∆S > 0
+d) chemický dej sa uskutoční spontánne v prípade keď ∆ S < 0

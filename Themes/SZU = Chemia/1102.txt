@@ -1,0 +1,6 @@
+Vypočítajte, koľko molekúl hydroxidu sodného sa nachádza v jeho 25 g.
+
+a) 6,022 . 1026
+b) 3,76 . 1023
+c) 1,03 . 10-23
+d) 376 . 1021

@@ -1,0 +1,6 @@
+Hundovo pravidlo:
+
+a) udáva maximálny počet elektrónov na valenčnej vrstve
+b) hovorí, že stavy s rovnakou energiou sa všetky obsadzujú najskôr po jednom elektróne
+c) umožňuje vypočítať energiu elektrónu
+d) je výstavbový princíp

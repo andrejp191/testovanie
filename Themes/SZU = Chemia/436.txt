@@ -1,0 +1,6 @@
+Alkány:
+
+a) sú uhľovodíky, ktoré majú len lineárne reťazce s nepolárnymi jednoduchými väzbami
+b) môžu byť lineárne, rozvetvené alebo cyklické
+c) nerozvetvené necyklické majú homologický vzorec CH n 2n+2
+d) s nižším počtom uhlíkov sú rozpustné vo vode

@@ -1,0 +1,6 @@
+Súčasťou lipidov môžu byť karboxylové kyseliny, ktoré:
+
+a) majú lineárny alebo rozvetvený reťazec
+b) majú v molekule párny počet atómov uhlíka
+c) sú jednosýtne
+d) sú nasýtené a nenasýtené

@@ -1,0 +1,6 @@
+Vypočítajte hmotnosť 5 . 109 atómov ~eleza. M (Fe) = 56 r
+
+a) 46,49 . 10-14 g
+b) 7,44 . 10-14 g . mol-1
+c) 148 . 10-10 g . mol-1
+d) 4,649 . 10-13 g . mol-1

@@ -1,0 +1,6 @@
+Pre hlavné kvantové číslo platí:
+
+a) možno použiť na výpočet energie elektrónu v danej energetickej hladine
+b) jeho hodnota je celé kladné číslo od 0 po 7
+c) označujeme písmenami K, L, M, N, O, P, Q
+d) teoreticky môže nadobúdať hodnoty celých kladných čísel od 1 po nekonečno

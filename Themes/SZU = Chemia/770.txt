@@ -1,0 +1,6 @@
+Aromatický charakter heterocyklických zlúčenín:
+
+a) vzniká iba vtedy, ak počet π delokalizovaných elektrónov v cykle zodpovedá Hückelovmu pravidlu (4n+2)πe-
+b) vzniká vždy tak, že heteroatóm zapojí do konjugácie svoj voľný elektrónový pár
+c) furánu, tiofénu a pyrolu je rovnaký
+d) klesá v poradí tiofén > pyrol > furán

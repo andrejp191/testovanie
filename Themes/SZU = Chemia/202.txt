@@ -1,0 +1,6 @@
+Hodnota reakčného tepla závisí:
+
+a) len od typu reagujúcich látok
+b) od veľkosti styčnej plochy reaktantov
+c) od aktivačnej energie
+d) od počiatočného a koncového energetického stavu reakcie

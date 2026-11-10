@@ -1,0 +1,6 @@
+Rýchlosť chemickej reakcie A + 3 B → C vypočítame zo vzťahu v = k . c . c 3 . Ako sa zmení a B rýchlosť reakcie, ak sa koncentrácia látky A zmenaí o polovicu a koncentrácia látky B sa zvýai dvojnásobne?
+
+a) rýchlosť reakcie sa zvýši osemkrát
+b) rýchlosť reakcie sa zvýši štyrikrát
+c) rýchlosť reakcie sa zvýši dvakrát
+d) nedá sa vypočítať, lebo nepoznáme koncentrácie látok

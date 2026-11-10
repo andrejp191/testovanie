@@ -1,0 +1,6 @@
+Pre alkoholy platí:
+
+a) jednosýtne s najnižším počtom atómov uhlíka v molekule sú bezfarebné kvapaliny príjemnej vône
+b) s najnižším počtom atómov uhlíka v molekule sú vo vode veľmi dobre rozpustné
+c) sú vo vode nerozpustné, pretože nedochádza k disociácii
+d) ich rozpustnosť vo vode stúpa s rastúcim počtom atómov uhlíka v molekule

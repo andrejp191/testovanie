@@ -1,0 +1,6 @@
+Grafit, tuha:
+
+a) vedie elektrický prúd
+b) je tvorená atómami uhlíka v hybridizácii sp2, takže každý atóm C tvorí tri pevné kovalentné väzby
+c) je stierateľná, pretože nespárené elektróny na valenčnej vrstve sú čiastočne delokalizované a jednotlivé vrstvy sú viazané len slabými van der Waalsovými silami
+d) tvorí molekulový kryštál

@@ -1,0 +1,6 @@
+O štruktúre DNA platí:
+
+a) primárna štruktúra je daná sekvenciou nukleotidov, ktoré sú viazané intramolekulovou 3´, 5´-fosfodiesterovou väzbou
+b) porucha v poradí nukleotidov spôsobuje genetické mutácie
+c) obsahuje štyri typy nukleotidov: adenínový, cytozínový, guanínový a uracilový
+d) má podobnú primárnu, sekundárnu, terciárnu a kvartérnu štruktúru ako proteíny

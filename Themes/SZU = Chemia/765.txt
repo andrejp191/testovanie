@@ -1,0 +1,6 @@
+Heterocyklické zlúčeniny:
+
+a) sú cyklické zlúčeniny, ktoré majú v molekule nahradený aspoň jeden atóm vodíka dusíkom, kyslíkom alebo sírou
+b) majú v cykle nahradený aspoň jeden atóm uhlíka iným heteroatómom, najčastejšie dusíkom, kyslíkom alebo sírou
+c) sa používajú ako herbicídy a insekticídy
+d) môžu obsahovať v molekule okrem uhlíka aj atómy kremíka, pretože kremík má tiež schopnosť tvoriť reťaze

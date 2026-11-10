@@ -1,0 +1,6 @@
+Atómová hmotnostná jednotka u a atómová hmotnostná konštanta (m): u
+
+a) je hmotnosť atómu vodíka
+b) má hodnotu 6,023 . 1023
+c) má hodnotu 1,66057 . 10-27 kg (u)
+d) je hmotnosť 1 ⁄ 12 hmotnosti atómu nuklidu uhlíka 12C (m) u

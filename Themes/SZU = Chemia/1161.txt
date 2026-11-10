@@ -1,0 +1,6 @@
+Vypočítajte, aký objem kyseliny sírovej, c = 0,2 mol . l-1, potrebujeme na neutralizáciu 30 ml hydroxidu draselného, c = 0,15 mol . l-1.
+
+a) 0,01125 l
+b) 22,5 ml
+c) 11,25 ml
+d) 12,5 ml

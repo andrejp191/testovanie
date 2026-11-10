@@ -1,0 +1,6 @@
+O chemickej väzbe možno povedať:
+
+a) je tým pevnejšia, čím väčšia väzbová energia sa uvoľní pri jej vzniku
+b) že vzniká medzi atómami s vysokou elektronegativitou
+c) na jej rozštiepenie je potrebné dodať disociačnú energiu
+d) je tým pevnejšia, čím menšia energia sa uvoľní pri jej vzniku

@@ -1,0 +1,6 @@
+O rádioaktívnom žiarení môžeme povedať:
+
+a) žiarenie alfa je prúd atómových jadier hélia 4He 2
+b) žiarenie beta vzniká rozpadom jedného neutrónu na protón a elektrón, ktorý sa potom vyžiari
+c) žiarenie alfa sa v elektrickom poli vychýli ako prúd záporných nábojov
+d) ak atóm vyžiari časticu beta vznikne prvok, ktorý v PSP stojí o jedno miesto doprava

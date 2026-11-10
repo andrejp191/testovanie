@@ -1,0 +1,6 @@
+Esterové väzby v molekule triacylglycerolu sa štiepia:
+
+a) hydrolýzou v prítomnosti lipázy
+b) oxidáciou v prítomnosti oxidoreduktázy
+c) kyslou alebo zásaditou hydrolýzou
+d) dekarboxyláciou

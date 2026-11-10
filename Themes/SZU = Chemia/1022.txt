@@ -1,0 +1,6 @@
+Aminoacyl-tRNA vzniká:
+
+a) tak, že na dlhšom konci tRNA sa aktivovaná aminokyselina naviaže na posledný adenínový nukleotid esterovou väzbou na tretí uhlík ribózy
+b) naviazaním aktivovanej aminokyseliny na antikodón
+c) naviazaním aminokyseliny amidovou väzbou na kyselinu fosforečnú posledného nukleotidu
+d) naviazaním aminokyseliny N-glykozidovou väzbou na adenín posledného nukleotidu dlhšieho ramienka

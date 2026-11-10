@@ -1,0 +1,6 @@
+Hodnota pI:
+
+a) je disociačná konštanta aminokyseliny
+b) pre esenciálne kyseliny je rovná 7
+c) je hodnota pH prostredia, pri ktorej sa aminokyselina nachádza prevažne vo forme amfiónu
+d) je charakteristická pre každú aminokyselinu

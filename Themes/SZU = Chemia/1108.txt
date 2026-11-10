@@ -1,0 +1,6 @@
+Vypočítajte látkové mno~stvo a hmotnosť 5 litrov acetylénu za normálnych podmienok.
+
+a) 0,223 mol; 5,8 g
+b) 112 mol; 58 mg
+c) 5,8 g; 1,12 mol
+d) 223 mmol; 0,0058 kg

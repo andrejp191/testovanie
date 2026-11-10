@@ -1,0 +1,6 @@
+Hodnota rovnovážnej konštanty K:
+
+a) sa vypočíta z Hessovho zákona
+b) sa vypočíta pomocou 1. kinetického zákona
+c) je podiel rýchlostnej konštanty priamej a spätnej reakcie
+d) závisí len od typu reakcie a od teploty

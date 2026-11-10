@@ -1,0 +1,6 @@
+Teplota ovplyvňuje rýchlosť chemickej reakcie:
+
+a) podľa Arrheniovho zákona
+b) pretože čím vyššia bude teplota, tým vyššia bude hodnota aktivačnej energie, a tým rýchlejšia bude chemická reakcia
+c) pretože čím vyššia bude teplota, tým väčší počet častíc dosiahne hodnotu aktivačnej energie
+d) pretože pri vyššej teplote sa častice pohybujú pomalšie

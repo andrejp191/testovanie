@@ -1,0 +1,6 @@
+Vypočítajte, koľko kyslíka sa spotrebuje na úplné spálenie 8 mol pentánu za normálnych podmienok.
+
+a) 64 mol; 2,05 kg
+b) 1434,5 l
+c) 32 mol; 1,02 kg
+d) 716,8 l

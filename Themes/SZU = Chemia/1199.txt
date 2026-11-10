@@ -1,0 +1,6 @@
+Vypočítajte hmotnosť fruktózy, ktorá sa nachádza v 750 ml roztoku, ak pri 25°C je osmotický tlak roztoku 275,4 kPa. (R = 8,32 J . K-1. mol-1)
+
+a) 15 g
+b) 15 mg
+c) 1,5 kg
+d) 178,9 g

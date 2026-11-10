@@ -1,0 +1,6 @@
+Rýchlostná konštanta k:
+
+a) je konštanta pre daný typ chemickej reakcie
+b) závisí od teploty
+c) závisí od skupenstva reagujúcich látok
+d) závisí len od koncentrácie produktov

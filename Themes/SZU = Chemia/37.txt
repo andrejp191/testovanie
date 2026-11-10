@@ -1,0 +1,6 @@
+Molová hmotnosť:
+
+a) je hmotnosť 1 mol látky
+b) vyjadruje sa v kg . dm3
+c) vyjadruje sa v g . mol-1
+d) vyjadruje sa v g . mol

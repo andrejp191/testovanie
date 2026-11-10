@@ -1,0 +1,6 @@
+Mechanizmus redoxných dejov je založený na prenose:
+
+a) atómov vodíka na pyridínovom jadre NAD+
+b) atómov vodíka na purínovom jadre NAD+
+c) atómov vodíka na pyrimidínovom jadre NAD+
+d) atómov vodíka na purínovom jadre NADP

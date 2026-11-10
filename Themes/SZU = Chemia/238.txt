@@ -1,0 +1,6 @@
+Hodnota rovnovážnej konštanty K pre danú reakciu:
+
+a) sa mení vplyvom koncentrácie reaktantov
+b) sa mení zmenou tlaku pri reakcii plynných látok
+c) sa mení len vplyvom zmeny teploty
+d) sa nemôže meniť

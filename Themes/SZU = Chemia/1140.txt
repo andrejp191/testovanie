@@ -1,0 +1,6 @@
+Vypočítajte, aký objem 64 % kyseliny dusičnej s hustotou 1,75 g . cm-3 je potrebný na prípravu 2 litrov roztoku s koncentráciou 0,2 mol . dm-3.
+
+a) 25,2 ml
+b) 25,2 dm-3
+c) 0,0225 l
+d) 22,5 ml

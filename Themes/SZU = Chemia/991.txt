@@ -1,0 +1,6 @@
+Kompetitívna inhibícia enzýmu:
+
+a) môže byť vratná
+b) dá sa odstrániť zvýšením koncentrácie substrátu
+c) dá sa odstrániť zvýšením koncentrácie enzýmu
+d) dá sa odstrániť zvýšením koncentrácie enzýmu alebo substrátu

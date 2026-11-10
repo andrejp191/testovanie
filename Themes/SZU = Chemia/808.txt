@@ -1,0 +1,6 @@
+Štruktúrna jednotka:
+
+a) je časť makromolekuly s rovnakým chemickým zložením
+b) predstavuje najjednoduchšie usporiadanie stavebných jednotiek, ktoré sa pravidelne opakuje
+c) je napríklad typu -[ A-B-C ]-
+d) je len taká molekula, ktorá má násobnú väzbu

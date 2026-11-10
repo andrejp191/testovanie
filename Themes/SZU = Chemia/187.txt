@@ -1,0 +1,6 @@
+Chemický dej je dej:
+
+a) pri ktorom sa mení štruktúra látok, napríklad topenie ľadu
+b) pri ktorom zanikajú vodíkové väzby
+c) pri ktorom sa mení zloženie a štruktúra látky
+d) pri ktorom pôvodné väzby v reaktantoch zanikajú a nové chemické väzby v produktoch vznikajú

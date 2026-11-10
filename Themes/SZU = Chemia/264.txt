@@ -1,0 +1,6 @@
+O kyselinách a zásadách platí:
+
+a) čím je kyselina silnejšia, tým je silnejšia aj jej konjugovaná zásada
+b) čím je kyselina silnejšia, tým je jej konjugovaná zásada slabšia
+c) čím je kyselina a zásada silnejšia, tým väčšiu hodnotu má ich disociačná konštanta
+d) hodnota disociačnej konštanty kyseliny a hodnota disociačnej konštanty jej konjugovanej zásady je vždy rovnaká

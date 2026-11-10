@@ -1,0 +1,6 @@
+So stúpajúcim protónovým číslom v perióde:
+
+a) klesá ionizačná energia
+b) stúpa ionizačná energia
+c) sa ionizačná energia nemení
+d) klesajú hodnoty elektrónovej afinity ale ionizačná energia narastá

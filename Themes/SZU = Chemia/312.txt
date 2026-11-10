@@ -1,0 +1,6 @@
+O zrážacích reakciách platí:
+
+a) prebiehajú rýchlo, pretože sa pri nich uvoľňuje veľké množstvo tepelnej energie
+b) prebiehajú pomaly, pretože prostredie je nehomogénne
+c) prebiehajú pomaly, pretože reaktanty sú málo rozpustné
+d) prebiehajú veľmi rýchlo, pretože vyžadujú nízku aktivačnú energiu

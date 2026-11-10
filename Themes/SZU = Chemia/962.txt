@@ -1,0 +1,6 @@
+Primárna štruktúra proteínov:
+
+a) udáva biologickú hodnotu bielkoviny a podmieňuje jej vyššie štruktúry
+b) je daná sekvenciou aminokyselín v polynukleotidovom reťazci
+c) je stabilizovaná vodíkovými väzbami medzi molekulami aminokyselín
+d) je daná poradím aminokyselín viazaných peptidovými väzbami

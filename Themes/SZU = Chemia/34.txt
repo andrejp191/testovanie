@@ -1,0 +1,6 @@
+Relatívna molekulová hmotnosť M: r
+
+a) je súčet relatívnych atómových hmotností všetkých atómov v molekule
+b) udáva, koľkokrát je molekula danej látky ťažšia, ako atómová hmotnostná jednotka
+c) sa udáva v g . mol-1
+d) má značku M m

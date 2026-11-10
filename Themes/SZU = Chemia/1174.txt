@@ -1,0 +1,6 @@
+Vypočítajte pH a pOH roztoku NaOH, ak jeho 800 ml obsahuje 3,82 g NaOH. (log 3,06 = 0,486; log 1,19 = 0,076)
+
+a) pH = 0,924
+b) pOH = 13,076
+c) pOH = 0,924
+d) pH = 13,076

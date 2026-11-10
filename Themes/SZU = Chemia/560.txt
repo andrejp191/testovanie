@@ -1,0 +1,6 @@
+Zásadité vlastnosti aminoderivátov:
+
+a) podmieňuje voľný elektrónový pár na atóme dusíka
+b) závisia od charakteru jednoväzbovej skupiny naviazanej na atóme dusíka aminoskupiny
+c) vzrastajú v poradí fenylamín < metylamín < dimetylamín
+d) klesajú v poradí trietylamín > dietylamín > etylamín

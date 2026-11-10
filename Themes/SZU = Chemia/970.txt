@@ -1,0 +1,6 @@
+Pre kvartérnu štruktúru proteínov platí:
+
+a) predstavuje definitívne usporiadanie bielkovinových podjednotiek v priestore
+b) kvartérnu štruktúru majú len proteíny pozostávajúce z bielkovinových podjednotiek
+c) je stabilizovaná polárnymi a nepolárnymi kovalentnými väzbami medzi bielkovinovými podjednotkami
+d) bielkovinové podjednotky môžu byť spojené nekovalentnými väzbami

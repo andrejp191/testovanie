@@ -1,0 +1,6 @@
+Roztok má pri 37oC osmotický tlak 709,6 kPa a v 200 ml obsahuje 2,53 g neelektrolytu. Vypočítajte jeho molovú hmotnosť a určte o akú látku ide. (R = 8,32 J . K-1. mol-1)
+
+a) 18,40 g . mol-1
+b) 46 g . mol-1
+c) metanol
+d) etanol

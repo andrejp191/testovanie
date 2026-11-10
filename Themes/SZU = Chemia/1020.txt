@@ -1,0 +1,6 @@
+tRNA:
+
+a) má vždy na jednom z koncov adenínový nukleotid
+b) pri translácii má aminokyselinu naviazanú esterovou väzbou na treťom uhlíku ribózy adenínového nukleotidu koncového tripletu CCA
+c) pri translácii má aminokyselinu naviazanú esterovou väzbou na antikodón
+d) pri translácii má aminokyselinu naviazanú esterovou väzbou na prvom uhlíku ribózy adenínového nukleotidu koncového tripletu CCA

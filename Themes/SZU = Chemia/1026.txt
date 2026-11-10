@@ -1,0 +1,6 @@
+Terminácia je:
+
+a) ukončenie transkripcie
+b) daná prítomnosťou stop kodónov, ku ktorým nie je komplementárny žiadny antikodón
+c) dej, pri ktrorom terminačné faktory uvoľnia vzniknutý peptidový reťazec
+d) záverečná fáza tvorby mRNA

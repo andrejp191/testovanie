@@ -1,0 +1,6 @@
+Podľa kvantovo-mechanického modelu atómu:
+
+a) elektróny sa pohybujú okolo atómového jadra v určitom priestore, orbitále, s pravdepodobnosťou 95 až 99 %
+b) kvantové čísla charakterizujú energiu a veľkosť jadra atómu (energia, stav, orientácia, rotácia)
+c) elektróny sa pohybujú po kruhových dráhach ( Bohr, Rutherford )
+d) elektróny sa pohybujú po kruhových dráhach s pravdepodobnosťou 95 až 99 % ( Bohr, Rutherford )

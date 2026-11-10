@@ -1,0 +1,6 @@
+Pri enzýmovej reakcii sa substrát viaže:
+
+a) na enzým pevnými kovalentnými väzbami
+b) na enzým takým spôsobom, že jeho príslušné charakteristické skupiny sú komplementárne so štruktúrou aktívneho centra enzýmu
+c) na alosterické centrum enzýmu
+d) na enzým nekovalentnými väzbami

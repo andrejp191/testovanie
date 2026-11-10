@@ -1,0 +1,6 @@
+Roztok má pri 25oC osmotický tlak 280,34 kPa a v 500 ml obsahuje 8,476 g neelektrolytu. Vypočítajte jeho molovú hmotnosť a určte o akú látku ide. (R = 8,32 J . K-1. mol-1)
+
+a) 150 g . mol-1
+b) 150 mol . dm-3
+c) ribóza
+d) deoxyribóza

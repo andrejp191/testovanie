@@ -1,0 +1,6 @@
+Vypočítajte, koľko kyslíka a koľko vzduchu je potrebné na horenie 7 l acetylénu.
+
+a) 25 g; 17,5 l kyslíka
+b) 10 g; 7 l kyslíka
+c) 47,62 g; 33,33 l vzduchu
+d) 83,33 l vzduchu

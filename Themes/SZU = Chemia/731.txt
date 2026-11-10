@@ -1,0 +1,6 @@
+Izoelektrický bod pI aminokyseliny:
+
+a) je hodnota pK, pri ktorej sa aminokyselina v elektrickom poli nepohybuje a
+b) je rovnovážna konštanta aminokyseliny
+c) je hodnota pH prostredia, pri ktorej aminokyselina v roztoku tvorí amfión
+d) sa využíva pri elektroforetickej separácii aminokyselín

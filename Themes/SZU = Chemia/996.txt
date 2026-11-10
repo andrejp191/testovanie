@@ -1,0 +1,6 @@
+O klasifikácii enzýmov platí:
+
+a) hydrolázy katalyzujú štiepenie peptidových, esterových a O-glykozidových väzieb
+b) oxidoreduktázy katalyzujú prenos fosfátovej skupiny z ATP na glukózu
+c) transferázy katalyzujú prenos aminoskupiny pri transaminácii alebo prenos fosfátovej skupiny z ATP na glukózu
+d) lyázy katalyzujú hydrolytické štiepenie väzby C–H

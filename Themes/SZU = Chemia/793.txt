@@ -1,0 +1,6 @@
+Päťčlánkové heterocyklické zlúčeniny:
+
+a) majú v molekule atómy uhlíka v hybridizácii sp2 alebo sp3
+b) majú v molekule len atómy uhlíka v hybridizácii sp2 preto sú rovinnými útvarmi s väzbovými uhlami 120°
+c) nemôžu mať aromatický charakter
+d) sú napríklad pyrol, tiofén, furán

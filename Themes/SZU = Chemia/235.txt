@@ -1,0 +1,6 @@
+Hodnota rovnovážnej konštanty reakcie 4 KClO ↔ KCl + 3 KClO je daná vzťahom: 3 4
+
+a) K = 4 [ KClO ] / ( [ KCl ] + 3 [ KClO ] ) 3 4
+b) K = ( [ KCl ].[ KClO ]3 ) / [ KClO ]4 4 3
+c) K = ( [ KCl ] + [ KClO ]3 ) / [ KClO] 4 3
+d) K = [ KClO ]4/ ( [ KCl ] . [KClO ]3 ) 3 4

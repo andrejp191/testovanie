@@ -1,0 +1,6 @@
+Vypočítajte hmotnosť atómu síry v jednotkách hmotnosti:
+
+a) 5,31 . 10-23 g
+b) 53,12 . 1027 kg
+c) 192,74 . 1023 g
+d) 19,27 . 10-27 kg

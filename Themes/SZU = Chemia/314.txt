@@ -1,0 +1,6 @@
+Mierou rozpustnosti látky je:
+
+a) množstvo látky, ktoré zostane nerozpustené v nasýtenom roztoku
+b) dosiahnutie maximálneho osmotického tlaku roztoku
+c) hodnota jej solvatačného tepla
+d) koncentrácia jej nasýteného roztoku pri daných podmienkach

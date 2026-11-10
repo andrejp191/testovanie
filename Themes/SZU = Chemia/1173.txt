@@ -1,0 +1,6 @@
+Vypočítajte pH a pOH roztoku, ktorý v 0,5 l obsahuje 2,56 g kyseliny chloristej. (log 0,509 = – 0,293; log 5,09 = 0,707)
+
+a) pH = 1,293
+b) pOH = 12,107
+c) pH = 1,893
+d) pOH = 12,707

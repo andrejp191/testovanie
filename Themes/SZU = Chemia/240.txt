@@ -1,0 +1,6 @@
+Vyberte, ktoré faktory môžu ovplyvňovať chemickú rovnováhu:
+
+a) tlak, teplota, katalyzátor, koncentrácia
+b) pH, teplota, koncentrácia
+c) veľkosť povrchu reaktantov, teplota, koncentrácia
+d) tlak, teplota, koncentrácia

@@ -1,0 +1,6 @@
+Amfotérny charakter hydroxidu hlinitého dokazujú rovnice:
+
+a) Al(OH) + 3 HSO → Al(SO) + 6 HO 3 2 4 4 3 2
+b) Al(OH) + 3 HO+ → [Al(H O)]3+ 3 3 2 6
+c) Al(OH) + NaCl → Na[Al(OH)] + HCl 3 4
+d) Al(OH) + OH- → [Al(OH)]- 3 4

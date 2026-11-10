@@ -1,0 +1,6 @@
+O reaktivite halogénderivátov uhľovodíkov platí:
+
+a) najreaktívnejší je jódderivát, pretože väzba C-I sa môže najviac polarizovať
+b) najmenej reaktívne sú halogénderiváty alkánov
+c) klesá v poradí halogénalkány > halogénarény > halogénalkény
+d) najreaktívnejšie sú halogénarény

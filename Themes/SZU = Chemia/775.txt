@@ -1,0 +1,6 @@
+Pyrol nie je súčasťou molekuly:
+
+a) indolu
+b) purínu
+c) tryptofánu
+d) porfínu

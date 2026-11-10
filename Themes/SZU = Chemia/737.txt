@@ -1,0 +1,6 @@
+Vyberte molekuly, ktoré sú opticky aktívne:
+
+a) kyselina vínna
+b) kyselina fumarová
+c) kyselina jantárová
+d) kyselina citrónová

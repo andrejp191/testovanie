@@ -1,0 +1,6 @@
+Predpokladom vzniku chemickej väzby medzi dvomi časticami je:
+
+a) len zrážka dvoch častíc
+b) zrážka dvoch častíc, ktoré majú aktivačnú energiu
+c) zrážka dvoch častíc, ktoré majú vhodnú orientáciu
+d) aj vytvorenie prechodového komplexu

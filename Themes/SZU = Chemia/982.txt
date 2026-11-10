@@ -1,0 +1,6 @@
+Špecifickosť enzýmov:
+
+a) môže byť len substrátová, pretože každý enzým je špecifický k príslušnému substrátu
+b) je substrátová, účinková a stereošpecifická
+c) stereošpecifickosť súvisí s konformačnou izomériou
+d) stereošpecifickosť v praxi znamená, že enzým katalyzuje len premenu určitého optického izoméru

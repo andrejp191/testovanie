@@ -1,0 +1,6 @@
+O enzýmových reakciách platí:
+
+a) väčšina enzýmov je najaktívnejšia pri pH = 9
+b) extrémne hodnoty pH a teplota nad 60 °C spôsobujú denaturáciu enzýmu
+c) prebiehajú väčšinou v prostredí s nízkou koncentráciou substrátu ale pri zvýšenom tlaku
+d) prebiehajú pomalšie ako reakcie katalyzované anorganickým katalyzátorom

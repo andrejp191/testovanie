@@ -1,0 +1,6 @@
+Polarita chemickej väzby:
+
+a) je posun elektrónového obalu atómu na stranu elektronegatívnejšieho atómu
+b) je posun väzbového elektrónového páru na stranu elektronegatívnejšieho atómu
+c) sa vypočíta z rozdielu protónových čísiel viazaných atómov
+d) sa určuje z rozdielu elektronegativít zlúčených atómov

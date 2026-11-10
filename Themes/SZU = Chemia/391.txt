@@ -1,0 +1,6 @@
+O mezomérnom efekte môžeme povedať:
+
+a) je kladný, ak atóm alebo skupina atómov poskytuje elektróny do konjugácie, teda dochádza k posunu elektrónov po konjugovanom systéme smerom k uhlíku
+b) záporný vzniká vtedy, ak atóm alebo skupina atómov elektróny z konjugácie odťahuje, teda dochádza k posunu elektrónov po konjugovanom systéme smerom od uhlíka
+c) ovplyvňuje napríklad kyslosť fenolov
+d) pôsobí len na aromatickom jadre

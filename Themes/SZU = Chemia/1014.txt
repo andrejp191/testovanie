@@ -1,0 +1,6 @@
+Sekundárna štruktúra DNA:
+
+a) je dvojitý α-helix
+b) je podmienená komplementaritou purínových a pyridínových báz
+c) vzniká vytvorením vodíkových väzieb medzi purínovými a pyrimidínovými dusíkatými bázami dvoch polynukleotidových reťazcov
+d) je tvorená vodíkovými väzbami, van der Waalsovými silami a disulfidovými väzbami

@@ -1,0 +1,6 @@
+Vedľajšie kvantové číslo:
+
+a) charakterizuje tvar orbitálu a čiastočne energiu
+b) pre n = 2 môže nadobúdať hodnoty 1, 2, 3
+c) môže nadobúdať hodnotu od 0 po n-1
+d) určuje orientáciu orbitálu v priestore

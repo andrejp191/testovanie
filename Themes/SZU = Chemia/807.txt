@@ -1,0 +1,6 @@
+Základná stavebná jednotka:
+
+a) polypropylénu je -[CH -CH(CH)]- 2 3
+b) polyterpénu je -[CH -C(CH)=CH-CH]- 2 3 2
+c) musí byť vždy totožná so štruktúrnou jednotkou
+d) polyetylénu je -[CH -CH]- 3 2

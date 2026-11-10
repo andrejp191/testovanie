@@ -1,0 +1,6 @@
+Prvky d :
+
+a) sú prvky, ktorých atómy majú valenčné elektróny v orbitáloch ns1-2(n-1)d1-10
+b) majú na poslednej elektrónovej vrstve 1 až 2 elektróny
+c) poskytujú do kovovej väzby elektróny z orbitálov s, p, d, preto majú dobré fyzikálne vlastnosti
+d) v periodickej sústave prvkov sa nachádzajú len v tretej a štvrtej perióde

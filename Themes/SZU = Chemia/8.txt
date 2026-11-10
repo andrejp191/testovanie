@@ -1,0 +1,6 @@
+Izotopy sú nuklidy, ktoré:
+
+a) sa líšia počtom elektrónov
+b) sa líšia počtom protónov a neutrónov
+c) majú rôzny počet protónov
+d) líšia sa počtom neutrónov v atómovom jadre

@@ -1,0 +1,6 @@
+Ku kompetitívnej inhibícii enzýmu dochádza, ak:
+
+a) inhibítor a substrát majú podobnú štruktúru a konkurujú si o naviazanie na aktívne centrum enzýmu
+b) sa dá odstrániť zmenou štruktúry aktívneho centra substrátu
+c) ju možno odstrániť znížením koncentrácie substrátu
+d) enzým nie je úplne špecifický pre daný substrát

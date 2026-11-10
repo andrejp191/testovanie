@@ -1,0 +1,6 @@
+Predpokladom priebehu chemickej reakcie je:
+
+a) aktívna zrážka medzi časticami reaktantov
+b) primeraná kinetická energia reagujúcich častíc
+c) veľkosť častíc do 100 nm
+d) vhodná orientácia častíc pri zrážke

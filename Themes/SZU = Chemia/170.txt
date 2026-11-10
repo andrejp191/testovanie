@@ -1,0 +1,6 @@
+Väzba sigma:
+
+a) vzniká aj prekryvom orbitálov d-d
+b) vzniká vtedy, ak najväčší prekryv orbitálov je na spojnici atómových jadier
+c) vzniká len medzi orbitálmi p x
+d) nachádza sa v jednoduchej, dvojitej aj trojitej kovalentnej väzbe

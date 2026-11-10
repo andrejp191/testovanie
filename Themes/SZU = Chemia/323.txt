@@ -1,0 +1,6 @@
+Pri danej teplote je najmenej rozpustná zlúčenina:
+
+a) AgBr: ak Ks = 3,6 . 10-13
+b) AgCrO: ak za daných podmienok je jeho rozpustnosť 3,32 . 10-2 g/l 2 4
+c) AgSO : ak Ks = 7 . 10-5 2 4
+d) AgOH: ak za daných podmienok je jeho rozpustnosť 3,95 . 10-3 g/l

@@ -1,0 +1,6 @@
+O zložení nukleotidu platí:
+
+a) obsahuje HPO naviazanú fosfoesterovou väzbou na purínovú alebo pyrimidínovú bázu 3 4
+b) báza sa viaže N-glykozidovou väzbou na prvý uhlík pentózy
+c) pentóza sa viaže fosfoesterovou väzbou na kyselinu fosforečnú
+d) kyslá a zásaditá zložka nukleotidu sa viaže amidovou väzbou

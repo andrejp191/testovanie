@@ -1,0 +1,6 @@
+Podľa Markovnikovho pravidla platí:
+
+a) pri elektrofilnej adícii sa elektrofil naväzuje na uhlík s menším počtom atómov vodíka
+b) pri elektrofilnej adícii na asymetrický alkén sa elektrofil naväzuje na uhlík z dvojitej väzby, ktorý má väčší počet atómov vodíka
+c) pri elektrofilnej adícii na asymetrický alkén sa nukleofil naväzuje na uhlík z dvojitej väzby s menším počtom atómov vodíka
+d) elektrofilné činidlo sa naväzuje vždy na prvý uhlík

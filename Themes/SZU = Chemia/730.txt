@@ -1,0 +1,6 @@
+Aminokyseliny sú amfolyty, pretože:
+
+a) vo vodnom prostredí nedisociujú
+b) obsahujú v molekule kyslú aj zásaditú charakteristickú skupinu
+c) sú schopné tvoriť vnútorný ión
+d) môžu byť kyslé, zásadité alebo neutrálne

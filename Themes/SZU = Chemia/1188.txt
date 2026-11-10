@@ -1,0 +1,6 @@
+Pri reakcii 5 mol kyseliny octovej a 5 mol metanolu vzniká octan metylový. Vypočítajte rovnová~ne koncentrácie jednotlivých látok v reakčnej zmesi, ak viete, ~e K = 4.
+
+a) [CH COOCH ] = 1,67 mol . dm-3; [H O] = 1,67 mol . dm-3 3 3 2
+b) [CH COOH] = 1,67 mol . dm-3; [CH OH] = 1,67 mol . dm-3 3 3
+c) [CH COOCH ] = 3,33 mol . dm-3; [H O] = 1,67 mol . dm-3 3 3 2
+d) [CH COOCH ] = 3,33 mol . dm-3; [H O] = 3,33 mol . dm-3 3 3 2

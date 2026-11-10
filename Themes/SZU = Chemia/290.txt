@@ -1,0 +1,6 @@
+Pre redoxnú reakciu HCl + KMnO → Cl + MnCl + KCl + HO platí: 4 2 2 2
+
+a) 2Cl-I + 2e → Cl0
+b) MnVII + 5e → MnII
+c) MnVI + 4e → MnII
+d) stechiometrické koeficienty sú 16 + 2 → 5 + 2 + 2 + 8

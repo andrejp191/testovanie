@@ -1,0 +1,6 @@
+Veľkosť povrchu reaktantov:
+
+a) nemá vplyv na rýchlosť chemickej reakcie
+b) čím je väčšia, tým pomalšie reakcia prebieha, pretože prebieha súčasne na veľkej ploche
+c) ovplyvňuje rýchlosť reakcie tým, že ak sa zväčšuje, zvyšuje sa počet častíc, ktoré môžu spolu reagovať
+d) zvyšuje rýchlosť chemickej reakcie tým, že sa zvyšuje veľkosť aktivačnej energie

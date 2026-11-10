@@ -1,0 +1,6 @@
+Elektrónová konfigurácia atómu uhlíka v základnom stave je:
+
+a) 1s2 2s1 2p3
+b) 1s2 2s2 2p2
+c) 1s2 2s2 2p1 2p1 2p1 x y
+d) [He] 2s2 2p2

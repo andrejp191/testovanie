@@ -1,0 +1,6 @@
+Teplota ovplyvňuje rýchlosť chemickej reakcie, pretože:
+
+a) vplyvom nižšej teploty budú mať častice vyššiu kinetickú energiu, preto sa budú pohybovať rýchlejšie a častejšie bude dochádzať k aktívnej zrážke
+b) sa zvyšuje aktivačná energia
+c) vplyvom vyššej teploty sa zvyšuje počet častíc, ktoré dosiahli aktivačnú energiu
+d) všetky chemické reakcie prebiehajú pri zvýšenej teplote rýchlejšie

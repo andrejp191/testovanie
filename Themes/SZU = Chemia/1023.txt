@@ -1,0 +1,6 @@
+Translácia:
+
+a) je preklad poradia nukleotidov do poradia aminokyselín peptidového reťazca
+b) začína vždy na štart kodóne AUG
+c) na začiatku translácie sa metionyl-tRNA nachádza na peptidylovom mieste ribozómu
+d) medzi iniciátorom a štart kodónom sa vytvorí peptidová väzba

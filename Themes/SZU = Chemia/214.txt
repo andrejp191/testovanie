@@ -1,0 +1,6 @@
+Samovoľne môže prebiehať reakcia, v ktorej:
+
+a) stúpa entropia (∆S > 0 ) a Gibbsova energia má záporné znamienko (∆G < 0)
+b) klesá entropia a Gibbsova energia má kladné znamienko
+c) pôsobí enzým s využitím energie ATP
+d) aktivačná energia má veľmi vysokú hodnotu

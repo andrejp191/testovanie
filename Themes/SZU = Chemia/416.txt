@@ -1,0 +1,6 @@
+Optická izoméria:
+
+a) je typ izomérie, pri ktorej izoméry otáčajú rovinu polarizovaného svetla vždy o 90o doľava alebo doprava
+b) je typ izomérie, pri ktorej izoméry otáčajú rovinu polarizovaného svetla o rovnaký uhol doľava alebo doprava
+c) je podmienená prítomnosťou chirálneho uhlíka v molekule
+d) je podmienená prítomnosťou uhlíka v hybridizácii sp

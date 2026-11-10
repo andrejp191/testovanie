@@ -1,0 +1,6 @@
+Reaktivita halogénderivátov uhľovodíkov pri S závisí: N
+
+a) len od halogénu, ktorý je naviazaný na atóme uhlíka
+b) len od počtu uhlíkov v molekule halogénderivátu
+c) od typu halogénu, hybridizácie atómu uhlíka, skupiny viazanej na C s halogénom
+d) najmä od toho, či je halogén naviazaný na primárny, sekundárny alebo terciárny atóm uhlíka

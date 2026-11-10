@@ -1,0 +1,6 @@
+Vypočítajte osmotický tlak a koncentráciu osmoticky účinných častíc v roztoku chloridu hlinitého. Pri teplote 27°C sa v 1 litri roztoku nachádza 3,829 g chloridu hlinitého. (R = 8,32 J . K-1 . mol-1)
+
+a) 0,1149 mol . dm-3
+b) 286,8 kPa
+c) 0,029 mol . dm-3
+d) 71,63 kPa

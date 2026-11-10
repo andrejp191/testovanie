@@ -1,0 +1,6 @@
+Liter roztoku A, v ktorom je 10 g NaOH zmieaame s roztokom B, ktorého 1 liter obsahuje 9,45 g HNO . Aké bude pH a pOH vzniknutého roztoku? 3 (log 0,05 = – 1,3; log 0,1 = – 1)
+
+a) pH = 1
+b) pOH = 13
+c) pOH = 1,3
+d) pH = 12,7

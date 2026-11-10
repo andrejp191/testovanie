@@ -1,0 +1,6 @@
+Aktivačná energia:
+
+a) je daná rozdielom potenciálnej energie reaktantov a produktov
+b) je daná rozdielom potenciálnej energie prechodového komplexu a reaktantov
+c) je daná rozdielom potenciálnej energie prechodového komplexu a produktov
+d) závisí od reakčného tepla

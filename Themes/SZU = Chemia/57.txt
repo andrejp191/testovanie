@@ -1,0 +1,6 @@
+Všeobecná elektrónová konfigurácia valenčnej vrstvy:
+
+a) prvkov p je ns1 np1-6
+b) prvkov d je ns1-2(n-1)d1-10
+c) prvkov p je ns2 np1-6
+d) halogénov je np7

@@ -1,0 +1,6 @@
+Hmotnostný zlomok:
+
+a) je podiel hmotnosti rozpustenej látky a hmotnosti rozpúšťadla
+b) je podiel hmotnosti rozpustenej látky a hmotnosti roztoku
+c) je podiel hmotnosti rozpustenej látky v 1000 g vody
+d) vyjadrujeme aj v percentách

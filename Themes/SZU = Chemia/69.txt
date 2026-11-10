@@ -1,0 +1,6 @@
+Maximálne záporné oxidačné číslo daného prvku v binárnej zlúčenine:
+
+a) je vždy rovnaké ako číslo periódy
+b) je -8
+c) dusíka je -3
+d) vápnika je -6

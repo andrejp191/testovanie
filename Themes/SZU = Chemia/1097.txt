@@ -1,0 +1,6 @@
+Vypočítajte aké látkové mno~stvo predstavuje 100 g vody:
+
+a) 5,56 mol
+b) 5,56 . 103 mmol
+c) 0,18 mol
+d) 1,8 . 102 mol

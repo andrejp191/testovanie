@@ -1,0 +1,6 @@
+Rýchlosť chemickej reakcie môže ovplyvniť:
+
+a) len teplota, lebo rýchlostná konštanta závisí len od teploty
+b) len koncentrácia reaktantov, ako vyplýva z I. kinetického zákona
+c) veľkosť povrchu reagujúcich látok
+d) prítomnosť katalyzátora

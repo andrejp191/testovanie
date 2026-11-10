@@ -1,0 +1,6 @@
+Sekundárna štruktúra proteínov:
+
+a) predstavuje geometrické usporiadanie peptidových reťazcov
+b) je stabilizovaná vodíkovými väzbami medzi atómami kyslíka a vodíka peptidových väzieb
+c) má formu ľavotočivej závitnice alebo skladaného listu
+d) je stabilizovaná vodíkovými väzbami, ktoré sa tvoria medzi bočnými reťazcami aminokyselín

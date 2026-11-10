@@ -1,0 +1,6 @@
+Stabilita molekuly závisí:
+
+a) od počtu atómov v molekule
+b) len od polarity väzby
+c) od veľkosti väzbovej energie, ktorá sa spotrebuje pri jej vzniku
+d) od veľkosti väzbovej energie, ktorá sa uvoľní pri jej vzniku

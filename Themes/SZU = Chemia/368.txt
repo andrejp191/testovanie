@@ -1,0 +1,6 @@
+Molekulový vzorec:
+
+a) vyjadruje len typy atómov v molekule
+b) vyjadruje typy atómov a ich počet v molekule
+c) je napríklad CH-CH -OH, CHOH 3 2 2 5
+d) je napríklad CH O , CH Cl 6 12 6 3 7

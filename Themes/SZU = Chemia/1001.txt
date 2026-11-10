@@ -1,0 +1,6 @@
+O ligázach a lyázach platí:
+
+a) ligázy katalyzujú syntézu dvoch substrátov v prítomnosti ATP
+b) ligázy katalyzujú syntézu dvoch substrátov v prítomnosti NAD+
+c) lyázy nehydrolyticky štiepia väzbu medzi atómami uhlíka
+d) lyázy a ligázy môžu katalyzovať rovnaké typy reakcií

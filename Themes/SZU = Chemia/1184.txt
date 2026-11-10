@@ -1,0 +1,6 @@
+Vypočítajte súčin rozpustnosti hydroxidu strieborného, ak pri danej teplote pH nasýteného roztoku je 10,3. (log 3,7 = 0,568; log 1,996 = 0,300)
+
+a) 3,98 . 10-10
+b) 3,98 . 10-8
+c) 3,96 . 10-10
+d) 39,6 . 10-8

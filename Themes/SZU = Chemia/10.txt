@@ -1,0 +1,6 @@
+Prvok:
+
+a) je častica chemickej látky zložená z atómov s rovnakým nukleónovým číslom
+b) je častica látky zložená len z rovnakých nuklidov
+c) je látka zložená z atómov s rovnakým protónovým číslom
+d) je napríklad sodík, kyslík, destilovaná voda

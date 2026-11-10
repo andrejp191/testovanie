@@ -1,0 +1,6 @@
+Rýchlosť chemickej reakcie plynného vodíka s plynným chlórom sa zvýši ak:
+
+a) znížime koncentráciu plynného chlorovodíka
+b) zvýšime koncentráciu vodíka
+c) znížime koncentráciu chlóru
+d) zvýšime koncentráciu reaktantov

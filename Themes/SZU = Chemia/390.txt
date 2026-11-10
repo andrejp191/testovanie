@@ -1,0 +1,6 @@
+Mezomérny efekt:
+
+a) vzniká posunom polárneho efektu po π väzbách
+b) je slabší ako indukčný
+c) s rastúcou dĺžkou konjugovaného systému nestráca na intenzite
+d) nemá vplyv na reaktivitu molekuly

@@ -1,0 +1,6 @@
+Enzým:
+
+a) je biokatalyzátor, ktorý reakcie nielen urýchľuje ale aj reguluje
+b) rovnako ako anorganický katalyzátor znižuje hodnotu aktivačnej energie
+c) na rozdiel od anorganického katalyzátora je potrebné ho počas reakcie dodávať
+d) pôsobí iba aktívnym centrom, nie celým povrchom ako anorganický katalyzátor

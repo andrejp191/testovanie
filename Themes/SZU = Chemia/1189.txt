@@ -1,0 +1,6 @@
+Rovnová~na konatanta syntézy HI z I a H má hodnotu K = 9. Vypočítajte rovnová~ne 2 2 koncentrácie jednotlivých látok v reakčnej zmesi, ak východiskové koncentrácie vodíka a jódu boli 2 mol . l-1.
+
+a) [H ] = 1,5 mol . dm-3; [I ] = 1,5 mol . dm-3 2 2
+b) [HI] = 2,4 mol . dm-3
+c) [H ] = 0,8 mol . dm-3; [I ] = 0,8 mol . dm-3 2 2
+d) [HI] = 0,5 mol . dm-3

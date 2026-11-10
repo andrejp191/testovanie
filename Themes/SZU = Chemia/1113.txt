@@ -1,0 +1,6 @@
+Vypočítajte hmotnostné percentuálne zastúpenie jednotlivých prvkov v molekule glukózy.
+
+a) 40,00 % O; 6,67 % H; 53,33 % C
+b) 40,00 % C; 6,67 % H; 53,33 % O
+c) 48,00 % C; 8,00 % H; 44,00 % O
+d) 48,00 % O; 8,00 % H; 44,00 % C

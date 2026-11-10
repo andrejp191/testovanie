@@ -1,0 +1,6 @@
+Vyberte izotopy:
+
+a) 16O, 17O 8 8
+b) 1H, 1H, 1H 1 2 3
+c) 40 Ar, 40 K 18 19
+d) protium, deutérium, trítium

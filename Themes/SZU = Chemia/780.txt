@@ -1,0 +1,6 @@
+O pyridíne platí:
+
+a) voľný elektrónový pár sa nezapája do konjugácie
+b) aromatický charakter vzniká tak, že päť nespárených elektrónov 5-ich atómov uhlíka a jeden nespárený elektrón atómu dusíka vytvárajú delokalizovaný oblak
+c) do delokalizácie π-elektrónov sa z atómu dusíka zapája voľný elektrónový pár, preto sa zvyšuje elektrónová hustota a prejavuje sa zásaditý charakter
+d) elektrofilné substitučné reakcie na pyridíne prebiehajú ľahšie ako na benzéne

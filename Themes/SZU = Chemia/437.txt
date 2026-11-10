@@ -1,0 +1,6 @@
+Atóm uhlíka v alkánoch:
+
+a) môže byť v hybridizácii sp3, sp2, sp
+b) je vždy viazaný jednoduchými kovalentnými väzbami
+c) je v molekulách nahradený aj atómom síry, dusíka alebo kyslíka
+d) je štvorväzbový

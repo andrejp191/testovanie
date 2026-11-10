@@ -1,0 +1,6 @@
+Vypočítajte, koľko chloridu draselného vykryatalizuje ak 750 g roztoku nasýteného pri 75 oC ochladíme na 0oC. Rozpustnosť KCl pri 75oC je 50 g v 100 g vody a pri 0oC 26 g KCl v 100 g vody.
+
+a) 120 g KCl
+b) 130 g KCl
+c) 250 g KCl
+d) 200 g KCl

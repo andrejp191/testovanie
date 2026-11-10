@@ -1,0 +1,6 @@
+O aminokyselinách platí:
+
+a) neesenciálne aminokyseliny nemusí človek prijímať v potrave, lebo si ich organizmus dokáže vytvoriť z dusíka, vodíka, uhlíka
+b) aminokyseliny, ktoré majú v molekule aromatické jadro, heterocyklus alebo rozvetvený reťazec sú esenciálne
+c) neesenciálne si organizmus dokáže vytvoriť transamináciou
+d) esenciálne si organizmus dokáže vytvoriť z neesenciálnych aminokyselín transamináciou

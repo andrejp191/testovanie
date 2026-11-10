@@ -1,0 +1,6 @@
+Chemicky čistá látka:
+
+a) sa skladá len z častíc rovnakého druhu
+b) môže byť prvok alebo zlúčenina
+c) je látka, ktorej fyzikálne a chemické vlastnosti sa už ďalším čistením nemenia
+d) môže byť len prvok

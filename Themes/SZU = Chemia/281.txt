@@ -1,0 +1,6 @@
+Sila kyseliny závisí:
+
+a) od prostredia, v ktorom sa kyselina nachádza
+b) od oxidačného čísla kyselinotvorného prvku
+c) od počtu vodíkových atómov v molekule kyseliny
+d) od sýtnosti kyseliny

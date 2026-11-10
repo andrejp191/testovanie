@@ -1,0 +1,6 @@
+Polynukleotid vzniká:
+
+a) kondenzáciou nukleotidov
+b) polymerizáciou nukleotidov
+c) tak, že nukleotidy sa navzájom viažu 3´, 5´-fosfodiesterovou väzbou
+d) polyadíciou nukleozidov

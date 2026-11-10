@@ -1,0 +1,6 @@
+Pre inhibíciu enzýmov neplatí:
+
+a) inhibítory spomaľujú alebo úplne zastavujú enzýmovú reakciu
+b) alosterický inhibítor sa viaže vždy na aktívne centrum enzýmu
+c) pri kompetitívnej inhibícii dochádza vždy k denaturácii enzýmu
+d) pri biochemických procesoch produkt jednej reakcie môže pôsobiť ako inhibítor predchádzajúcej reakcie

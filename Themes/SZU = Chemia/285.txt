@@ -1,0 +1,6 @@
+Kyslo reaguje roztok, keď:
+
+a) pOH > 7
+b) pH = 3,5
+c) pH > 8
+d) pOH = 12,3

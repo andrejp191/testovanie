@@ -1,0 +1,6 @@
+Vyberte správne hodnoty kvantových čísel:
+
+a) n = 2, l = 1, m = -1, 0, 1
+b) n = 2, l = 3, m = -3, -2, -1, 0, 1, 2, 3
+c) n = 1, m = 0
+d) druhá elektrónová vrstva môže mať orbitály s, p, d

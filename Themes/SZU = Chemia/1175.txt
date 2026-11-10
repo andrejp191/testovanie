@@ -1,0 +1,6 @@
+Vypočítajte pH, pOH, [H O+] a [OH-] nasýteného roztoku hydroxidu vápenatého, ak jeho 3 rozpustnosť pri danej teplote je 1,17 . 10-2 mol . dm-3. (log 1,17 = 0,068; log 2,34 = 0,369)
+
+a) pH = 12,369; pOH = 1,631
+b) [H O+] = 4,27 . 10-13 mol . dm-3; [OH-] = 2,34 . 10-2 mol . dm-3 3
+c) [H O+] = 8,54 . 10-13 mol . dm-3; [OH-] = 1,17 . 10-2 mol . dm-3 3
+d) pH = 12,068; pOH = 1,932

@@ -1,0 +1,6 @@
+Pri exotermickej reakcii:
+
+a) je potenciálna energia reaktantov vyššia ako potenciálna energia produktov
+b) je potrebná vysoká hodnota aktivačnej energie
+c) je potenciálna energia reaktantov nižšia ako potenciálna energia produktov
+d) sa reakčné teplo vypočíta ako rozdiel potenciálnych energií produktov a reaktantov

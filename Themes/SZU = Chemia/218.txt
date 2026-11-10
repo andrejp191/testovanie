@@ -1,0 +1,6 @@
+Podľa Guldbergovho – Waageho zákona:
+
+a) rýchlosť chemickej rekcie je priamo úmerná súčtu molárnych koncentrácii reaktantov a produktov
+b) rýchlosť chemickej reakcie je pri stálej teplote priamo úmerná súčinu koncentrácií dosiaľ nezreagovaných reaktantov
+c) sa rýchlosť v priebehu chemickej reakcie nemení, je konštantná
+d) rýchlosť pre všeobecnú reakciu vypočítame podľa rovnice v = k . c(A)α. c(B)β

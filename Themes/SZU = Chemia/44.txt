@@ -1,0 +1,6 @@
+Pre kvantové čísla platí:
+
+a) hlavné súhlasí s číslom hladiny elektrónov
+b) hlavné má vplyv na veľkosť, vedľajšie na tvar hraničnej plochy orbitálov
+c) vedľajšie určuje počet elektrónových vrstiev v atóme
+d) magnetické určuje maximálny počet elektrónov vo valenčnej vrstve

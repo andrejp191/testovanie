@@ -1,0 +1,6 @@
+Štruktúra β-skladaného listu:
+
+a) vzniká medzi dvoma peptidovými reťazcami, ktoré prebiehajú voči sebe paralelne alebo antiparalelne
+b) je tvorená van der Waalsovými silami medzi reťazcami
+c) bočné reťazce aminokyselín –R sa nepodieľajú na sekundárnej štruktúre a smerujú nad a pod rovinu β-skladaného listu
+d) je pevnejšia ako α-helix

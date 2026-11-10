@@ -1,0 +1,6 @@
+Číslo skupiny A v periodickej sústave prvkov:
+
+a) je rovnaké ako najvyššie kladné oxidačné číslo prvkov v I. až VII. skupine (okrem F a O)
+b) nadobúda hodnoty I až VII
+c) sa zhoduje s hodnotou hlavného kvantového čísla
+d) sa zhoduje s počtom elektrónov na poslednej elektrónovej vrstve

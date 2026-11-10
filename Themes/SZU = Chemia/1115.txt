@@ -1,0 +1,6 @@
+Vypočítajte, koľko tepla sa spotrebuje pri výrobe 100 kg páleného vápna z uhličitanu vápenatého, ak ΔH = +178 kJ . mol-1.
+
+a) 317,86 kJ . mol-1
+b) 17,8 MJ
+c) 317,86 MJ
+d) 17,8 kJ . mol-1

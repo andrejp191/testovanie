@@ -1,0 +1,6 @@
+Štart kodón je:
+
+a) UAA
+b) UGA
+c) AUG
+d) GUA

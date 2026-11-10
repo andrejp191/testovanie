@@ -1,0 +1,6 @@
+Rovnovážna konštanta:
+
+a) sa vypočíta pomocou I. termochemického zákona
+b) závisí od typu reakcie a od teploty reakčného systému
+c) závisí vždy od tlaku v reakčnej zmesi
+d) ak je väčšia ako 10-2 udáva, že rovnováha je posunutá na stranu produktov

@@ -1,0 +1,6 @@
+Relatívna atómová hmotnosť A: r
+
+a) udáva, koľkokrát je atóm prvku ťažší ako atómová hmotnostná jednotka
+b) je súčet hmotností všetkých elementárnych častíc v atóme
+c) umožňuje vypočítať skutočnú hmotnosť daného atómu
+d) označuje sa A a je bezrozmerné číslo r

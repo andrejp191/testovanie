@@ -1,0 +1,6 @@
+Podľa 1. termochemického zákona pre reakčné teplo platí:
+
+a) reakčné teplo priamej a spätnej reakcie je podľa zákona zachovania energie vždy rovnaké
+b) reakčné teplo priamej a spätnej reakcie je až na znamienko rovnaké
+c) reakčné teplo priamej reakcie je rovnaké ako reakčné teplo čiastkových reakcií
+d) reakčné teplo vypočítame z rozdielu energií

@@ -1,0 +1,6 @@
+Oxidoreduktázy:
+
+a) katalyzujú len oxidácie substrátu
+b) katalyzujú všetky redoxné deje
+c) majú ako koenzýmy FAD, NAD+
+d) umožňujú oxidáciu aldehydu na etanol

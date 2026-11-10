@@ -1,0 +1,6 @@
+β-oxidácia mastných kyselín:
+
+a) prebieha rovnako ako citrátový cyklus a dýchací reťazec v mitochondriách
+b) po aktivácii mastnej kyseliny dochádza k dehydrogenácii v prítomnosti FAD za vzniku nenasýtenej mastnej kyseliny
+c) je dej, pri ktorom postupnou oxidáciou vyššej karboxylovej kyseliny na β-uhlíku vzniká ako konečný produkt ketokyselina
+d) sa nazýva aj Lynnenova špirála, lebo prebieha dovtedy, kým sa karboxylová kyselina nerozštiepi na molekuly acetyl-CoA

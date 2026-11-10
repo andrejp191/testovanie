@@ -1,0 +1,6 @@
+Stop kodóny sú:
+
+a) UAA, AUG, UGA
+b) UAA, UAG, UGA
+c) nie sú komplementárne k žiadnemu antikodónu
+d) komplementárne len k metionyl-tRNA

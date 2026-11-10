@@ -1,0 +1,6 @@
+Ak v dvoch reakčných sústavách rovnakého objemu, jednej guľovej a druhej v tvare úzkej trubice, reaguje plyn A s plynom B (koncentrácia oboch plynov je rovnaká v oboch sústavách), potom rýchlosť reakcie:
+
+a) bude v oboch nádobách rovnaká, pretože majú rovnaký objem
+b) bude rovnaká, pretože reagujú rovnaké plyny
+c) v guľovitej nádobe bude vyššia ako v úzkej trubici
+d) v úzkej trubici bude väčšia ako v guľovitej nádobe

@@ -1,0 +1,6 @@
+Reakčné teplo:
+
+a) je teplo, ktoré si sústava pri reakcii vymieňa s okolím
+b) vyjadrujeme v kJ/mol
+c) závisí od skupenstva reagujúcich látok a od teploty
+d) je teplo, ktoré treba dodať, aby látky mohli reagovať

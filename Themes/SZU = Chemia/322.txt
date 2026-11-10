@@ -1,0 +1,6 @@
+Vyberte správne výroky:
+
+a) v roztoku sa začne vylučovať zrazenina, ak súčin koncentrácií voľných iónov v roztoku bude rovný jednej
+b) čím je hodnota súčinu rozpustnosti menšia, tým je látka menej rozpustná
+c) látka sa vo vode rozpúšťa dovtedy, kým hodnota súčinu jej iónov v roztoku nedosiahne hodnotu iónového súčinu vody
+d) rozpustnosť danej látky môžeme ovplyvniť pridaním jedného z jej iónov do roztoku

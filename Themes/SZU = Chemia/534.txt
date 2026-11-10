@@ -1,0 +1,6 @@
+Reaktivita halogénderivátov uhľovodíkov:
+
+a) závisí len od typu halogénu v molekule
+b) závisí len od polarity väzby C-halogén
+c) závisí od energie, polarity a polarizovateľnosti väzby C-halogén
+d) stúpa v poradí C-F < C-Cl < C-Br < C-I

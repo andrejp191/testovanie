@@ -1,0 +1,6 @@
+Podľa Hessovho zákona platí:
+
+a) reakčné teplo nezávisí od mechanizmu chemickej reakcie
+b) reakčné teplo priamej reakcie sa rovná súčtu reakčných tepiel čiastkových reakcií, ktorými daný produkt vzniká
+c) reakčné teplo nezávisí od teploty reaktantov
+d) reakčné teplo priamej a čiastkovej reakcie sa líši len znamienkom

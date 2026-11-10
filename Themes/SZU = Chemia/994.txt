@@ -1,0 +1,6 @@
+Pri nekompetitívnej inhibícii enzýmu:
+
+a) ťažkými kovmi sa inhibítor viaže nevratne
+b) ťažkými kovmi dochádza k denaturácii enzýmu
+c) sa inhibítor viaže len na alosterické centrum
+d) ťažkými kovmi sa inhibítor viaže vratne

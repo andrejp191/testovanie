@@ -1,0 +1,6 @@
+Rádioaktívne žiarenie:
+
+a) alfa, beta a gama sa nedajú rozlíšiť podľa správania sa v elektrickom poli
+b) gama je elektromagnetické žiarenie s vlnovou dĺžkou 0,5 - 40 . 10-12 m
+c) alfa a beta je prenikavejšie ako gama
+d) gama je najprenikavejšie

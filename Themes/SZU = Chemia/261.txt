@@ -1,0 +1,6 @@
+Mierou sily kyseliny je:
+
+a) hodnota pH
+b) hodnota disociačnej konštanty
+c) ionizačný stupeň
+d) koncentrácia kyseliny

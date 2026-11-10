@@ -1,0 +1,6 @@
+Nekompetitívna inhibícia enzýmu:
+
+a) inhibítor sa viaže na aktívne miesto enzýmu
+b) dá sa odstrániť zvýšením koncentrácie substrátu
+c) je napríklad otrava niektorými jedmi
+d) je typ inhibície, pri ktorom sa môže inhibítor naviazať na niektorú reaktívnu funkčnú skupinu enzýmu, čím sa poruší afinita enzýmu k substrátu

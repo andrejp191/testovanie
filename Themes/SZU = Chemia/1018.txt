@@ -1,0 +1,6 @@
+Transferová RNA (tRNA):
+
+a) má sekundárnu štruktúru „ďatelinového listu“
+b) pri transkripcii prenáša nukleotidy na miesto tvorby mediátorovej RNA
+c) na dlhšom konci má vždy triplet CCA, na ktorý sa viaže aminokyselina
+d) obsahuje kodón

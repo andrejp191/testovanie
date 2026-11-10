@@ -1,0 +1,6 @@
+Aromatické zlúčeniny sú:
+
+a) zlúčeniny, ktoré majú výraznú arómu
+b) zlúčeniny, ktoré majú v molekule delokalizovaný oblak π-elektrónov a rovinnú štruktúru
+c) zlúčeniny, ktoré majú v cykle molekuly 4n+2 delokalizovaných elektrónov
+d) v priestore majú vaničkovú formu

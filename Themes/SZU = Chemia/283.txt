@@ -1,0 +1,6 @@
+Iónový súčin vody K: v
+
+a) predstavuje rovnovážnu konštantu autoprotolýzy destilovanej vody
+b) je daný súčinom rovnovážnych molárnych koncentrácií H O+ a OH- 3
+c) jeho hodnota je vždy 10-14
+d) v destilovanej vode má hodnotu 10-14 pri 25oC

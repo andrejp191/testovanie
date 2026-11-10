@@ -1,0 +1,6 @@
+Freóny:
+
+a) sú deriváty uhľovodíkov, ktoré v molekule obsahujú aspoň dva rôzne hocijaké halogény
+b) sú deriváty uhľovodíkov, ktoré v molekule obsahujú aspoň dva rôzne halogény, z ktorých jeden musí byť fluór
+c) sú napríklad dibrómdifluórmetán a chlórfluórmetán
+d) sú napríklad dichlórdibrómmetán a dichlórtrijódmetán

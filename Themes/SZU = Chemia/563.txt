@@ -1,0 +1,6 @@
+Zásaditý charakter anilínu ovplyvňuje:
+
+a) + I efekt
+b) - I efekt
+c) + M efekt
+d) - M efekt

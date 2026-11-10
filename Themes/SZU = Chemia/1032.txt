@@ -1,0 +1,6 @@
+Metabolická dráha:
+
+a) je súbor biochemických reakcií, ktoré na seba nadväzujú
+b) je súbor reakcií, pričom produkt jednej reakcie je východiskovou látkou nasledujúcej reakcie
+c) je napríklad reakcia neutralizácie alebo komplexotvornej reakcie
+d) je vždy vratná

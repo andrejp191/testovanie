@@ -1,0 +1,6 @@
+Podľa Arrhenia:
+
+a) rýchlosť chemickej reakcie závisí od teploty
+b) ak sa teplota reakčnej sústavy zvýši o 10oC, rýchlosť každej reakcie sa zvýši štvornásobne
+c) ak sa teplota reakcie zvýši o 2-4oC, rýchlosť chemickej reakcie bude desaťkrát väčšia
+d) ak sa teplota reakčnej sústavy zvýši o 10oC, rýchlosť chemickej reakcie sa zvýši 2-4 krát

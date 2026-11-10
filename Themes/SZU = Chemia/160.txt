@@ -1,0 +1,6 @@
+O chemickej väzbe platí:
+
+a) pri vzniku chemickej väzby sa energia spotrebuje alebo uvoľňuje podľa typu reakcie
+b) pri vzniku chemickej väzby sa uvoľní väzbová energia
+c) čím väčšia väzbová energia sa uvoľní pri jej vzniku, tým je väzba pevnejšia
+d) je tým pevnejšia, čím väčšia disociačná energia je potrebná na jej štiepenie

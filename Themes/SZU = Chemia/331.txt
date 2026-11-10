@@ -1,0 +1,6 @@
+Počet atómov vodíka v molekule síranu amónneho je:
+
+a) 3
+b) 4
+c) 6
+d) 8

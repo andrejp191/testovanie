@@ -1,0 +1,6 @@
+Kyslosť substitučných derivátov karboxylových kyselín závisí:
+
+a) od polohy substituenta vzhľadom na karboxylovú skupinu
+b) od počtu halogénov na uhlíkovom reťazci karboxylovej kyseliny
+c) len od dĺžky uhlíkového reťazca
+d) od charakteru substituenta

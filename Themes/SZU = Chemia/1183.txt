@@ -1,0 +1,6 @@
+Vypočítajte koľko síranu bárnatého je rozpusteného v 0,5 l nasýteného roztoku, ak pri danej teplote je K = 1,08 . 10-10. (√1,08 = 1,039; √108 = 10,39) s
+
+a) 1,21 mg
+b) 1,21 g
+c) 12,1 . 103 mg
+d) 0,121 . 10-2 kg

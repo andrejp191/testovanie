@@ -1,0 +1,6 @@
+Zásady podľa Brönsteda sú:
+
+a) látky, ktoré v molekule obsahujú aspoň jednu hydroxylovú skupinu
+b) napríklad alkoholy a fenoly
+c) látky, ktoré sú akceptormi katiónu vodíka
+d) látky schopné prijať vodík

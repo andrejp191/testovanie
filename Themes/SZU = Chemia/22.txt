@@ -1,0 +1,6 @@
+Zloženie roztoku vyjadrujeme:
+
+a) hmotnostným zlomkom
+b) objemovým zlomkom
+c) osmotickým tlakom
+d) ionizačným stupňom

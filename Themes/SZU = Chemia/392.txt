@@ -1,0 +1,6 @@
+Substitúcia:
+
+a) je typ reakcie, pri ktorom dochádza k nahradeniu jedného atómu uhlíka v uhľovodíkovom reťazci iným atómom
+b) je typ reakcie, pri ktorom dochádza k nahradeniu atómu alebo skupiny atómov iným atómom alebo inou skupinou atómov
+c) je reakcia, pri ktorej nevzniká vedľajší produkt
+d) podľa typu činidla môže byť elektrofilná, nukleofilná, radikálová

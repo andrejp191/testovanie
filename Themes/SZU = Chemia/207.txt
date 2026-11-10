@@ -1,0 +1,6 @@
+Pri exotermických reakciách:
+
+a) reakčné teplo píšeme so znamienkom mínus, pretože reaktanty majú nižšiu energiu ako produkty
+b) píšeme ∆Q < 0, pretože produkty majú nižšiu energiu ako reaktanty
+c) produkty sú stabilnejšie
+d) stabilita reaktantov a produktov je rovnaká, líšia sa len energiou

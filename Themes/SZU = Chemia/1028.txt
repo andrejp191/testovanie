@@ -1,0 +1,6 @@
+Štart kodón:
+
+a) je iniciačný kodón
+b) určuje naviazanie metionyl-tRNA na mRNA
+c) určuje naviazanie metionyl-tRNA na rRNA
+d) nie je komplementárny k žiadnemu kodónu, len dodáva energiu na transláciu

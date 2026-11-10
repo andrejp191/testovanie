@@ -1,0 +1,6 @@
+Acylglyceroly vo svojej molekule môžu mať:
+
+a) esterifikovanú jednu, dve alebo všetky tri hydroxylové skupiny
+b) esterifikované len primárne hydroxylové skupiny
+c) rovnaké alebo rôzne acyly vyšších karboxylových kyselín
+d) len acyly nasýtených mastných kyselín

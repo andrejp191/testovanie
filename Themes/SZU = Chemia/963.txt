@@ -1,0 +1,6 @@
+Pre peptidovú väzbu neplatí:
+
+a) porucha v primárnej štruktúre spôsobuje genetickú mutáciu
+b) je veľmi stabilná a neštiepi sa pri denaturácii
+c) ak sa vyskytne porucha v poradí aminokyselín, môže sa to prejaviť ochorením organizmu
+d) nazýva sa aj amidová väzba

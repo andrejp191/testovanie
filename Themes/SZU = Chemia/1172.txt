@@ -1,0 +1,6 @@
+Vypočítajte pH roztoku, ktorý vznikne zmieaaním 50 ml roztoku kyseliny sírovej s c = 0,25 mol . l-1 a 50 ml roztoku hydroxidu draselného s c = 0,25 mol . l-1. (log 0,250 = – 0,602; log 0,125 = – 0,903)
+
+a) dochádza k neutralizácii, preto bude roztok neutrálny
+b) pH = 11,796
+c) pH = 0,903
+d) pH = 0,602

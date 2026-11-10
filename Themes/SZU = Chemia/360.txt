@@ -1,0 +1,6 @@
+Atóm uhlíka je:
+
+a) primárny, ak v molekule zlúčeniny priamo viaže jeden atóm uhlíka
+b) sekundárny, ak sa viaže s tromi ďalšími atómami uhlíka
+c) terciárny, ak sú na tento atóm naviazané tri rôzne substituenty
+d) nulárny, keď sa nachádza v nezlúčenom stave

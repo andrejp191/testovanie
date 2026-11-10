@@ -1,0 +1,6 @@
+Pre entropiu kryštalického KCl a roztoku KCl platí:
+
+a) entropia kryštálov KCl je nižšia ako entropia roztoku KCl
+b) entropia kryštalického KCl je rovnaká ako entropia KCl v roztoku
+c) entropia KCl v roztoku je nižšia ako entropia kryštálov KCl
+d) kryštál KCl má väčšiu usporiadanosť, preto má nižšiu hodnotu entropie

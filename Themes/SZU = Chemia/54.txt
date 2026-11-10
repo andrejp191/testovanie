@@ -1,0 +1,6 @@
+Elektrónovú konfiguráciu 1s2, 2s1, 2px1, 2py1, 2pz1 má:
+
+a) atóm uhlíka v základnom stave
+b) excitovaný atóm uhlíka
+c) atóm dusíka v excitovanom stave
+d) katión uhlíka

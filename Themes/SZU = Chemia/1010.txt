@@ -1,0 +1,6 @@
+Makroergické zlúčeniny:
+
+a) sú napriklad ATP, GTP, NAD+, FAD
+b) obsahujú v molekule makroergickú väzbu
+c) uvoľňujú energiu pri hydrolytickom štiepení fosfoesterovej väzby
+d) sú napríklad ATP, GTP, acetyl-CoA

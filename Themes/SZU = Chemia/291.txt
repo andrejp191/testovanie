@@ -1,0 +1,6 @@
+Pre redoxnú reakciu HS + KCrO + H SO → S + Cr(SO) + K SO + HO platí: 2 2 2 7 2 4 2 4 3 2 4 2
+
+a) HS pôsobí ako oxidačné činidlo 2
+b) S-II + 3e → SIV
+c) CrVI + 6e → CrIII 2 2
+d) stechiometrické koeficienty sú 3 + 1 + 4 → 3 + 1 + 1 + 7

@@ -1,0 +1,6 @@
+O geometrickom usporiadaní polypeptidu platí:
+
+a) má formu α-helixu, ak vodíkové väzby vznikajú medzi kyslíkom a vodíkom peptidových väzieb v rámci jedného polypeptidového reťazca
+b) bočné reťazce aminokyselín sa v rámci závitnice viažu van der Waalsovými silami
+c) bočné reťazce aminokyselín sa na sekundárnej štruktúre nezúčastňujú a smerujú do priestoru mimo závitnice
+d) nezaniká denaturáciou

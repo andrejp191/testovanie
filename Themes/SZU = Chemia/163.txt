@@ -1,0 +1,6 @@
+Kovalentná väzba:
+
+a) môže byť väzba σ alebo π
+b) môže byť len jednoduchá
+c) je jednoduchá alebo násobná
+d) môže byť nepolárna, polárna

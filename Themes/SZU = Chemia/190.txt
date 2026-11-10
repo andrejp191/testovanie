@@ -1,0 +1,6 @@
+Hodnotu aktivačnej energie:
+
+a) vypočítame z rozdielu potenciálnej energie produktov a reaktantov
+b) vypočítame z rozdielu potenciálnej energie prechodového komplexu a potenciálnej energie reaktantov
+c) vypočítame z rozdielu potenciálnej energie prechodového komplexu a potenciálnej energie produktov
+d) ovplyvňuje prítomnosť katalyzátora

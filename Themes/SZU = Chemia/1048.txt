@@ -1,0 +1,6 @@
+Vyberte správne tvrdenie o dýchacom reťazci:
+
+a) postupný prenos elektrónov z atómov vodíka na kyslík cez systém cytochrómov umožňuje bunke uvoľnenú energiu využiť na tvorbu ATP
+b) ak by došlo k priamemu prenosu elektrónov z vodíka na kyslík, uvoľnila by sa taká veľká energia, že bunka by ju nedokázala uložiť do ATP a celá by sa premenila na teplo
+c) nie je potrebný postupný prenos elektrónov z vodíka na kyslík, lebo reakcia je amfibolická
+d) redukované koenzýmy NAD+ a FAD sa oxidujú v koncovom oxidačnom reťazci na NADP+ a FADH 2

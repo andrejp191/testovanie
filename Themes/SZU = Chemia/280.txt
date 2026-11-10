@@ -1,0 +1,6 @@
+Vodný roztok bude mať pOH < 7 ak v destilovanej vode rozpustíme:
+
+a) chlorid draselný
+b) kyanid sodný
+c) síran amónny
+d) dusičnan strieborný

@@ -1,0 +1,6 @@
+Zmena tlaku v rovnovážnej zmesi:
+
+a) vyvolá vždy posun rovnováhy
+b) môže vyvolať posun rovnováhy len v prípade, že sa v reakčnom systéme nachádzajú plynné látky
+c) nemá vplyv na rovnovážny stav
+d) ovplyvňuje len koncentráciu látok

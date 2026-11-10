@@ -1,0 +1,6 @@
+Aktiváciu enzýmu môže vyvolať:
+
+a) prítomnosť katiónov, napríklad Zn2+, Mg2+
+b) odštiepenie časti aktívneho centra
+c) naviazanie alosterického aktivátora
+d) vytvorenie kovalentných väzieb medzi aktivátorom a substrátom

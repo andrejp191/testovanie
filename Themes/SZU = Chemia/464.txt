@@ -1,0 +1,6 @@
+Vyberte čo o väzbe C≡C neplatí:
+
+a) je reaktívnejšia ako C=C, pretože má väčšiu elektrónovú hustotu
+b) napriek tomu, že má väčšiu elektrónovú hustotu nie je reaktívnejšia ako C=C
+c) nie je reaktívnejšia ako C=C
+d) zaniká len homolyticky

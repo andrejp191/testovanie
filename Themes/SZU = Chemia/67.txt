@@ -1,0 +1,6 @@
+Maximálne kladné oxidačné číslo prvkov hlavných skupín je:
+
+a) 8
+b) vždy zhodné s číslom periódy, v ktorej sa daný prvok nachádza
+c) rovnaké ako počet valenčných elektrónov daného prvku
+d) vždy rovnaké ako číslo hlavnej skupiny, v ktorej sa daný prvok nachádza

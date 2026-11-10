@@ -1,0 +1,6 @@
+Chemická rovnováha:
+
+a) je dynamický stav
+b) nastane v každom reakčnom systéme a nezáleží na tom, či je otvorený alebo uzavretý
+c) nastane len v endotermických reakciách
+d) je stav, pri ktorom je rýchlosť priamej a spätnej reakcie rovnaká

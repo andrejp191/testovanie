@@ -1,0 +1,6 @@
+Aký bude osmotický tlak roztoku octanu hlinitého pri teplote 25 °C, ak sa v 500 ml roztoku nachádza 5 g tejto látky? (R = 8,32 J . K-1 . mol-1)
+
+a) 0,48 kPa
+b) 486,4 kPa
+c) 239,5 kPa
+d) 40,16 kPa

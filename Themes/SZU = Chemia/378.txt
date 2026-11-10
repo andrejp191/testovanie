@@ -1,0 +1,6 @@
+Väzba C = C môže zanikať:
+
+a) len pôsobením UV žiarenia
+b) pôsobením elektrofilného činidla
+c) vždy za vzniku biradikálu
+d) pôsobením molekuly vody v prítomnosti H+ ako katalyzátora

@@ -1,0 +1,6 @@
+Vypočítajte, koľko molekúl kyseliny dusičnej predstavuje 5 mol tejto látky:
+
+a) 0,8 . 1023 molekúl
+b) 1,2 . 10-23 molekúl
+c) 30 . 10-23 molekúl
+d) 30 . 1023 molekúl

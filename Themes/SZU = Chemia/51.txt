@@ -1,0 +1,6 @@
+Podľa Hundovho pravidla platí, že:
+
+a) elektróny obsadzujú orbitály s rovnakou hodnotou energie najprv po jednom, potom sa spárujú
+b) v jednom orbitále nemôžu existovať dva elektróny, ktoré by mali všetky štyri kvantové čísla rovnaké
+c) elektróny obsadzujú orbitály podľa stúpajúcej hodnoty energie
+d) elektróny vo valenčnej vrstve vždy vytvoria oktet

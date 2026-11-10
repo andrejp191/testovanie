@@ -1,0 +1,6 @@
+Vyberte kyslý roztok:
+
+a) pH = 9,2
+b) pOH = 1,5
+c) pOH = 10
+d) pH = 2,4

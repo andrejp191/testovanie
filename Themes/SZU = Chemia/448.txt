@@ -1,0 +1,6 @@
+Charakteristické reakcie alkánov sú:
+
+a) adície nukleofilné, pretože na atómoch uhlíka je mierne zvýšená elektrónová hustota, čo sa prejavuje kladným indukčným efektom alkylovej skupiny
+b) radikálové substitúcie, pretože nepolárna kovalentná väzba C-H tu zaniká len homolyticky
+c) radikálové adície, pretože dochádza k adícii radikálu
+d) nemajú charakteristické reakcie, pretože alkány sú nereaktívne

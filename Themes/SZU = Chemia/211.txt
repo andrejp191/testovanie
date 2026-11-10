@@ -1,0 +1,6 @@
+Pre endotermické reakcie platí:
+
+a) všetky endotermické reakcie prebiehajú samovoľne
+b) sú to len protolytické reakcie
+c) produkty endotermických reakcií majú nižšiu potenciálnu energiu ako reaktanty
+d) produkty endotermických reakcií majú vyššiu potenciálnu energiu ako reaktanty

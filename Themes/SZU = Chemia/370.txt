@@ -1,0 +1,6 @@
+Kovalentná väzba v organických zlúčeninách môže pôsobením činidiel:
+
+a) zanikať vždy len homolyticky
+b) sa štiepiť homolyticky alebo heterolyticky, podľa charakteru väzby
+c) zanikať len heterolyticky
+d) nemôže zanikať, je vždy potrebná prítomnosť katalyzátora

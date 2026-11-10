@@ -1,0 +1,6 @@
+Konfiguračná izoméria:
+
+a) cis-/trans- sa vyskytuje v molekulách organických zlúčenín, kde dvojitá väzba bráni rotácii okolo väzby C=C
+b) je typ konštitučnej izomérie
+c) môže byť cis-/trans- izoméria
+d) cis-/trans- sa nachádza aj v molekulách necyklických alkánov

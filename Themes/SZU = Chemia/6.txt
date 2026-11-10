@@ -1,0 +1,6 @@
+Nuklidy:
+
+a) sú látky zložené z atómov s rovnakým protónovým a rôznym nukleónovým číslom
+b) sú látky zložené z atómov s rôznym protónovým číslom
+c) sú látky zložené z atómov s rovnakým protónovým aj nukleónovým číslom
+d) sú látky s rovnakým počtom protónov aj neutrónov v atómovom jadre

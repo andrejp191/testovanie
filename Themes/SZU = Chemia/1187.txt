@@ -1,0 +1,6 @@
+V rovnová~nom stave reakcie 2 N + 3 O ↔ 2 N O sa zistila koncentrácia dusíka 2 2 2 3 2,30 mol . l-1; kyslíka 1,05 mol . l-1 a oxidu dusitého 3,42 mol . l-1. Vypočítajte rovnová~nu konatantu reakcie a počiatočné koncentrácie dusíka a kyslíka.
+
+a) [N ] = 5,72 mol . dm-3; [O ] = 6,18 mol . dm-3 2 2
+b) [N ] = 4,01 mol . dm-3; [O ] = 2,29 mol . dm-3 2 2
+c) K = 0,524
+d) K = 1,910

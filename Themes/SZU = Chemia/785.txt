@@ -1,0 +1,6 @@
+Vyberte molekuly, ktoré obsahujú kyslík:
+
+a) pyrol
+b) pyridín
+c) pyrán
+d) porfín

@@ -1,0 +1,6 @@
+Pre enzýmy platí:
+
+a) každý enzým obsahuje proteínovú zložku – apoenzým
+b) môže okrem apoenzýmu obsahovať aj neproteínovú organickú časť, ktorá sa nazýva koenzým
+c) koenzýmom nemôžu byť vitamíny, NAD+
+d) kofaktorom enzýmu býva najčastejšie Cd2+, Hg2+

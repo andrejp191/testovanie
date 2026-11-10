@@ -1,0 +1,6 @@
+Vyberte dvojice, v ktorých sa nachádza koordinačná väzba:
+
+a) CH ; CHCl 4 3
+b) HO+; NH+ 3 4
+c) [Cu(NH)]Cl ; KCr(SO ) 3 4 2 4 2
+d) [Ni(HO)](NO ) ;NH Cl 2 3 3 2 4

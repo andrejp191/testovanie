@@ -1,0 +1,6 @@
+Rýchlosť enzýmovej reakcie neovplyvňuje:
+
+a) koncentrácia enzýmu a substrátu
+b) veľkosť povrchu enzýmu
+c) teplota a pH prostredia
+d) hodnota pI aminokyselín, z ktorých sa skladá apoenzým

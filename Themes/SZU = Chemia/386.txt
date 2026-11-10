@@ -1,0 +1,6 @@
+Indukčný efekt:
+
+a) vzniká v dôsledku prítomnosti elektronegatívnejšieho atómu, resp. polárnej väzby
+b) ide o posun elektrónov σ-väzieb v uhlíkovom reťazci
+c) ovplyvňuje celú molekulu
+d) s rastúcou dĺžkou reťazca stráca intenzitu

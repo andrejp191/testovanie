@@ -1,0 +1,6 @@
+Pri reakcii vodíka s dusíkom sa zistili pri danej teplote v reakčnej zmesi rovnová~ne koncentrácie vodíka 5 mol . l-1; dusíka 3,5 mol . l-1a amoniaku 6 mol . l-1. Vypočítajte rovnová~nu konatantu tejto reakcie a zistite počiatočné koncentrácie dusíka a vodíka.
+
+a) K = 0,082
+b) K = 10
+c) [H ] = 8 mol . cm-3; [N ] = 9,5 mol . cm-3 2 2
+d) [H ] = 14 mol . dm-3; [N ] = 6,5 mol . dm-3 2 2

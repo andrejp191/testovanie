@@ -1,0 +1,6 @@
+Štruktúrny vzorec:
+
+a) vyjadruje poradie, spôsob a typ viazania jednotlivých atómov v molekule
+b) nazýva sa aj konštitučný vzorec
+c) vyjadruje okrem väzieb aj počet valenčných elektrónov a elektrónové páry
+d) vyjadruje celkové usporiadanie molekúl v priestore

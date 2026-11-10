@@ -1,0 +1,6 @@
+O peptidylovom (P) a aminoacylovom (A) mieste ribozómu môžeme povedať:
+
+a) peptidylové miesto P je miesto, kde sa nachádza iniciátor alebo tRNA s narastajúcim peptidovým reťazcom
+b) acylové miesto A obsadzuje vždy nový aminoacyl-tRNA
+c) pri elongácii musí byť v ribozóme obsadené len P miesto
+d) P miesto sa v priebehu elongácie mení na A miesto

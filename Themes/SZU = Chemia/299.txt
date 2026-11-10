@@ -1,0 +1,6 @@
+Pre redoxnú reakciu HO + KI + HSO → I + KSO + HO platí: 2 2 2 4 2 2 4 2
+
+a) O-I + 2e → 2O-II 2
+b) 2 I-I - 2e → I0 2
+c) peroxid je redukovadlo
+d) stechiometrické koeficienty sú: 1 + 3 + 1 → 1 + 3 + 2

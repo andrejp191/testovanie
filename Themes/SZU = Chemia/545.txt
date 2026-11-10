@@ -1,0 +1,6 @@
+Vyberte reakcie, ktoré môžu prebiehať:
+
+a) alkén + HBr → brómalkán
+b) alkén + Br → dibrómalkán 2
+c) alkán + HCl → chlóralkán
+d) alkén + HO → ketón 2

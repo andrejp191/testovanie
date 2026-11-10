@@ -1,0 +1,6 @@
+Pre elektróny v jednom orbitále platí, že:
+
+a) majú rovnakú hodnotu energie
+b) majú rovnakú hodnotu spinového kvantového čísla
+c) majú rovnaké hodnoty n, l, m; líšia sa iba hodnotou spinu
+d) ich počet je daný Hundovým pravidlom

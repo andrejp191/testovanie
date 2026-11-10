@@ -1,0 +1,6 @@
+Proteíny sa skladajú:
+
+a) len z α-aminokyselín
+b) len z neutrálnych aminokyselín ako serín, valín alebo glycín
+c) z neutrálnej zložky sacharidu, zásaditej bázy a kyslej zložky, ktorú predstavujú aminokyseliny
+d) z aminokyselín, ktoré majú v molekule vždy jednu –COOH skupinu a jednu skupinu –NH 2
