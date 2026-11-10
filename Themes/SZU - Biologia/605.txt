@@ -1,0 +1,6 @@
+Pri dihybridizme je symbolické vyjadrenie kríženia homozygotne dominantného a homozygotne recesívneho rodiča pre obidva znaky:
+
+a) AB x ab
+b) AABB x aabb
+c) AA x bb
+d) AA x BB

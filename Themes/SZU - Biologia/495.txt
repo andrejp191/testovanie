@@ -1,0 +1,6 @@
+Aké je poradie nukleotidov v časti vlákna DNA, ktoré vzniklo v S-fáze bunkového cyklu podľa časti vlákna s nukleotidmi G-C-A-T-T-A
+
+a) C-G-U-A-A-U
+b) C-G-T-U-U-T
+c) C-G-T-A-A-T
+d) C-G-A-U-U-A

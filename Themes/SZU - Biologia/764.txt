@@ -1,0 +1,6 @@
+Tri hlavné typy peria vtákov sú:
+
+a) letky, obrysové perie a páperie
+b) letky, obrysové perie a podsada
+c) steblo, zástavica a osteň
+d) brko a osteň

@@ -1,0 +1,6 @@
+Substitúcia pri génovej mutácii znamená:
+
+a) zámenu jedného alebo viacerých nukleotidov za iný
+b) zdvojenie nukleotidov
+c) stratu jedného alebo viacerých nukleotidov
+d) vsunutie jedného alebo viacerých nukleotidov

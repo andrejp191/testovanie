@@ -1,0 +1,6 @@
+Aké poradie nukleotidov vznikne v m-RNA prepísanej podľa časti vlákna s nukleotidmi A-T -G- C-A-T
+
+a) C -U-G-A-C-U
+b) U-A -C-G-U-A
+c) T-A -C-G-T-A
+d) U -T-G-C-U-T

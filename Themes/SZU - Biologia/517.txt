@@ -1,0 +1,6 @@
+Mendelove zákony (dedičnosť Mendelovho typu) platia len za predpokladu:
+
+a) ak jeden gén kóduje jeden znak
+b) ak sú rodičia homozygotní, jeden dominantne, druhý recesívne
+c) ak ide o autozómovú dedičnosť
+d) ak je pri súčasnom sledovaní viacerých znakov každý gén na inom chromozóme

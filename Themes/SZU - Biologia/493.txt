@@ -1,0 +1,6 @@
+Časť vlákna molekuly DNA tvoria nukleotidy s poradím báz C-G-A-T-A-T. Aké je poradie nukleotidov v zodpovedajúcej časti komplementárneho vlákna?
+
+a) A-G-U-A-U-A
+b) G-C-T-A-T-A
+c) G-C-U-A-U-A
+d) T-C-U-C-U-C

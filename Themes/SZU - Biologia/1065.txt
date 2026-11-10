@@ -1,0 +1,6 @@
+Teplo a chlad vnímame:
+
+a) jedným typom receptorov
+b) dvoma typmi receptorov
+c) troma typmi receptorov
+d) štyrmi typmi receptorov

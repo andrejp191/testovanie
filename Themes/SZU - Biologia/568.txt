@@ -1,0 +1,6 @@
+Symbolické vyjadrenie dihybrida, ktorý je pre prvý znak homozygot recesívny a pre druhý znak heterozygot je:
+
+a) aaBb
+b) abaB
+c) aB
+d) aaAa

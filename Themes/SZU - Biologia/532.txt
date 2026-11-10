@@ -1,0 +1,6 @@
+Ak gén kóduje viac alel, napr. 3, označujeme ich:
+
+a) A,B,C
+b) A1, A2, A3
+c) gén má vždy iba dve alely
+d) AA, aa, Aa

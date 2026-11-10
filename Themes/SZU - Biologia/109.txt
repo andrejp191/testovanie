@@ -1,0 +1,6 @@
+Majú veľké populácie väčšiu šancu prežiť ako malé?
+
+a) áno, veľa jedincov v populácii dáva viac možností pri rozmnožovaní
+b) áno, viac jedincov poskytuje väčšiu možnosť genetickej variability
+c) nie, pre prežitie je rozhodujúca veková štruktúra populácie bez ohľadu na jej veľkosť
+d) nie, schopnosť prežiť nezávisí od množstva jedincov v populácii

@@ -1,0 +1,6 @@
+Genotypový a fenotypový štiepny pomer sa líšia vtedy, keď:
+
+a) ide o dedičnosť s úplnou dominanciou
+b) ide o dedičnosť s neúplnou dominanciou
+c) ide o intermediaritu
+d) líšia sa vždy

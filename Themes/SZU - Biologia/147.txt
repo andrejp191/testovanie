@@ -1,0 +1,6 @@
+Je správne tvrdenie, že vírusy sa rozmnožujú mimo hostiteľskej bunky?
+
+a) nie, nemajú vlastný genóm, preto musia na svoju reprodukciu využívať DNA hostiteľskej bunky
+b) nie, nemajú vlastný metabolizmus, preto nie sú schopné zabezpečiť samostatne žiadne životné funkcie
+c) áno, vírusy tvoria spóry a rozmnožujú sa aj mimo hostiteľskej bunky
+d) áno, vo vhodných podmienkach tvoria infekčné virióny, ktoré potom napádajú bunky

@@ -1,0 +1,6 @@
+Ak prostredie ovplyvňuje tvorbu znaku na 75%, znamená to, že:
+
+a) dedivosť má koeficient h2 = 0,25
+b) dedivosť má koeficient h2 = 0,75
+c) ide o kvantitatívny znak
+d) fenotypová premenlivosť je 75%

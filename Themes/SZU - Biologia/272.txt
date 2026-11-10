@@ -1,0 +1,6 @@
+Štruktúry bunky, ktoré sa podieľajú na proteosyntéze sú:
+
+a) jadro, endoplazmatické retikulum a ribozómy
+b) drsné endoplazmatické retikulum a Golgiho aparát
+c) voľné ribozómy v cytoplazme a tylakoidy
+d) endoplazmatické retikulum, ribozómy a Golgiho aparát

@@ -1,0 +1,6 @@
+Neurit zabezpečuje vedenie vzruchov:
+
+a) odstredivo
+b) dostredivo
+c) obidvomi smermi
+d) nevedie vzruchy

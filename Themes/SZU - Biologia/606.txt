@@ -1,0 +1,6 @@
+Pri dihybridizme je symbolické vyjadrenie kríženia dvoch heterozygotných rodičov pre obidva znaky:
+
+a) AB x ab
+b) Ab x Ab
+c) AABB x AAbb
+d) AaBb x AaBb

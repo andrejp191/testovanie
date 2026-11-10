@@ -1,0 +1,6 @@
+Ústredná dogma molekulovej biológie hovorí, že prenos genetickej informácie na molekulovej úrovni prebieha:
+
+a) jedným smerom v troch procesoch – replikácia – transkripcia – translácia
+b) jedným smerom v troch procesoch – replikácia – translácia – transkripcia
+c) jedným smerom v dvoch procesoch –z DNA na RNA a z RNA na bielkovinu
+d) jedným smerom v dvoch procesoch –prepis a preklad

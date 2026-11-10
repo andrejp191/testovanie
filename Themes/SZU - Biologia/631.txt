@@ -1,0 +1,6 @@
+Rh faktor je autozómovo dominantne dedičný znak. V našej populácii je frekvencia výskytu homozygotov recesívnych (rh- rh-) 16%. Výskyt heterozygotov (Rh+ rh-) je:
+
+a) 48%
+b) 0,48
+c) 0,84
+d) 36%

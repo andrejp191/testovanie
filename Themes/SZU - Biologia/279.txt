@@ -1,0 +1,6 @@
+Fibrilárne štruktúry, ktoré nemajú schopnosť kontrakcie, sa nazývajú:
+
+a) intercelulárne filamenty
+b) intermediárne filamenty
+c) intermediárne tubuly
+d) intercelulárne tubuly

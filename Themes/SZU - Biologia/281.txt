@@ -1,0 +1,6 @@
+Intermediárne filamenty majú funkciu:
+
+a) pohybovú
+b) spevňovaciu
+c) transportnú
+d) metabolickú

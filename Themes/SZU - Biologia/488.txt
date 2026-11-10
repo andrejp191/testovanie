@@ -1,0 +1,6 @@
+Pri syntéze DNA alebo RNA sa nové vlákno tvorí podľa princípu:
+
+a) komplementarity
+b) kombinatoriky
+c) doplnkovosti
+d) štatistiky

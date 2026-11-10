@@ -1,0 +1,6 @@
+Prokaryotické bunky sa od eukaryotických odlišujú najmä tým, že:
+
+a) sú menšie a chýbajú im membránové štruktúry
+b) ich jadro je oddelené od cytoplazmy iba jednou membránou
+c) rozmnožujú sa iba v tele hostiteľa
+d) genetickú informáciu majú uloženú v jednej molekule RNA

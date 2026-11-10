@@ -1,0 +1,6 @@
+Ktoré bunky majú vyšší obsah vody:
+
+a) fylogeneticky staršie
+b) ontogeneticky staršie
+c) fylogeneticky mladšie
+d) ontogeneticky mladšie

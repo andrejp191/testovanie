@@ -1,0 +1,6 @@
+K vývojovo starším – pôvodným znakom kvetu patria:
+
+a) acyklické kvety na predĺženom kvetnom lôžku
+b) acyklické kvety na skrátenom kvetnom lôžku
+c) cyklické kvety na predĺženom kvetnom lôžku
+d) cyklické kvety na skrátenom kvetnom lôžku

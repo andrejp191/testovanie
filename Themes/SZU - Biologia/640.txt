@@ -1,0 +1,6 @@
+Ak je koeficient dedivosti pre výšku človeka h2 = 0,7, znamená to, že:
+
+a) výška človeka na 70% závisí od genotypu a 30% od prostredia
+b) 70% alel pre výšku človeka je aktívnych a 30% neutrálnych
+c) ide o kvantitatívny znak
+d) fenotypová premenlivosť je v prípade výšky človeka 30%

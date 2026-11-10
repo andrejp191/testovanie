@@ -1,0 +1,6 @@
+Ak je poradie nukleotidov v antikodóne U-C-A, potom poradie nukleotidov v kodóne je:
+
+a) A-G-U
+b) T-G-U
+c) A-G-T
+d) A-C-U

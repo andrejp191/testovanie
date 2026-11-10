@@ -1,0 +1,6 @@
+Pri transkripcii dochádza:
+
+a) k syntéze molekuly DNA
+b) k syntéze molekuly RNA podľa matrice DNA
+c) k prepisu genetickej informácie z DNA do m-RNA
+d) k prekladu genetickej informácie z m-RNA do poradia aminokyselín

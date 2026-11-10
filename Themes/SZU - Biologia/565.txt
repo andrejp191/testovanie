@@ -1,0 +1,6 @@
+Ak sledujeme kríženie rodičov v dvoch znakoch, ide o:
+
+a) dihybridné kríženie
+b) spätné kríženie
+c) testovacie kríženie
+d) filiálne kríženie

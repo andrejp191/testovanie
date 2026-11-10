@@ -1,0 +1,6 @@
+Pohybovú funkciu v bunke zabezpečujú:
+
+a) mikrofilamenty
+b) mikrotubuly
+c) intermediárne filamenty
+d) intermediárne tubuly

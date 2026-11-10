@@ -1,0 +1,6 @@
+O dedičnosti s neúplnou dominanciou hovoríme, keď:
+
+a) sa v populácii neobjavujú recesívne znaky
+b) sa v genotype heterozygota stretne recesívna a dominantná alela
+c) sa vo fenotype heterozygota prejaví aj recesívna alela
+d) sa vo fenotype heterozygota prejavia obidve alely

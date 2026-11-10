@@ -1,0 +1,6 @@
+Genotyp krvnej skupiny AB:
+
+a) tvorí kombinácia 2 alel pre krvnú skupinu A a B
+b) tvoria kodominantné alely A a B
+c) tvorí alela AB
+d) je heterozygot

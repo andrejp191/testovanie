@@ -1,0 +1,6 @@
+Súbor génov všetkých členov populácie nazývame:
+
+a) genotyp
+b) genóm
+c) genofond
+d) populačný genóm

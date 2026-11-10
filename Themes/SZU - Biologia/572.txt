@@ -1,0 +1,6 @@
+Ak sú gény lokalizované na homologických úsekoch chromozómov X a Y, ide o dedičnosť:
+
+a) úplne viazanú na pohlavie
+b) neúplne viazanú na pohlavie
+c) s úplnou dominanciou
+d) s neúplnou dominanciou

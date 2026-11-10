@@ -1,0 +1,6 @@
+O dedičnosti s úplnou dominanciou hovoríme, keď:
+
+a) sú obidve alely v géne dominantné
+b) sa vo fenotype heterozygota prejaví iba dominantná alela
+c) sa v populácii neobjavujú recesívne znaky
+d) sa v genotype heterozygota stretnú dve dominantné alely

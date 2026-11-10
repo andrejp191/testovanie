@@ -1,0 +1,6 @@
+Prečo hovoríme, že je muž vzhľadom na X chromozómové gény hemizygot?
+
+a) lebo recesívna alela na nehomologickom úseku X je iba jedna a prejaví sa vždy
+b) lebo nemá pre daný znak dve alely, preto nemôže byť homozygot ani heterozygot
+c) lebo ich alely musia potlačiť dominantné alely na Y chromozóme
+d) lebo gény na X chromozóme sú vždy recesívne

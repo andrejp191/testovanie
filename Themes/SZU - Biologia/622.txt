@@ -1,0 +1,6 @@
+Zastúpenie jednotlivých genotypov v panmiktickej populácii vyjadruje vzorec:
+
+a) p2 +2pq + q2 =1
+b) p + q =1
+c) p2 + q2 =1
+d) p2 x q2 =1

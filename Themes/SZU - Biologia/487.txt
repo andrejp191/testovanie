@@ -1,0 +1,6 @@
+Rozdiel medzi nukleotidmi DNA a RNA je v tom, že:
+
+a) v DNA je pentóza deoxyribóza a v RNA je hexóza ribóza
+b) DNA obsahuje pentózu deoxyribózu a RNA ribózu
+c) DNA obsahuje dusíkatú bázu tymín a RNA uracil
+d) v DNA je adenín komplementárny s uracilom a v RNA s tymínom

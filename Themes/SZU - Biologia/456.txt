@@ -1,0 +1,6 @@
+Kvantitatívne znaky sú podmienené:
+
+a) génmi malého účinku a vplyvom prostredia
+b) génmi veľkého účinku
+c) len vplyvom prostredia
+d) polygénmi a faktormi vonkajšieho prostredia

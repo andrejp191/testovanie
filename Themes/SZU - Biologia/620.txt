@@ -1,0 +1,6 @@
+Aký je pravdepodobný počet recesívnych homozygotov v panmiktickej populácii?
+
+a) p x p
+b) p2
+c) 2pq
+d) q2

@@ -1,0 +1,6 @@
+Počet kostrových svalov človeka je asi:
+
+a) 300
+b) 400
+c) 600
+d) 800

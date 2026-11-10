@@ -1,0 +1,6 @@
+Čo znamená, že genetický kód je degenerovaný?
+
+a) jednu aminokyselinu kóduje viac kodónov
+b) genetický kód je zmutovaný
+c) jednu aminokyselinu kóduje vždy len jeden kodón
+d) každý triplet je tvorený tromi nukleotidmi

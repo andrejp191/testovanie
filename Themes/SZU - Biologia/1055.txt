@@ -1,0 +1,6 @@
+Zvuk zachytávame pomocou:
+
+a) rádioreceptorov
+b) mechanoreceptorov
+c) proprioreceptorov
+d) exteroreceptorov

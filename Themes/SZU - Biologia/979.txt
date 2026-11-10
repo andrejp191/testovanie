@@ -1,0 +1,6 @@
+Minútový objem srdca je:
+
+a) množstvo krvi prečerpané cez srdce za 1 minútu
+b) množstvo krvi, ktoré sa okysličí za 1 minútu
+c) v priemere 5 litrov krvi
+d) v priemere 2 litre krvi

@@ -1,0 +1,6 @@
+Genotypový a fenotypový štiepny pomer sa zhodujú v prípade:
+
+a) dedičnosti s úplnou dominanciou
+b) dedičnosti s neúplnou dominanciou
+c) dihybridizmu
+d) nikdy nie sú v zhode

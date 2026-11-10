@@ -1,0 +1,6 @@
+Dvojitú membránu majú tieto bunkové štruktúry:
+
+a) jadro, mitochondrie a plastidy
+b) jadro, vakuoly a plastidy
+c) iba mitochondrie a plastidy
+d) iba jadro

@@ -1,0 +1,6 @@
+Vyberte schému, ktorá platí pre kríženie heterozygota s homozygotom recesívnym
+
+a) AB x aa
+b) Aa x ab
+c) Aa x aa
+d) AaBb x aabb

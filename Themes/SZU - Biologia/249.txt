@@ -1,0 +1,6 @@
+Pre bunkové povrchy platí vo vzťahu k vode a v nej rozpusteným látkam tvrdenie:
+
+a) bunková stena je priepustná, cytoplazmatická membrána je polopriepustná
+b) bunková stena je nepriepustná, cytoplazmatická membrána je polopriepustná
+c) bunková stena je polopriepustná, cytoplazmatická membrána je nepriepustná
+d) priepustnosť bunkovej steny je rovnaká ako pri cytoplazmatickej membráne, závisí od prostredia

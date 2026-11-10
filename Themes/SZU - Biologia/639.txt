@@ -1,0 +1,6 @@
+Pojem dedivosť vyjadruje:
+
+a) podiel genotypu na fenotypovej premenlivosti kvantitatívnych znakov
+b) vzťah neutrálnych a aktívnych alel
+c) podiel kvantitatívnych znakov na celkovom fenotype
+d) vzťah genotypu a fenotypu

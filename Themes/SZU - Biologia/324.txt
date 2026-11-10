@@ -1,0 +1,6 @@
+Cytokinéza je proces, ktorým sa:
+
+a) začína proces delenia bunky po interfáze
+b) začína proces oddeľovania bivalentov
+c) ukončuje proces delenia bunky v telofáze
+d) ukončuje proces delenia jadra v mitóze

@@ -1,0 +1,6 @@
+Genotyp pre krvnú skupinu B môže byť:
+
+a) heterozygot B0
+b) heterozygot Bb
+c) homozygot dominantný BB
+d) homozygot recesívny bb

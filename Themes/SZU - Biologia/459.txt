@@ -1,0 +1,6 @@
+Fenotyp predstavuje:
+
+a) súbor všetkých znakov organizmu
+b) súbor všetkých alel v bunke
+c) konkrétnu podobu znaku
+d) pohlavné rozlíšenie organizmu

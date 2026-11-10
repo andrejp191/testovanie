@@ -1,0 +1,6 @@
+Genotypy krvných skupín v systéme AB0 sú tvorené:
+
+a) 2 alelami pre krvnú skupinu A a B
+b) 3 alelami pre krvnú skupinu A, B a 0
+c) 4 alelami pre krvnú skupinu A, B, AB a 0
+d) 2 alelami pre krvnú skupinu AB a 0

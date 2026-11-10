@@ -1,0 +1,6 @@
+Sluchové kostičky prenášajú zvuk postupne smerom:
+
+a) bubienok – nákovka, kladivko – strmienok
+b) bubienok – kladivko – nákovka – strmienok
+c) kladivko – nákovka – strmienok – bubienok
+d) bubienok – strmienok – kladivko – nákovka

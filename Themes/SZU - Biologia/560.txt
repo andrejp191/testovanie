@@ -1,0 +1,6 @@
+Môže mať dieťa s krvnou skupinou 0 rodičov, ktorí majú krvné skupiny AxB?
+
+a) áno, ale len v prípade ak sú obaja rodičia heterozygoti
+b) áno, ak aspoň jeden z nich je heterozygot
+c) nie, alely pre obe tieto krvné skupiny sú domninantné
+d) nie, v tomto prípade môže mať dieťa iba rodičov 0x0

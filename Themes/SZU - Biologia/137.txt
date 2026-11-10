@@ -1,0 +1,6 @@
+Bioindikátory sú organizmy, ktoré:
+
+a) sa vyskytujú iba vo výrazne znečistenom prostredí
+b) sa vyskytujú iba tam, kde všetky faktory prostredia dosahujú optimálne hodnoty
+c) vypovedajú o kvalite prostredia
+d) sa vyskytujú tam, kde faktory prostredia vytvárajú špecifické podmienky

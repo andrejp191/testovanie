@@ -1,0 +1,6 @@
+Pri syntéze DNA sa k nukleotidu, ktorého súčasťou je dusíkatá báza cytozín priradí v druhom reťazci komplementárny nukleotid s bázou:
+
+a) uracil
+b) adenín
+c) guanín
+d) tymín

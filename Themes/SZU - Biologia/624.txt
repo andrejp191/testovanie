@@ -1,0 +1,6 @@
+Platnosť Hardy-Weinbergovho zákona môže narušiť:
+
+a) výrazný pokles počtu plodných jedincov
+b) objavenie sa mutácií
+c) panmixia pri párení
+d) selekcia a migrácia

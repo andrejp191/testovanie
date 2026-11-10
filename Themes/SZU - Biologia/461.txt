@@ -1,0 +1,6 @@
+Pre karyotyp človeka platí:
+
+a) je to chromozómová mapa jednej bunky
+b) je to súbor chromozómov somatickej bunky
+c) tvorí ho 23 párov chromozómov
+d) je to súbor chromozómov pohlavnej bunky

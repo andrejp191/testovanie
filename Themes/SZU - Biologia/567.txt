@@ -1,0 +1,6 @@
+Aké gaméty tvorí dihybrid, ktorého symbolické vyjadrenie genotypu je AaBB?
+
+a) AB, aB
+b) A, a, B
+c) Aa, BB
+d) AB, aB,aA, BB

@@ -1,0 +1,6 @@
+Jediný univerzálny štartovací kodón pri expresii genetického kódu je:
+
+a) AUG
+b) AGU
+c) UAG
+d) GUA

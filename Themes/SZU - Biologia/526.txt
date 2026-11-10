@@ -1,0 +1,6 @@
+Symbolické označenie kríženia homozygota recesívneho s heterozygotom je:
+
+a) aa x ab
+b) aa x Aa
+c) AA x Aa
+d) AA x AB

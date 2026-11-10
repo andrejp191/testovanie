@@ -1,0 +1,6 @@
+Vyberte schému, ktorá platí pre kríženie homozygota dominantného s heterozygotom
+
+a) AA x Aa
+b) AA x AB
+c) Aa x ab
+d) AABB x AaBb

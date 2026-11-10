@@ -1,0 +1,6 @@
+Aké poradie nukleotidov bude mať vlákno RNA, ktoré vzniklo podľa matrice A-G-C-G-G-T?
+
+a) T-C-G-C-C-A
+b) U-C-G-C-C-A
+c) U-C-G-C-C-U
+d) T-C-G-C-C-U

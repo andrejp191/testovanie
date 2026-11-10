@@ -1,0 +1,6 @@
+Pri prenikaní potrebných iónov do bunky sa uplatňuje:
+
+a) difúzia
+b) osmóza
+c) endocytóza
+d) transportná bielkovina

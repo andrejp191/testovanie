@@ -1,0 +1,6 @@
+Môžu mať rodičia s krvnými skupinami A a 0 dieťa so skupinou 0?
+
+a) áno, ale len v prípade ak je rodič so skupinou A heterozygot
+b) áno, a to aj v prípade homozygotného rodiča so skupinou A
+c) nie, môžu mať len deti so skupinou A, lebo je dominantná
+d) nie, rodič so skupinou 0 je recesívny

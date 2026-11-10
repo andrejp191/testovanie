@@ -1,0 +1,6 @@
+Počet mitochondrií v bunke je spravidla:
+
+a) 1
+b) 2
+c) môže ich byť niekoľko stovák
+d) neprevyšuje 100

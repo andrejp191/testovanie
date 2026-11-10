@@ -1,0 +1,6 @@
+Delécia pri génovej mutácii znamená:
+
+a) zdvojenie nukleotidov
+b) stratu jedného alebo viacerých nukleotidov
+c) vsunutie jedného alebo viacerých nukleotidov
+d) zámenu jedného alebo viacerých nukleotidov za iný

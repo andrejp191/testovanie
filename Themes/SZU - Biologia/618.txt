@@ -1,0 +1,6 @@
+Populácia je z hľadiska prenosu genetickej informácie v rovnováhe:
+
+a) ak sa nemení frekvencia jednotlivých genotypov
+b) ak sa zachováva frekvencia jednotlivých alel
+c) keď ide o autogamnú populáciu
+d) keď nastane genetická izolácia populácie

@@ -1,0 +1,6 @@
+Kto má väčší počet červených krviniek v rovnakom objeme krvi:
+
+a) žena
+b) muž
+c) majú rovnaký počet
+d) počet závisí len od veku

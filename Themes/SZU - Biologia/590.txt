@@ -1,0 +1,6 @@
+Inzercia pri génovej mutácii znamená:
+
+a) stratu jedného alebo viacerých nukleotidov
+b) zámenu jedného alebo viacerých nukleotidov za iný
+c) zdvojenie nukleotidov
+d) vsunutie jedného alebo viacerých nukleotidov

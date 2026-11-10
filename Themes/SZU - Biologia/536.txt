@@ -1,0 +1,6 @@
+Aký genotyp môžu mať potomkovia dvoch heterozygotov
+
+a) AA, Aa alebo aa
+b) AA, Ab, aB alebo ab
+c) iba Aa
+d) iba AA alebo aa

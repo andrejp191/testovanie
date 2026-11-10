@@ -1,0 +1,6 @@
+Heterozygot je jedinec:
+
+a) s odlíšeným samčím alebo samičím pohlavím
+b) s dvomi rôznymi alelami pre určitý znak
+c) s dvomi a viacerými génmi pre určitý znak
+d) s rôznymi chromozómami v páre

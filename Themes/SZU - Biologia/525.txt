@@ -1,0 +1,6 @@
+Symbolické označenie kríženia homozygota dominantného s heterozygotom je:
+
+a) aa x Aa
+b) AA x AB
+c) AA x Aa
+d) AA x ab

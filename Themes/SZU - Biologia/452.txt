@@ -1,0 +1,6 @@
+Gén predstavuje:
+
+a) úsek molekuly DNA, ktorá kóduje úplnú genetickú informáciu o znaku
+b) poradie aminokyselín, ktoré tvoria bielkovinu
+c) jedno vlákno DNA, ktoré tvorí chromozóm
+d) základnú funkčnú jednotku dedičnosti

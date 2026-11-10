@@ -1,0 +1,6 @@
+Piestik je rozlíšený na časti:
+
+a) blizna, nitka, semenník
+b) čnelka, peľnica, nitka
+c) blizna, čnelka, semenník
+d) nitka a peľnica

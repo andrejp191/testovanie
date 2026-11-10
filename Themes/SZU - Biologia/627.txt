@@ -1,0 +1,6 @@
+V sledovanej populácii je frekvencia dominantnej alely „A“ 50% a recesívnej alely „a“ tiež 50%. Aké bude zastúpenie heterozygotov „Aa“ v tejto populácii?
+
+a) 25%
+b) 0,25
+c) 50%
+d) 0,5

@@ -1,0 +1,6 @@
+Po replikácii DNA vznikne podľa matrice C-G-T-G-C-A vlákno:
+
+a) A-T-C-T-A-G
+b) G-C-A-C-G-U
+c) G-C-A-C-G-T
+d) G-C-U-C-G-T

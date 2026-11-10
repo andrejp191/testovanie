@@ -1,0 +1,6 @@
+Replikácia DNA v bunke sa deje:
+
+a) nepretržite
+b) len v S fáze bunkového cyklu
+c) len v M fáze
+d) len v meióze

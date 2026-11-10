@@ -1,0 +1,6 @@
+Hematokrit je:
+
+a) množstvo krvných buniek
+b) množstvo bielych krviniek
+c) pomer červených krviniek k bielym krvinkám
+d) podiel červených krviniek v celkovom objeme krvi

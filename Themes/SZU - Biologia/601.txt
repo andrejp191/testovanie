@@ -1,0 +1,6 @@
+Úplná väzba génov sa od neúplnej odlišuje tým, že:
+
+a) medzi alelickými pármi neprebehne crossing-over
+b) gény rôznych chromozómov sa dedia spoločne
+c) netvoria sa rekombinantné gény
+d) ide o väzbu medzi génmi u homozygota

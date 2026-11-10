@@ -1,0 +1,6 @@
+Kvetný vzorec slúži na vyjadrenie:
+
+a) obrazu kvetu
+b) súmernosti kvetu
+c) pohlavnosti
+d) počtu kvetných častí

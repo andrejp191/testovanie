@@ -1,0 +1,6 @@
+Pre rozmnožovanie vírusov platí, že:
+
+a) je viazané na hostiteľskú bunku
+b) začína vytvorením spór
+c) uskutočňuje sa priečnym delením viriónu
+d) obvykle vedie k zániku hostiteľskej bunky

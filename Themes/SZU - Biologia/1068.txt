@@ -1,0 +1,6 @@
+Zrakový analyzátor je schopný registrovať svetelné vlny v rozsahu :
+
+a) 700-800nm
+b) 500-800nm
+c) 400-700nm
+d) 500-1000nm

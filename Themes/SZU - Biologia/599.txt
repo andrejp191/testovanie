@@ -1,0 +1,6 @@
+Genofond je:
+
+a) súbor génov jednotlivca
+b) súbor génov viacerých druhov
+c) súbor génov všetkých členov populácie
+d) súbor génov všetkých živých organizmov

@@ -1,0 +1,6 @@
+Spätné kríženie - testovacie je kríženie:
+
+a) dvoch homozygotov
+b) dvoch heterozygotov
+c) homozygota dominantného s heterozygotom
+d) homozygota recesívneho s heterozygotom

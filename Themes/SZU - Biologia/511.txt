@@ -1,0 +1,6 @@
+Pri translácii dochádza:
+
+a) k prekladu genetickej informácie z poradia nukleotidov do poradia amiokyselín
+b) k syntéze bielkovín
+c) k syntéze molekúl m-RNA
+d) k prepisu genetickej informácie z DNA do RNA

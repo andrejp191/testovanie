@@ -1,0 +1,6 @@
+Ak je hodnota koeficientu dedivosti h2 = 0, znamená to, že:
+
+a) nejde o geneticky podmienený znak
+b) ide o znak kvalitatívny
+c) znak je určený výlučne prostredím
+d) znak je podmienený výlučne dedičnosťou

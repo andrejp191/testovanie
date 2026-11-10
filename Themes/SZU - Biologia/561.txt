@@ -1,0 +1,6 @@
+Môže mať dieťa s krvnou skupinou A rodičov, ktorí majú krvné skupiny ABx0?
+
+a) nie, pretože 0 je homozygot recesívny
+b) áno, takíto rodičia môžu mať deti so skupinami A alebo B
+c) áno, lebo alela pre skupinu A je dominantná voči 0
+d) nie, takíto rodičia môžu mať iba deti so skupinami 0 alebo AB

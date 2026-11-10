@@ -1,0 +1,6 @@
+Bunkové jadro je štruktúra, v ktorej prebieha :
+
+a) syntéza nukleových kyselín
+b) syntéza tukov
+c) syntéza bielkovín
+d) syntéza cukrov

@@ -1,0 +1,6 @@
+Väzbová skupina génov označuje:
+
+a) súbor génov ležiacich na jednom chromozómovom páre
+b) všetky gény v bunke
+c) gény malého účinku, ktoré kódujú jeden znak
+d) usporiadanie alel v génoch

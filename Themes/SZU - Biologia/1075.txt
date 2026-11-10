@@ -1,0 +1,6 @@
+Signálom pre sluch sú zvukové vlny s frekvenciou:
+
+a) 16-20 000Hz
+b) 10-2 000Hz
+c) 5-10 000Hz
+d) 10-30 000Hz

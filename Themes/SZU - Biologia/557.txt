@@ -1,0 +1,6 @@
+Môžu mať rodičia s krvnými skupinami AB a 0 dieťa so skupinou AB?
+
+a) nie, môžu mať len deti s krvnými skupinami A alebo B
+b) nie, môžu mať len deti s krvnými skupinami A, B alebo 0
+c) áno, môžu mať len deti so skupinami AB a 0
+d) áno, môžu mať len deti so skupinou AB

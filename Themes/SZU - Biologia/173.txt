@@ -1,0 +1,6 @@
+Je správne tvrdenie, že všetky bakteriálne bunky sú vždy haploidné?
+
+a) nie, pri bunkovom delení sa počet ich chromozómov zdvojnásobí
+b) nie, ich genetický materiál tvorí diploidný počet molekúl DNA
+c) áno, ich nukleoid predstavuje jediný prokaryotický chromozóm
+d) áno, majú iba jednu kruhovú dvojreťazcovú makromolekulou DNA

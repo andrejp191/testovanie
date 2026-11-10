@@ -1,0 +1,6 @@
+Genetický význam meiózy spočíva v:
+
+a) redukcii počtu chromozómov na polovicu pri vzniku gamét
+b) náhodnej kombinácii chromozómov matky a otca v gamétach, čo zvyšuje genetickú variabilitu
+c) možnosti výmeny častí génov (rekombinácia) medzi homologickými chromozómami, čo zvyšuje genetickú variabilitu
+d) presnom rozdelení génov do buniek potomkov, čím sa zachováva genetická informácia

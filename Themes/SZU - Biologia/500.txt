@@ -1,0 +1,6 @@
+Pri translácii vzniká:
+
+a) m-RNA podľa matrice DNA
+b) t-RNA podľa matrice m-RNA
+c) bielkovina podľa matrice m-RNA
+d) bielkovina podľa matrice t-RNA

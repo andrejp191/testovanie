@@ -1,0 +1,6 @@
+Tvar tela baktérií môže byť:
+
+a) tyčinkovitý
+b) vláknitý
+c) guľovitý
+d) kryštalický

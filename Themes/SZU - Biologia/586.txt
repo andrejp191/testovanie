@@ -1,0 +1,6 @@
+Génová mutácia vzniká:
+
+a) ak nastane zmena v poradí chromozómov v jadre
+b) keď nastane zmena informácie na úrovni molekuly DNA
+c) ak sa stratí, alebo pribudne časť chromozómu
+d) keď sa zmení počet chromozómov v jadre bunky

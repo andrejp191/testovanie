@@ -1,0 +1,6 @@
+V organizme sa vyskytujú nasledovné typy RNA:
+
+a) genómová, mediátorová , transférová
+b) génová, transformačná, mediátorová
+c) mediátorová , transférová, ribozómová
+d) translačná, jednovláknová a dvojvláknová

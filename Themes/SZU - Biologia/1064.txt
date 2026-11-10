@@ -1,0 +1,6 @@
+Videnie človeka je:
+
+a) jednorozmerné
+b) dvojrozmerné
+c) trojrozmerné
+d) štvorrozmerné

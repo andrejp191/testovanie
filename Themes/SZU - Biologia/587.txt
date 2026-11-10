@@ -1,0 +1,6 @@
+Strata časti chromozómu sa nazýva:
+
+a) inverzia
+b) adícia
+c) delécia
+d) duplikácia

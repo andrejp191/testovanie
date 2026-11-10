@@ -1,0 +1,6 @@
+Uterinný cyklus zahŕňa fázy:
+
+a) menštruačnú, proliferačnú, sekrečnú a ischemickú
+b) ovulačnú, proliferačnú a sekrečnú
+c) folikulovú, proliferačnú, sekrečnú a ovulačnú
+d) sekrečnú, menštruačnú, proliferačnú a ischemickú

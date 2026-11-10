@@ -1,0 +1,6 @@
+Pri dihybridizme tvorí jedinec, ktorý je heterozygot pre obidva sledované znaky, alely:
+
+a) AB, Ab, aB, ab
+b) AB, ab
+c) AA, aa, BB, bb
+d) A, a, B, b

@@ -1,0 +1,6 @@
+25% členov populácie je nositeľom recesívneho znaku. Aká je frekvencia dominantných homozygotov v tejto populácii?
+
+a) 25%
+b) 0,25
+c) 50%
+d) 0,75

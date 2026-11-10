@@ -1,0 +1,6 @@
+Vyberte schému, ktorá platí pre kríženie dvoch heterozygotov
+
+a) AA x BB
+b) Aa x Aa
+c) Aa x Bb
+d) AaBb x AaBb

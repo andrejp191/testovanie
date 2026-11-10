@@ -1,0 +1,6 @@
+Pre aneuploidiu platí:
+
+a) v jadre somatickej bunky chýba sada chromozómov
+b) zmenil sa počet chromozómov v sade
+c) v genóme bunky je navyše alebo chýba jeden alebo viac chromozómov
+d) v genóme bunky je 3n chromozómov

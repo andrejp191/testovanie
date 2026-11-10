@@ -1,0 +1,6 @@
+Pri dihybridnom krížení:
+
+a) sledujeme dedičnosť dvoch znakov
+b) uplatňuje sa zákon voľnej kombinovateľnosti alel rôznych alelických párov
+c) sledujeme dve generácie potomkov
+d) sa kombinujú rôzne alely na jednom chromozóme

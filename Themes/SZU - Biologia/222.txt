@@ -1,0 +1,6 @@
+Stavebnou jednotkou polypeptidových reťazcov molekúl proteínov sú:
+
+a) aminokyseliny
+b) bielkoviny
+c) sacharidové peptidy
+d) nukleotidy

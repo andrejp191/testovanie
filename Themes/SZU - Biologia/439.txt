@@ -1,0 +1,6 @@
+Gametofyt u machorastov predstavuje:
+
+a) pohlavnú generáciu, ktorá tvorí gaméty
+b) pohlavnú generáciu, ktorá tvorí výtrusy
+c) haploidnú generáciu
+d) generáciu, ktorá je diferencovaná na pabyľku, palístky a pakorienky

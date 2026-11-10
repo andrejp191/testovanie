@@ -1,0 +1,6 @@
+Pri preklade sa syntetizuje:
+
+a) bielkovina podľa matrice t-RNA
+b) t-RNA podľa matrice m-RNA
+c) m-RNA podľa matrice DNA
+d) bielkovina podľa matrice m-RNA

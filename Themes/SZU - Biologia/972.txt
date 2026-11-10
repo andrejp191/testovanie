@@ -1,0 +1,6 @@
+Trojcípa chlopňa oddeľuje:
+
+a) pravú predsieň od pravej komory
+b) pravú predsieň od ľavej komory
+c) ľavú predsieň od ľavej komory
+d) ľavú predsieň od pravej komory

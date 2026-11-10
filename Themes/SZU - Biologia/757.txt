@@ -1,0 +1,6 @@
+Srdce krokodílov je špecifické tým, že má:
+
+a) malý otvor medzi pravou predsieňou a ľavou komorou
+b) malý otvor medzi ľavou predsieňou a pravou komorou
+c) úplne oddelené komory s malým otvorom medzi nimi
+d) úplne oddelené predsiene s malým otvorom medzi nimi

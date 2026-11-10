@@ -1,0 +1,6 @@
+Polygénny systém podmieňuje vznik znakov:
+
+a) kvantitatívnych
+b) ktoré sú merateľné (napr. výška, úžitkové vlastnosti)
+c) ktoré sa vo fenotype vôbec neprejavia
+d) ktorých výslednú podobu ovplyvňujú aj faktory vonkajšieho prostredia

@@ -1,0 +1,6 @@
+Ak je hodnota koeficientu dedivosti h2 = 1, znamená to, že:
+
+a) nejde o geneticky podmienený znak
+b) ide o znak kvantitatívny
+c) znak je určený výlučne prostredím
+d) znak je podmienený výlučne genotypom

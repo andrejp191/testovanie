@@ -1,0 +1,6 @@
+Človek má nasledovný počet chromozómov:
+
+a) 46
+b) 23 párov
+c) 23 párov autozómov plus 2 pohlavné chromzómy
+d) 22 párov autozómov a 1 pár heterochromozómov

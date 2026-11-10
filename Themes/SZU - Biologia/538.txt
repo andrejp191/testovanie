@@ -1,0 +1,6 @@
+Pri krížení homozygota s heterozygotom sa genotyp potomkov štiepi v pomere:
+
+a) 3:1
+b) 1:2:1
+c) 1:1
+d) 1:2

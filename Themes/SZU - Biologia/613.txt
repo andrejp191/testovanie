@@ -1,0 +1,6 @@
+Aká je tendencia vývinu autogamnej populácie?
+
+a) udržiava sa konštantný pomer všetkých genotypov
+b) variabilita jedincov v populácii sa zvyšuje
+c) populácia sa rozpadá na dve čisté línie
+d) heterozygoty sa postupne z populácie vytrácajú

@@ -1,0 +1,6 @@
+Ak jedno vlákno DNA tvoria nukleotidy s bázami A-C-G-G-T-A, potom nukleotidové usporiadanie druhého vlákna je:
+
+a) G-T-C-C-A-G
+b) T-G-C-C-A-T
+c) U-G-C-C-A-U
+d) T-G-C-C-U-T

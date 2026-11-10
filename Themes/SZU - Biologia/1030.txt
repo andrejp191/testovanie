@@ -1,0 +1,6 @@
+Poznáme nasledovný počet miechových nervov:
+
+a) 30 párov
+b) 31 párov
+c) 32 párov
+d) 28 párov

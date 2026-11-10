@@ -1,0 +1,6 @@
+Generácia potomkov bude uniformná vtedy, ak sú rodičia:
+
+a) obaja homozygoti recesívni
+b) obaja homozygoti dominantní
+c) obaja homozygoti, jeden recesívny a druhý dominantný
+d) obaja heterozygoti

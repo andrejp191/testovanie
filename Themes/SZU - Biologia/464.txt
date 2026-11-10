@@ -1,0 +1,6 @@
+Chromozómová mapa vyjadruje:
+
+a) relatívne vzájomné usporiadanie génov na chromozóme
+b) poradie, vzájomnú polohu a umiestnenie génov na chromozóme
+c) súbor všetkých chromozómov v bunke
+d) počet a tvar nukleotidov v chromozóme

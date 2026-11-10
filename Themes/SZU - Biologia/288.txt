@@ -1,0 +1,6 @@
+Difúzia je:
+
+a) pohyb molekúl z miesta vyššej koncentrácie na miesto s nižšou koncentráciou
+b) rozptyl látky v rozpúšťadle
+c) rozptyl rozpúšťadla v látke
+d) vyrovnávanie koncentrácie medzi rozpúšťadlom a roztokom v smere koncentračného spádu

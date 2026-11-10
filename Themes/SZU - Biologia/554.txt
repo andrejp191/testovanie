@@ -1,0 +1,6 @@
+Genotyp pre krvnú skupinu A môže byť:
+
+a) heterozygot A0
+b) heterozygot Aa
+c) homozygot dominantný AA
+d) homozygot recesívny aa

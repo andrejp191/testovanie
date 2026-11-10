@@ -1,0 +1,6 @@
+Z hľadiska životných procesov sú vírusy charakteristické tým že:
+
+a) majú jednoduchý látkový metabolizmus
+b) ich životné procesy sú viazané na hostiteľskú bunku
+c) ich metabolizmus začína v S- fáze bunkového cyklu
+d) nemajú vlastný metabolizmus, nie sú schopné samostatnej reprodukcie

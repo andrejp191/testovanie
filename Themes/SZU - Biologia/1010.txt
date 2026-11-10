@@ -1,0 +1,6 @@
+Synapsia zabezpečuje:
+
+a) prenos nervového vzruchu cez neurón
+b) prenos nervového vzruchu medzi neurónmi
+c) uchovanie informácie v CNS
+d) tvorbu nových neurónov

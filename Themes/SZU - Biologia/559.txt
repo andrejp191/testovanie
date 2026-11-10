@@ -1,0 +1,6 @@
+Môžu mať rodičia s krvnou skupinou B dieťa so skupinou 0?
+
+a) áno, lebo skupina 0 je všeobecný darca
+b) áno, ale len v prípade ak sú obaja rodičia heterozygoti
+c) nie, lebo alela pre skupinu B je vždy dominantná
+d) nie, dvaja rodičia so skupinou B môžu mať iba deti so skupinou B

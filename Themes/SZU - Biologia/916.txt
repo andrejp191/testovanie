@@ -1,0 +1,6 @@
+Vitálna kapacita pľúc je:
+
+a) celkový objem pľúc
+b) respiračná plocha pľúc
+c) objem vzduchu, ktorý sa vymení v pľúcach za minútu
+d) maximálny objem vzduchu vydýchnutý po maximálnom nádychu

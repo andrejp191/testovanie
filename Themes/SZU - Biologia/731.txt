@@ -1,0 +1,6 @@
+Šupiny rýb môžu byť:
+
+a) cykloidné
+b) ktenoidné
+c) plakoidné
+d) ganoidné

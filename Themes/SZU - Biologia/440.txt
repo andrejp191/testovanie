@@ -1,0 +1,6 @@
+Sporofyt u machorastov predstavuje:
+
+a) nepohlavnú generáciu, ktorá je diploidná
+b) nepohlavnú generáciu, ktorá je haploidná
+c) generáciu, ktorá je diferencovaná na pabyľku, palístky a pakorienky
+d) generáciu, ktorá nesie výtrusnice a tvorí výtrusy

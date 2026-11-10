@@ -1,0 +1,6 @@
+Aký je pravdepodobný počet heterozygotov v panmiktickej populácii?
+
+a) p q2
+b) p + q
+c) (p x q) + (p x q)
+d) 2pq

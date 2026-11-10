@@ -1,0 +1,6 @@
+Ako sa označuje fáza bunkového cyklu, v ktorej sa replikuje DNA:
+
+a) M
+b) G1
+c) S
+d) G2
